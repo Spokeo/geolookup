@@ -13,8 +13,8 @@ module Geolookup
       NAME_TO_CODE[country_name.to_s.upcase]
     end
 
-    def self.code_to_display_name(country_code)
-      CODE_TO_DISPLAY_NAME[country_code.to_s.upcase]
+    def self.code_to_name(country_code)
+      CODE_TO_NAME[country_code.to_s.upcase]
     end
 
     def self.lat_long(country_name)
@@ -292,7 +292,7 @@ module Geolookup
       "ZIMBABWE" => "ZW",
     }
     
-    CODE_TO_DISPLAY_NAME = {
+    CODE_TO_NAME = {
       "AF" => "Afghanistan",
       "AL" => "Albania",
       "DZ" => "Algeria",
