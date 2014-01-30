@@ -2,6 +2,16 @@
 
 module Geolookup
   module FIPS
+
+    ###################################################################
+    # state_code_to_full_name
+    #
+    # Given a state code output full state name.  Else return nil
+    #
+    def self.full_name(state_code)
+      STATE_CODE_TO_FULL[state_code]
+    end
+
     STATE_CODE_TO_FULL = {
       1  => "Alabama",
       2  => "Alaska",
