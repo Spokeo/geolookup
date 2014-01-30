@@ -1,7 +1,7 @@
 require "geolookup/version"
 
 require "geolookup/fips"
-require "geolookup/country_info"
+require "geolookup/country"
 
 module Geolookup
 

@@ -6,9 +6,22 @@
 # display names too
 #
 module Geolookup
-  module CountryInfo
+
+  module Country
+
+    def self.name_to_code(country_name)
+      NAME_TO_CODE[country_name.to_s.upcase]
+    end
+
+    def self.code_to_display_name(country_code)
+      CODE_TO_DISPLAY_NAME[country_code.to_s.upcase]
+    end
+
+    def self.lat_long(country_name)
+      LAT_LONG[country_name.to_s.upcase]
+    end
     
-    COUNTRY_NAME_TO_CODE = {    
+    NAME_TO_CODE = {
       "AFGHANISTAN" => "AF",
       "ALBANIA" => "AL",
       "ALGERIA" => "DZ",
@@ -279,7 +292,7 @@ module Geolookup
       "ZIMBABWE" => "ZW",
     }
     
-    COUNTRY_CODE_TO_DISPLAY_NAME = {
+    CODE_TO_DISPLAY_NAME = {
       "AF" => "Afghanistan",
       "AL" => "Albania",
       "DZ" => "Algeria",
@@ -525,7 +538,7 @@ module Geolookup
       "ZW" => "Zimbabwe",
     }
     
-    COUNTRY_LAT_LONG = {
+    LAT_LONG = {
       "AFGHANISTAN" => [ 33000000, 65000000 ],
       "ALBANIA" => [ 41000000, 20000000 ],
       "ALGERIA" => [ 28000000, 3000000 ],
