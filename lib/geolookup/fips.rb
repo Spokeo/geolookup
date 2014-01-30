@@ -4,12 +4,21 @@ module Geolookup
   module FIPS
 
     ###################################################################
-    # state_code_to_full_name
+    # self.code_to_full_name
     #
     # Given a state code output full state name.  Else return nil
     #
-    def self.full_name(state_code)
-      STATE_CODE_TO_FULL[state_code]
+    def self.code_to_full_name(state_code)
+      STATE_CODE_TO_FULL[state_code.to_s.to_i]
+    end
+
+    ###################################################################
+    # self.code_to_state_abbreviation
+    #
+    # Given a state code output the state abbreviation.  Else return nil
+    #
+    def self.code_to_state_abbreviation(state_code)
+      CODE_TO_STATE[state_code.to_s.to_i]
     end
 
     STATE_CODE_TO_FULL = {
