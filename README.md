@@ -24,7 +24,7 @@ There are functions within fips and country_info to convert codes to Country and
 
 ```ruby
 # FIPS Examples:
-#
+
 # Code to US state abbreviation
 Geolookup::FIPS.code_to_state_abbreviation(1)
 # => "AL"
@@ -57,7 +57,5 @@ For additional functions and documentation please look in geolookup/fips.rb and 
 5. Push to the branch (`git push origin my-new-feature`)
 6. Create new Pull Request
 
-
-
 ## Running the Specs
-    -> rake
+    $ rake
