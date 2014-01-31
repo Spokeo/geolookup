@@ -21,6 +21,25 @@ module Geolookup
       CODE_TO_STATE[state_code.to_s.to_i]
     end
 
+    ###################################################################
+    # self.state_name_to_code
+    #
+    # Given a state name return a code.  It takes both an abbreviation and
+    # a state full name
+    #
+    def self.state_name_to_code(state_name)
+      STATE_NAME_TO_CODE[state_name.to_s.upcase]
+    end
+
+    ###################################################################
+    # self.state_abbreviation_to_full_name
+    #
+    # Given a state abbreviation return the full state name
+    #
+    def self.state_abbreviation_to_full_name(state_abbrev)
+      FULL_STATE_NAMES[state_abbrev.to_s.upcase]
+    end
+
     STATE_CODE_TO_FULL = {
       1  => "Alabama",
       2  => "Alaska",
