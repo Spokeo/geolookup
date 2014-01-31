@@ -1,4 +1,4 @@
-# Geolookup
+# Geolookup [![Build Status](https://travis-ci.org/Spokeo/geolookup.png?branch=master)](https://travis-ci.org/Spokeo/geolookup)
 
 This gem wraps very common Geo lookups to either FIPS data or the collection of international data lookups.
 
@@ -21,28 +21,36 @@ Or install it yourself as:
 There are functions within fips and country_info to convert codes to Country and US states.
 
 ## Examples
-    # FIPS Examples:
-    #
-    # Code to US state abbreviation
-    Geolookup::FIPS.code_to_state_abbreviation(1) # => "AL"
 
-    # Code to US state name
-    Geolookup::FIPS.code_to_full_name(1) # => "Alabama"
+```ruby
+# FIPS Examples:
+#
+# Code to US state abbreviation
+Geolookup::FIPS.code_to_state_abbreviation(1)
+# => "AL"
+
+# Code to US state name
+Geolookup::FIPS.code_to_full_name(1)
+# => "Alabama"
 
 
-    # Country Examples:
+# Country Examples:
 
-    Geolookup::name_to_code("American Samoa") # => "AS"
+Geolookup::Country.name_to_code("American Samoa")
+# => "AS"
 
-    Geolookup::code_to_name("AS") # => "American Samoa"
+Geolookup::Country.code_to_name("AS")
+# => "American Samoa"
 
-    Geolookup::lat_long("American Samoa") # => [ -14333300, -170000000 ]
+Geolookup::Country.lat_long("American Samoa")
+# => [ -14333300, -170000000 ]
+```
 
 For additional functions and documentation please look in geolookup/fips.rb and geolookup/country.rb.
 
 ## Contributing
 
-1. Fork it ( http://github.com/<my-github-username>/geolookup/fork )
+1. Fork it ( http://github.com/Spokeo/geolookup/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Write specs!
 4. Commit your changes (`git commit -am 'Add some feature'`)
