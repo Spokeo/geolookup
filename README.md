@@ -1,6 +1,6 @@
 # Geolookup [![Build Status](https://travis-ci.org/Spokeo/geolookup.png?branch=master)](https://travis-ci.org/Spokeo/geolookup)
 
-This gem wraps very common Geo lookups to either FIPS data or the collection of international data lookups.
+This gem wraps very common Geo lookups to either FIPS data or the collection of international data lookups.  All codes on the app are FIPS codes.
 
 ## Installation
 
@@ -23,15 +23,44 @@ There are functions within fips and country_info to convert codes to Country and
 ## Examples
 
 ```ruby
-# FIPS Examples:
+# US State Examples:
 
 # Code to US state abbreviation
-Geolookup::FIPS.code_to_state_abbreviation(1)
+Geolookup::USA::State.code_to_abbreviation(1)
 # => "AL"
 
 # Code to US state name
-Geolookup::FIPS.code_to_full_name(1)
+Geolookup::USA::State.code_to_name(1)
 # => "Alabama"
+
+# US State Name to US state code
+Geolookup::USA::State.name_to_code("Alabama")
+# => 1
+
+# US State abbreviation to name
+Geolookup::USA::State.abbreviation_to_name("AL")
+# => "Alabama"
+
+# US State name / Abbreviation to lat and long
+Geolookup::USA::State.name_to_lat_long("Alabama")
+# => [ 32318231,  -86602298]
+
+Geolookup::USA::State.abbreviation_to_lat_long("AL")
+# => [ 32318231,  -86602298]
+
+# US State Code to Lat and Long
+Geolookup::USA::State.code_to_lat_long(1)
+# => [ 32318231,  -86602298]
+
+# US County Examples:
+
+# Given a state code, return all the county names and codes
+Geolookup::USA::County.code_to_names(1)
+# => {1 => "AUTAUGA", 3 => "BALDWIN", ....}
+
+# Given a state code, return all the county codes and lat and longs
+Geolookup::USA::County.code_to_lat_longs(1)
+# => {1 => [32534930, -86642790], 3 => [34189270, -86916950], ...}
 
 
 # Country Examples:

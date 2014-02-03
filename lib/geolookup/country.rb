@@ -2,7 +2,7 @@
 #################################################################
 # Geocode::TigerLine::Fips
 #
-# This module contains all the state and country lat longs, 
+# This module contains all the state and country lat longs,
 # display names too
 #
 module Geolookup
@@ -17,10 +17,14 @@ module Geolookup
       CODE_TO_NAME[country_code.to_s.upcase]
     end
 
-    def self.lat_long(country_name)
+    def self.code_to_lat_long(country_code)
+      LAT_LONG[country_code.to_s.upcase]
+    end
+
+    def self.name_to_lat_long(country_name)
       LAT_LONG[country_name.to_s.upcase]
     end
-    
+
     NAME_TO_CODE = {
       "AFGHANISTAN" => "AF",
       "ALBANIA" => "AL",
@@ -291,7 +295,7 @@ module Geolookup
       "ZAMBIA" => "ZM",
       "ZIMBABWE" => "ZW",
     }
-    
+
     CODE_TO_NAME = {
       "AF" => "Afghanistan",
       "AL" => "Albania",
@@ -537,7 +541,7 @@ module Geolookup
       "ZM" => "Zambia",
       "ZW" => "Zimbabwe",
     }
-    
+
     LAT_LONG = {
       "AFGHANISTAN" => [ 33000000, 65000000 ],
       "ALBANIA" => [ 41000000, 20000000 ],
@@ -809,6 +813,6 @@ module Geolookup
       "ZAMBIA" => [ -15000000, 30000000 ],
       "ZIMBABWE" => [ -20000000, 30000000 ],
     }
-    
+
   end
 end

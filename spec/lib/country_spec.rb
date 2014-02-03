@@ -9,7 +9,7 @@ describe "Geolookup::Country" do
     end
 
     it "returns a lat/long array if country name matches" do
-      expect(Geolookup::Country.lat_long("United States")).to eql([38000000, -97000000])
+      expect(Geolookup::Country.code_to_lat_long("United States")).to eql([38000000, -97000000])
     end
   end
 end
