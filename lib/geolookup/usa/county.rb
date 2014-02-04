@@ -6,22 +6,40 @@ module Geolookup
       ###################################################################
       # self.code_to_name
       #
-      # Given a county code output all the county names and codes in hash format
+      # Given a state and county code output the county name
       # Else return nil
       #
-      # EX: code_to_names(1) => {1 => "AUTAUGA", 3 => "BALDWIN", ....}
-      def self.code_to_names(county_code)
-        CODE_TO_COUNTY_NAME[county_code.to_s.to_i]
+      # EX: code_to_names(1, 1) => {1 => {1 => "AUTAUGA", 3 => "BALDWIN", ....}}
+      def self.code_to_name(state_code, county_code)
+        return nil unless CODE_TO_COUNTY_NAME[state_code.to_s.to_i]
+        
+        CODE_TO_COUNTY_NAME[state_code.to_s.to_i[county_code.to_s.to_i]]
       end
 
+      
+      ###################################################################
+      # self.name_to_code
+      #
+      # Given a state and county name output the county code
+      # Else return nil
+      #
+      # EX: code_to_names(1, 1) => {1 => {1 => "AUTAUGA", 3 => "BALDWIN", ....}}
+      def self.name_to_code(state_code, county_name)
+        return nil unless COUNTY_NAME_TO_CODE[state_code.to_s.to_i]
+        
+        COUNTY_NAME_TO_CODE[state_code.to_s.to_i[county_name.to_s.upcase]]
+      end
+      
 
       ###################################################################
-      # self.code_to_lat_longs
+      # self.code_to_lat_long
       #
-      # Given a county code output county name.  Else return nil
+      # Given a state and county code output county latitude longitude.  Else return nil
       #
-      def self.code_to_lat_longs(county_code)
-        COUNTY_LAT_LONG[county_code.to_s.to_i]
+      def self.code_to_lat_long(state_code, county_code)
+        return nil unless COUNTY_LAT_LONG[state_code.to_s.to_i]
+        
+        COUNTY_LAT_LONG[state_code.to_s.to_i[county_code.to_s.to_i]]
       end
 
       # County codes are unique per state, but non-unique overall
