@@ -17,9 +17,9 @@ module Geolookup
       CODE_TO_NAME[country_code.to_s.upcase]
     end
 
-    def self.code_to_lat_long(country_code)
-      LAT_LONG[country_code.to_s.upcase]
-    end
+    #def self.code_to_lat_long(country_code)
+    #  LAT_LONG[country_code.to_s.upcase]
+    #end
 
     def self.name_to_lat_long(country_name)
       LAT_LONG[country_name.to_s.upcase]
