@@ -12,11 +12,11 @@ module Geolookup
       # EX: code_to_name(1, 1) => {1 => {1 => "AUTAUGA", 3 => "BALDWIN", ....}}
       def self.code_to_name(state_code, county_code)
         return nil unless CODE_TO_COUNTY_NAME[state_code.to_s.to_i]
-        
-        CODE_TO_COUNTY_NAME[state_code.to_s.to_i[county_code.to_s.to_i]]
+
+        CODE_TO_COUNTY_NAME[state_code.to_s.to_i][county_code.to_s.to_i]
       end
 
-      
+
       ###################################################################
       # self.name_to_code
       #
@@ -26,10 +26,10 @@ module Geolookup
       # EX: name_to_code(1, 'baldwin') => {1 => {"AUTAUGA" => 1, "BALDWIN" => 3, ....}}
       def self.name_to_code(state_code, county_name)
         return nil unless COUNTY_NAME_TO_CODE[state_code.to_s.to_i]
-        
-        COUNTY_NAME_TO_CODE[state_code.to_s.to_i[county_name.to_s.upcase]]
+
+        COUNTY_NAME_TO_CODE[state_code.to_s.to_i][county_name.to_s.upcase]
       end
-      
+
 
       ###################################################################
       # self.code_to_lat_long
@@ -38,8 +38,8 @@ module Geolookup
       #
       def self.code_to_lat_long(state_code, county_code)
         return nil unless COUNTY_LAT_LONG[state_code.to_s.to_i]
-        
-        COUNTY_LAT_LONG[state_code.to_s.to_i[county_code.to_s.to_i]]
+
+        COUNTY_LAT_LONG[state_code.to_s.to_i][county_code.to_s.to_i]
       end
 
       # County codes are unique per state, but non-unique overall

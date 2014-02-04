@@ -54,13 +54,17 @@ Geolookup::USA::State.code_to_lat_long(1)
 
 # US County Examples:
 
-# Given a state code, return all the county names and codes
-Geolookup::USA::County.code_to_names(1)
-# => {1 => "AUTAUGA", 3 => "BALDWIN", ....}
+# Given a state code and county code return the county name
+Geolookup::USA::County.code_to_name(1, 1)
+# => "AUTAUGA"
 
-# Given a state code, return all the county codes and lat and longs
-Geolookup::USA::County.code_to_lat_longs(1)
-# => {1 => [32534930, -86642790], 3 => [34189270, -86916950], ...}
+# Given a state code and county code return the lat and long for that county
+Geolookup::USA::County.code_to_lat_long(1, 1)
+# => [32534930, -86642790]
+
+# Given a state code and county name return the county code
+Geolookup::USA::County.name_to_code(1, 'Autauga')
+# => 1
 
 
 # Country Examples:

@@ -1,27 +1,32 @@
 describe "Geolookup::USA::County" do
-  describe "#code_to_names" do
-    it "given a state code, return a hash of county codes and names" do
-      counties = Geolookup::USA::County.code_to_names(1)
-      expect(counties).to be_kind_of(Hash)
-      expect(counties).to_not be_nil
-      county_code = counties.keys.first
-      expect(counties[county_code]).to be_kind_of(String)
-      # expect(counties[county_code]).to be_kind_of(Array)
-      # expect(counties[county_code].first).to be_kind_of(Integer)
-      # expect(counties[county_code].last).to be_kind_of(Integer)
+  describe "#code_to_name" do
+    it "given a state code, and a county code return the name of the county" do
+      expect(Geolookup::USA::County.code_to_name(1, 1)).to eql("AUTAUGA")
     end
 
+    it "should return nil if state key doesn't match" do
+      expect(Geolookup::USA::County.code_to_name('yo', 1)).to be_nil
+    end
   end
 
   describe "#code_to_lat_longs" do
-    it "given a state code return a Hash of county codes and lat and longs" do
-      counties = Geolookup::USA::County.code_to_lat_longs(1)
-      expect(counties).to be_kind_of(Hash)
-      expect(counties).to_not be_nil
-      county_code = counties.keys.first
-      expect(counties[county_code]).to be_kind_of(Array)
-      expect(counties[county_code].first).to be_kind_of(Integer)
-      expect(counties[county_code].last).to be_kind_of(Integer)
+    it "given a state code and county code return a lat / long" do
+      lat_long = Geolookup::USA::County.code_to_lat_long(1, 1)
+      expect(lat_long).to be_kind_of(Array)
+    end
+
+    it "should return nil if state key doesn't match" do
+      expect(Geolookup::USA::County.code_to_lat_long('yo', 1)).to be_nil
+    end
+  end
+
+  describe "#name_to_code" do
+    it "should return a county code" do
+      expect(Geolookup::USA::County.name_to_code(1, 'auTAUGA')).to eql(1)
+    end
+
+    it "should return nil if state key doesn't match" do
+      expect(Geolookup::USA::County.name_to_code('yo', 'auTAUGA')).to be_nil
     end
   end
 end
