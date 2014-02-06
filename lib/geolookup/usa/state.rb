@@ -21,6 +21,16 @@ module Geolookup
       end
 
       ###################################################################
+      # self.name_to_abbreviation
+      #
+      # Given a state name OR abbreviation return a code.  It takes both an abbreviation and
+      # a state full name
+      #
+      def self.name_to_abbreviation(state_abbrev)
+        code_to_name(abbreviation_to_code(state_abbrev))
+      end
+
+      ###################################################################
       # self.state_name_to_code
       #
       # Given a state name OR abbreviation return a code.  It takes both an abbreviation and

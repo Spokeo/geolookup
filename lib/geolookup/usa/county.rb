@@ -9,7 +9,7 @@ module Geolookup
       # Given a state and county code output the county name
       # Else return nil
       #
-      # EX: code_to_name(1, 1) => {1 => {1 => "AUTAUGA", 3 => "BALDWIN", ....}}
+      # EX: code_to_name(1, 1) => "AUTAUGA"
       def self.code_to_name(state_code, county_code)
         return nil unless CODE_TO_COUNTY_NAME[state_code.to_s.to_i]
 

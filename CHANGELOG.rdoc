@@ -1,3 +1,6 @@
+=== 0.5.1
+ - Adding a function on state to go from state name to abbreviation #name_to_abbreviation
+
 === 0.5.0
 - Fixing the specs
 - API changes for country and county

@@ -11,6 +11,16 @@ describe "Geolookup::USA::State" do
     end
   end
 
+  describe "#name_to_abbreviation" do
+    it "should return name to state abbreviation" do
+      expect(Geolookup::USA::State.name_to_abbreviation('CA')).to eql("California")
+    end
+
+    it "should return nil if no state abbreviation" do
+      expect(Geolookup::USA::State.name_to_abbreviation('asdf')).to be_nil
+    end
+  end
+
   describe "#code_to_abbreviation" do
     it 'should return a state abbreviation gien a state code' do
       expect(Geolookup::USA::State.code_to_abbreviation(1)).to eql("AL")
