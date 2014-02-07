@@ -1,3 +1,6 @@
+=== 0.5.2
+ - Adding a state.abbreviations and state.names to return an array of us state abbreviations and names
+
 === 0.5.1
  - Adding a function on state to go from state name to abbreviation #name_to_abbreviation
 

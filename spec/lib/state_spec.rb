@@ -21,6 +21,18 @@ describe "Geolookup::USA::State" do
     end
   end
 
+  describe "#state_abbreviations" do
+    it "should return an array of state abbreviation" do
+      expect(Geolookup::USA::State.abbreviations).to include("CA")
+    end
+  end
+
+  describe "#names" do
+    it "should return an array of state names" do
+      expect(Geolookup::USA::State.names).to include("California")
+    end
+  end
+
   describe "#code_to_abbreviation" do
     it 'should return a state abbreviation gien a state code' do
       expect(Geolookup::USA::State.code_to_abbreviation(1)).to eql("AL")

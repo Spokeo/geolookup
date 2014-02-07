@@ -67,6 +67,25 @@ module Geolookup
         STATE_LAT_LONG[state_code.to_s.to_i]
       end
 
+      ###################################################################
+      # self.abbreviations
+      #
+      # Returns an array of state abbreviations
+      #
+      def self.abbreviations
+        CODE_TO_STATE.values
+      end
+
+
+      ###################################################################
+      # self.names
+      #
+      # Returns an array of state names
+      #
+      def self.names
+        STATE_CODE_TO_FULL.values
+      end
+
       class << self
         alias :abbreviation_to_code :name_to_code
         alias :abbreviation_to_lat_long :name_to_lat_long
