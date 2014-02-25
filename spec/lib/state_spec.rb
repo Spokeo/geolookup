@@ -33,6 +33,12 @@ describe "Geolookup::USA::State" do
     end
   end
 
+  describe "#codes" do
+    it 'should return an array of state codes' do
+      expect(Geolookup::USA::State.codes).to include(6)
+    end
+  end
+
   describe "#code_to_abbreviation" do
     it 'should return a state abbreviation gien a state code' do
       expect(Geolookup::USA::State.code_to_abbreviation(1)).to eql("AL")

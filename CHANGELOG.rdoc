@@ -1,3 +1,6 @@
+=== 0.5.3
+ - Adding state.codes to retun an array of state codes
+
 === 0.5.2
  - Adding a state.abbreviations and state.names to return an array of us state abbreviations and names
 
