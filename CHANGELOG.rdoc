@@ -1,3 +1,5 @@
+=== 0.5.4
+ - Converting hashes to YAML
 === 0.5.3
  - Adding state.codes to retun an array of state codes
 
