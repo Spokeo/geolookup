@@ -2,11 +2,11 @@
 module Geolookup
   module USA
     module State
-      STATE_CODE_TO_FULL_FILE         = './lib/data/STATE_CODE_TO_FULL.yml'
-      STATE_CODE_TO_ABBREVIATION_FILE = './lib/data/STATE_CODE_TO_STATE.yml'
-      STATE_NAME_TO_CODE_FILE         = './lib/data/STATE_NAME_TO_CODE.yml'
-      STATE_ABBREVIATION_TO_NAME_FILE = './lib/data/STATE_FULL_STATE_NAMES.yml'
-      STATE_LAT_LONG_FILE             = './lib/data/STATE_LAT_LONG.yml'
+      STATE_CODE_TO_FULL_FILE         = 'STATE_CODE_TO_FULL.yml'
+      STATE_CODE_TO_ABBREVIATION_FILE = 'STATE_CODE_TO_STATE.yml'
+      STATE_NAME_TO_CODE_FILE         = 'STATE_NAME_TO_CODE.yml'
+      STATE_ABBREVIATION_TO_NAME_FILE = 'STATE_FULL_STATE_NAMES.yml'
+      STATE_LAT_LONG_FILE             = 'STATE_LAT_LONG.yml'
 
       @state_code_to_full
       @state_code_to_abbreviation

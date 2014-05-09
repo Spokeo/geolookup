@@ -9,10 +9,7 @@ module Geolookup
   #
   # Loads a given .yml file that contains a hash and returns the hash
   #
-  def self.load_hash_from_file(file)
-    fileName = File.open(file, "r")
-    hash = YAML.load(fileName)     
-    fileName.close
-    hash
+  def self.load_hash_from_file(file_name)
+    YAML.load_file(File.join(File.dirname(__FILE__), "data/", file_name))
   end
 end

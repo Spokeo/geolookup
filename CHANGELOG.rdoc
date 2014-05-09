@@ -1,3 +1,6 @@
+=== 0.5.5
+ - Fixes to the data from files
+
 === 0.5.4
  - Loading data from files thanks @ekuecks!
 
