@@ -1,3 +1,6 @@
+=== 0.5.4
+ - Loading data from files thanks @ekuecks!
+
 === 0.5.3
  - Adding state.codes to retun an array of state codes
 
