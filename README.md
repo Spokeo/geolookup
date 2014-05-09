@@ -1,4 +1,5 @@
 # Geolookup [![Build Status](https://travis-ci.org/Spokeo/geolookup.png?branch=master)](https://travis-ci.org/Spokeo/geolookup)
+[![Code Climate](https://codeclimate.com/github/Spokeo/geolookup.png)](https://codeclimate.com/github/Spokeo/geolookup)
 
 This gem wraps very common Geo lookups to either FIPS data or the collection of international data lookups.  All codes on the app are FIPS codes.
 
