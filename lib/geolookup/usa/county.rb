@@ -17,10 +17,8 @@ module Geolookup
       # Else return nil
       #
       # EX: code_to_name(1, 1) => "AUTAUGA"
-      def self.code_to_name(state_code, county_code)
-        if !@county_code_to_name
-          @county_code_to_name = Geolookup.load_hash_from_file(COUNTY_CODE_TO_NAME_FILE)
-        end
+      def self.code_to_name(state_code, county_code) 
+        @county_code_to_name ||= Geolookup.load_hash_from_file(COUNTY_CODE_TO_NAME_FILE)
         return nil unless @county_code_to_name[state_code.to_s.to_i]
               
         @county_code_to_name[state_code.to_s.to_i][county_code.to_s.to_i]
@@ -35,9 +33,7 @@ module Geolookup
       #
       # EX: name_to_code(1, 'baldwin') => {1 => {"AUTAUGA" => 1, "BALDWIN" => 3, ....}}
       def self.name_to_code(state_code, county_name)
-        if !@county_name_to_code
-          @county_name_to_code = Geolookup.load_hash_from_file(COUNTY_NAME_TO_CODE_FILE)
-        end
+        @county_name_to_code ||= Geolookup.load_hash_from_file(COUNTY_NAME_TO_CODE_FILE)
         return nil unless @county_name_to_code[state_code.to_s.to_i]
 
         @county_name_to_code[state_code.to_s.to_i][county_name.to_s.upcase]
@@ -50,9 +46,7 @@ module Geolookup
       # Given a state and county code output county latitude longitude.  Else return nil
       #
       def self.code_to_lat_long(state_code, county_code)
-        if !@county_lat_long
-          @county_lat_long = Geolookup.load_hash_from_file(COUNTY_LAT_LONG_FILE)
-        end
+        @county_lat_long ||= Geolookup.load_hash_from_file(COUNTY_LAT_LONG_FILE)
         return nil unless @county_lat_long[state_code.to_s.to_i]
 
         @county_lat_long[state_code.to_s.to_i][county_code.to_s.to_i]

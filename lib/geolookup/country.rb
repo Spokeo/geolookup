@@ -19,16 +19,12 @@ module Geolookup
     @country_lat_long
     
     def self.name_to_code(country_name)
-      if !@country_name_to_code
-        @country_name_to_code = Geolookup.load_hash_from_file(COUNTRY_NAME_TO_CODE_FILE)
-      end      
+      @country_name_to_code ||= Geolookup.load_hash_from_file(COUNTRY_NAME_TO_CODE_FILE)      
       @country_name_to_code[country_name.to_s.upcase]
     end
 
     def self.code_to_name(country_code)
-      if !@country_code_to_name
-        @country_code_to_name = Geolookup.load_hash_from_file(COUNTRY_CODE_TO_NAME_FILE)
-      end
+      @country_code_to_name ||= Geolookup.load_hash_from_file(COUNTRY_CODE_TO_NAME_FILE)
       @country_code_to_name[country_code.to_s.upcase]
     end
 
@@ -36,10 +32,8 @@ module Geolookup
     #  LAT_LONG[country_code.to_s.upcase]
     #end
 
-    def self.name_to_lat_long(country_name)
-      if !@country_lat_long
-        @country_lat_long = Geolookup.load_hash_from_file(COUNTRY_LAT_LONG_FILE)
-      end
+    def self.name_to_lat_long(country_name) 
+      @country_lat_long ||= Geolookup.load_hash_from_file(COUNTRY_LAT_LONG_FILE)
       @country_lat_long[country_name.to_s.upcase]
     end
   end

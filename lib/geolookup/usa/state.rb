@@ -19,9 +19,7 @@ module Geolookup
       # Given a state code output full state name.  Else return nil
       #
       def self.code_to_name(state_code)
-        if !@state_code_to_full
-          @state_code_to_full = Geolookup.load_hash_from_file(STATE_CODE_TO_FULL_FILE)
-        end
+        @state_code_to_full ||= Geolookup.load_hash_from_file(STATE_CODE_TO_FULL_FILE)
         @state_code_to_full[state_code.to_s.to_i]
       end
 
@@ -31,9 +29,7 @@ module Geolookup
       # Given a state code output the state abbreviation.  Else return nil
       #
       def self.code_to_abbreviation(state_code)
-        if !@state_code_to_abbreviation
-          @state_code_to_abbreviation = Geolookup.load_hash_from_file(STATE_CODE_TO_ABBREVIATION_FILE)
-        end
+        @state_code_to_abbreviation ||= Geolookup.load_hash_from_file(STATE_CODE_TO_ABBREVIATION_FILE)
         @state_code_to_abbreviation[state_code.to_s.to_i]
       end
 
@@ -54,9 +50,7 @@ module Geolookup
       # a state full name
       #
       def self.name_to_code(state_name)
-        if !@state_name_to_code
-          @state_name_to_code = Geolookup.load_hash_from_file(STATE_NAME_TO_CODE_FILE)
-        end
+        @state_name_to_code ||= Geolookup.load_hash_from_file(STATE_NAME_TO_CODE_FILE)
         @state_name_to_code[state_name.to_s.upcase]
       end
 
@@ -66,9 +60,7 @@ module Geolookup
       # Given a state abbreviation return the full state name
       #
       def self.abbreviation_to_name(state_abbrev)
-        if !@state_abbreviation_to_name
-          @state_abbreviation_to_name = Geolookup.load_hash_from_file(STATE_ABBREVIATION_TO_NAME_FILE)
-        end
+        @state_abbreviation_to_name ||= Geolookup.load_hash_from_file(STATE_ABBREVIATION_TO_NAME_FILE)
         @state_abbreviation_to_name[state_abbrev.to_s.upcase]
       end
 
@@ -87,9 +79,7 @@ module Geolookup
       # Given a code return the lat and long
       #
       def self.code_to_lat_long(state_code)
-        if !@state_lat_long
-          @state_lat_long = Geolookup.load_hash_from_file(STATE_LAT_LONG_FILE)
-        end
+        @state_lat_long ||= Geolookup.load_hash_from_file(STATE_LAT_LONG_FILE)
         @state_lat_long[state_code.to_s.to_i]
       end
 
@@ -99,9 +89,7 @@ module Geolookup
       # Returns an array of state abbreviations
       #
       def self.abbreviations
-        if !@state_code_to_abbreviation
-          @state_code_to_abbreviation = Geolookup.load_hash_from_file(STATE_CODE_TO_ABBREVIATION_FILE)
-        end
+        @state_code_to_abbreviation ||= Geolookup.load_hash_from_file(STATE_CODE_TO_ABBREVIATION_FILE)
         @state_code_to_abbreviation.values
       end
 
@@ -112,9 +100,7 @@ module Geolookup
       # Returns an array of state names
       #
       def self.names
-        if !@state_code_to_full
-          @state_code_to_full = Geolookup.load_hash_from_file(STATE_CODE_TO_FULL_FILE)
-        end
+        @state_code_to_full ||= Geolookup.load_hash_from_file(STATE_CODE_TO_FULL_FILE)
         @state_code_to_full.values
       end
 
@@ -124,9 +110,7 @@ module Geolookup
       # Returns an array of state names
       #
       def self.codes
-        if !@state_code_to_full
-          @state_code_to_full = Geolookup.load_hash_from_file(STATE_CODE_TO_FULL_FILE)
-        end
+        @state_code_to_full ||= Geolookup.load_hash_from_file(STATE_CODE_TO_FULL_FILE)
         @state_code_to_full.keys
       end
 
