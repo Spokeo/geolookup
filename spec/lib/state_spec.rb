@@ -1,6 +1,5 @@
 describe "Geolookup::USA::State" do
-  let :state_lat_long do Geolookup::USA::State::STATE_LAT_LONG[1] end
-
+  let :state_lat_long do Geolookup::USA::State.name_to_lat_long("Alabama") end
   describe "#code_to_name" do
     it "should return a state name if state code matches" do
       expect(Geolookup::USA::State.code_to_name(1)).to eql("Alabama")
