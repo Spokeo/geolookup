@@ -2,14 +2,14 @@
 module Geolookup
   module USA
     module County
-      COUNTY_CODE_TO_NAME_FILE = './lib/data/COUNTY_CODE_TO_NAME.yml'
-      COUNTY_NAME_TO_CODE_FILE = './lib/data/COUNTY_NAME_TO_CODE.yml'
-      COUNTY_LAT_LONG_FILE     = './lib/data/COUNTY_LAT_LONG.yml'
+      COUNTY_CODE_TO_NAME_FILE = 'COUNTY_CODE_TO_NAME.yml'
+      COUNTY_NAME_TO_CODE_FILE = 'COUNTY_NAME_TO_CODE.yml'
+      COUNTY_LAT_LONG_FILE     = 'COUNTY_LAT_LONG.yml'
 
       @county_code_to_name
       @county_name_to_code
       @county_lat_long
-      
+
       ###################################################################
       # self.code_to_name
       #
@@ -17,7 +17,7 @@ module Geolookup
       # Else return nil
       #
       # EX: code_to_name(1, 1) => "AUTAUGA"
-      def self.code_to_name(state_code, county_code) 
+      def self.code_to_name(state_code, county_code)
         @county_code_to_name ||= Geolookup.load_hash_from_file(COUNTY_CODE_TO_NAME_FILE)
         get_value_from_hash(@county_code_to_name, state_code.to_s.to_i, county_code.to_s.to_i)
       end
@@ -45,7 +45,7 @@ module Geolookup
         @county_lat_long ||= Geolookup.load_hash_from_file(COUNTY_LAT_LONG_FILE)
         get_value_from_hash(@county_lat_long, state_code.to_s.to_i, county_code.to_s.to_i)
       end
-      
+
       ###################################################################
       # self.get_value_from_hash
       #
