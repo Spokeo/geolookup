@@ -9,19 +9,6 @@ module Geolookup
       @county_code_to_name
       @county_name_to_code
       @county_lat_long
-      ###################################################################
-      # self.get_value_from_hash
-      #
-      # Helper function to reduce code repetition
-      # Given a hash and 2 keys returns the value at that hash
-      # Return nil if the either key is not in the hash
-      #
-      # EX: get_value(@county_code_to_name, 1, 1) => "AUTAUGA"
-      def self.get_value_from_hash(hash, key1, key2)
-        return nil unless hash[key1]
-        hash[key1][key2]
-      end
-
       
       ###################################################################
       # self.code_to_name
@@ -58,6 +45,21 @@ module Geolookup
         @county_lat_long ||= Geolookup.load_hash_from_file(COUNTY_LAT_LONG_FILE)
         get_value_from_hash(@county_lat_long, state_code.to_s.to_i, county_code.to_s.to_i)
       end
+      
+      ###################################################################
+      # self.get_value_from_hash
+      #
+      # Helper function to reduce code repetition
+      # Given a hash and 2 keys returns the value at that hash
+      # Return nil if the either key is not in the hash
+      #
+      # EX: get_value(@county_code_to_name, 1, 1) => "AUTAUGA"
+      def self.get_value_from_hash(hash, key1, key2)
+        return nil unless hash[key1]
+        hash[key1][key2]
+      end
+
+      private_class_method :get_value_from_hash
     end
   end
 end
