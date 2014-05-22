@@ -53,6 +53,18 @@ Geolookup::USA::State.abbreviation_to_lat_long("AL")
 Geolookup::USA::State.code_to_lat_long(1)
 # => [ 32318231,  -86602298]
 
+# US State Names
+Geolookup::USA::State.names
+# => ["Alabama", "Alaska", ...]
+
+# US State Abbreviations
+Geolookup::USA::State.abbreviations
+# => ["AL", "AK", "AZ", ...]
+
+# US State Codes
+Geolookup::USA::State.codes
+# => [1, 2, 4, ...]
+
 # US County Examples:
 
 # Given a state code and county code return the county name
