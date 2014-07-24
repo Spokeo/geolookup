@@ -40,7 +40,7 @@ module Geolookup
       # a state full name
       #
       def self.name_to_abbreviation(state_abbrev)
-        code_to_name(abbreviation_to_code(state_abbrev))
+        code_to_abbreviation(abbreviation_to_code(state_abbrev))
       end
 
       ###################################################################

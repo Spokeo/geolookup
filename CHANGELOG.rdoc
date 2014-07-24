@@ -1,3 +1,6 @@
+=== 0.5.6
+ - Small bug fix for USA State name_to_abbreviation returning a full state name not an abbreviation
+
 === 0.5.5
  - Fixes to the data from files
 
