@@ -93,6 +93,15 @@ module Geolookup
         @state_code_to_abbreviation.values
       end
 
+      ###################################################################
+      # self.abbreviations
+      #
+      # Returns an array of state abbreviations
+      #
+      def self.domestic_abbreviations
+        @domestic_state_code_to_abbreviation ||= Geolookup.load_hash_from_file(STATE_CODE_TO_ABBREVIATION_FILE).delete_if{|code, abbr| code > 56}
+        @domestic_state_code_to_abbreviation.values
+      end
 
       ###################################################################
       # self.names

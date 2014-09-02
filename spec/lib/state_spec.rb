@@ -127,4 +127,10 @@ describe "Geolookup::USA::State" do
       expect(Geolookup::USA::State.code_to_lat_long("asdf")).to be_nil
     end
   end
+
+  describe "#domestic_abbreviations" do
+    it "should return an array of X states" do
+      expect(Geolookup::USA::State.domestic_abbreviations.length).to eql(51)
+    end
+  end
 end
