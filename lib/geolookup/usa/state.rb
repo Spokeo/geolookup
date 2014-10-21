@@ -7,12 +7,15 @@ module Geolookup
       STATE_NAME_TO_CODE_FILE         = 'STATE_NAME_TO_CODE.yml'
       STATE_ABBREVIATION_TO_NAME_FILE = 'STATE_FULL_STATE_NAMES.yml'
       STATE_LAT_LONG_FILE             = 'STATE_LAT_LONG.yml'
+      DOMESTIC_STATE_CUTOFF           = 56
 
       @state_code_to_full
       @state_code_to_abbreviation
       @state_name_to_code
       @state_abbreviation_to_name
       @state_lat_long
+      @domestic_state_code_to_name
+      @domestic_state_code_to_abbreviation
       ###################################################################
       # self.code_to_name
       #
@@ -99,8 +102,19 @@ module Geolookup
       # Returns an array of state abbreviations
       #
       def self.domestic_abbreviations
-        @domestic_state_code_to_abbreviation ||= Geolookup.load_hash_from_file(STATE_CODE_TO_ABBREVIATION_FILE).delete_if{|code, abbr| code > 56}
+        @domestic_state_code_to_abbreviation ||= Geolookup.load_hash_from_file(STATE_CODE_TO_ABBREVIATION_FILE).delete_if{|code, abbr| code > DOMESTIC_STATE_CUTOFF}
         @domestic_state_code_to_abbreviation.values
+      end
+
+
+      ###################################################################
+      # self.domestic_names
+      #
+      # Returns an array of domestic state names
+      #
+      def self.domestic_names
+       @domestic_state_code_to_name ||= Geolookup.load_hash_from_file(STATE_CODE_TO_FULL_FILE).delete_if{|code, abbr| code > DOMESTIC_STATE_CUTOFF}
+        @domestic_state_code_to_name.values
       end
 
       ###################################################################

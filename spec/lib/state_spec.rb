@@ -133,4 +133,14 @@ describe "Geolookup::USA::State" do
       expect(Geolookup::USA::State.domestic_abbreviations.length).to eql(51)
     end
   end
+
+  describe "#domestic_names" do
+    it "should return array of X states" do
+      expect(Geolookup::USA::State.domestic_names.length).to eql(51)
+    end
+
+    it "should not return Guam" do
+      expect(Geolookup::USA::State.domestic_names).to_not include("Guam")
+    end
+  end
 end
