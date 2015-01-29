@@ -1,3 +1,6 @@
+=== 0.5.9
+ - Correcing misspelling on American Samoa
+
 === 0.5.8
  - Adding state.domestic_names to return an array of domestic US state names
 
