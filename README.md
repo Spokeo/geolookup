@@ -69,6 +69,14 @@ Geolookup::USA::State.domestic_abbreviations
 Geolookup::USA::State.domestic_names
 # => ["California", "Arizona", ...]
 
+# US state codes and abbreviations
+Geolookup::USA::State.codes_and_abbreviations
+# => {1: "AL", 2: "AK", ...}
+
+# US state codes and names
+Geolookup::USA::State.codes_and_names
+# => {1: "Alabama", 2: "Alaska", ...}
+
 # US State Codes
 Geolookup::USA::State.codes
 # => [1, 2, 4, ...]

@@ -1,3 +1,6 @@
+=== 0.5.10
+ - Adding a new method for getting a Hash of state names/abbreviations and codes.
+
 === 0.5.9
  - Correcing misspelling on American Samoa
 

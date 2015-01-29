@@ -122,6 +122,24 @@ module Geolookup
       #
       # Returns an array of state names
       #
+      def self.codes_and_names
+        @codes_and_names ||= Geolookup.load_hash_from_file(STATE_CODE_TO_FULL_FILE)
+      end
+
+      ###################################################################
+      # self.names
+      #
+      # Returns an array of state names
+      #
+      def self.codes_and_abbreviations
+        @codes_and_abbreviations ||= Geolookup.load_hash_from_file(STATE_CODE_TO_ABBREVIATION_FILE)
+      end
+
+      ###################################################################
+      # self.names
+      #
+      # Returns an array of state names
+      #
       def self.names
         @state_code_to_full ||= Geolookup.load_hash_from_file(STATE_CODE_TO_FULL_FILE)
         @state_code_to_full.values
