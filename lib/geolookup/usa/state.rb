@@ -118,21 +118,30 @@ module Geolookup
       end
 
       ###################################################################
-      # self.names
+      # self.codes_and_names
       #
-      # Returns an array of state names
+      # Returns a hash of state_codes and names
       #
       def self.codes_and_names
         @codes_and_names ||= Geolookup.load_hash_from_file(STATE_CODE_TO_FULL_FILE)
       end
 
       ###################################################################
-      # self.names
+      # self.codes_and_abbreviations
       #
-      # Returns an array of state names
+      # Returns a hash of state_codes and abbreviations
       #
       def self.codes_and_abbreviations
         @codes_and_abbreviations ||= Geolookup.load_hash_from_file(STATE_CODE_TO_ABBREVIATION_FILE)
+      end
+
+      ###################################################################
+      # self.abbreviations_and_names
+      #
+      # Returns a hash of abbreviations and state names
+      #
+      def self.abbreviations_and_names
+        @state_abbreviation_to_name ||= Geolookup.load_hash_from_file(STATE_ABBREVIATION_TO_NAME_FILE)
       end
 
       ###################################################################

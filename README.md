@@ -77,6 +77,10 @@ Geolookup::USA::State.codes_and_abbreviations
 Geolookup::USA::State.codes_and_names
 # => {1: "Alabama", 2: "Alaska", ...}
 
+# US state abbreviations and names
+Geolookup::USA::State.abbreviations_and_names
+# => {AL: "Alabama", AK: "Alaska", ...}
+
 # US State Codes
 Geolookup::USA::State.codes
 # => [1, 2, 4, ...]

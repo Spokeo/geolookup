@@ -96,6 +96,14 @@ describe "Geolookup::USA::State" do
     end
   end
 
+  describe "#abbreviations_and_names" do
+    it "should return a Hash where the key is the abbreviation and the value is the state name" do
+      abbreviations_and_names = Geolookup::USA::State.abbreviations_and_names
+      expect(abbreviations_and_names).to be_kind_of(Hash)
+      expect(abbreviations_and_names['AL']).to be_eql('Alabama')
+    end
+  end
+
   describe "#name_to_lat_long" do
     it "should return a lat / long for state name" do
       expect(Geolookup::USA::State.name_to_lat_long("Alabama")).to eql(state_lat_long)
