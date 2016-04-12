@@ -1,0 +1,4801 @@
+---
+'200':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'201':
+  :type: general purpose code
+  :state: NJ
+  :country: US
+  :service: y
+  :description: ''
+'202':
+  :type: general purpose code
+  :state: DC
+  :country: US
+  :service: y
+  :description: ''
+'203':
+  :type: general purpose code
+  :state: CT
+  :country: US
+  :service: y
+  :description: ''
+'204':
+  :type: general purpose code
+  :state: MB
+  :country: CANADA
+  :service: y
+  :description: ''
+'205':
+  :type: general purpose code
+  :state: AL
+  :country: US
+  :service: y
+  :description: ''
+'206':
+  :type: general purpose code
+  :state: WA
+  :country: US
+  :service: y
+  :description: ''
+'207':
+  :type: general purpose code
+  :state: ME
+  :country: US
+  :service: y
+  :description: ''
+'208':
+  :type: general purpose code
+  :state: ID
+  :country: US
+  :service: y
+  :description: ''
+'209':
+  :type: general purpose code
+  :state: CA
+  :country: US
+  :service: y
+  :description: ''
+'210':
+  :type: general purpose code
+  :state: TX
+  :country: US
+  :service: y
+  :description: ''
+'211':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: n11 code
+'212':
+  :type: general purpose code
+  :state: NY
+  :country: US
+  :service: y
+  :description: ''
+'213':
+  :type: general purpose code
+  :state: CA
+  :country: US
+  :service: y
+  :description: ''
+'214':
+  :type: general purpose code
+  :state: TX
+  :country: US
+  :service: y
+  :description: ''
+'215':
+  :type: general purpose code
+  :state: PA
+  :country: US
+  :service: y
+  :description: ''
+'216':
+  :type: general purpose code
+  :state: OH
+  :country: US
+  :service: y
+  :description: ''
+'217':
+  :type: general purpose code
+  :state: IL
+  :country: US
+  :service: y
+  :description: ''
+'218':
+  :type: general purpose code
+  :state: MN
+  :country: US
+  :service: y
+  :description: ''
+'219':
+  :type: general purpose code
+  :state: IN
+  :country: US
+  :service: y
+  :description: ''
+'220':
+  :type: general purpose code
+  :state: OH
+  :country: US
+  :service: n
+  :description: ''
+'221':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'222':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'223':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'224':
+  :type: general purpose code
+  :state: IL
+  :country: US
+  :service: y
+  :description: ''
+'225':
+  :type: general purpose code
+  :state: LA
+  :country: US
+  :service: y
+  :description: ''
+'226':
+  :type: general purpose code
+  :state: 'ON'
+  :country: CANADA
+  :service: y
+  :description: ''
+'227':
+  :type: general purpose code
+  :state: MD
+  :country: US
+  :service: n
+  :description: ''
+'228':
+  :type: general purpose code
+  :state: MS
+  :country: US
+  :service: y
+  :description: ''
+'229':
+  :type: general purpose code
+  :state: GA
+  :country: US
+  :service: y
+  :description: ''
+'230':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'231':
+  :type: general purpose code
+  :state: MI
+  :country: US
+  :service: y
+  :description: ''
+'232':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'233':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'234':
+  :type: general purpose code
+  :state: OH
+  :country: US
+  :service: y
+  :description: ''
+'235':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'236':
+  :type: general purpose code
+  :state: BC
+  :country: CANADA
+  :service: y
+  :description: ''
+'237':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'238':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'239':
+  :type: general purpose code
+  :state: FL
+  :country: US
+  :service: y
+  :description: ''
+'240':
+  :type: general purpose code
+  :state: MD
+  :country: US
+  :service: y
+  :description: ''
+'241':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'242':
+  :type: general purpose code
+  :state: ''
+  :country: BAHAMAS
+  :service: y
+  :description: ''
+'243':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'244':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'245':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'246':
+  :type: general purpose code
+  :state: ''
+  :country: BARBADOS
+  :service: y
+  :description: ''
+'247':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'248':
+  :type: general purpose code
+  :state: MI
+  :country: US
+  :service: y
+  :description: ''
+'249':
+  :type: general purpose code
+  :state: 'ON'
+  :country: CANADA
+  :service: y
+  :description: ''
+'250':
+  :type: general purpose code
+  :state: BC
+  :country: CANADA
+  :service: y
+  :description: ''
+'251':
+  :type: general purpose code
+  :state: AL
+  :country: US
+  :service: y
+  :description: ''
+'252':
+  :type: general purpose code
+  :state: NC
+  :country: US
+  :service: y
+  :description: ''
+'253':
+  :type: general purpose code
+  :state: WA
+  :country: US
+  :service: y
+  :description: ''
+'254':
+  :type: general purpose code
+  :state: TX
+  :country: US
+  :service: y
+  :description: ''
+'255':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'256':
+  :type: general purpose code
+  :state: AL
+  :country: US
+  :service: y
+  :description: ''
+'257':
+  :type: general purpose code
+  :state: ''
+  :country: CANADA
+  :service: n
+  :description: ''
+'258':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'259':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'260':
+  :type: general purpose code
+  :state: IN
+  :country: US
+  :service: y
+  :description: ''
+'261':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'262':
+  :type: general purpose code
+  :state: WI
+  :country: US
+  :service: y
+  :description: ''
+'263':
+  :type: general purpose code
+  :state: ''
+  :country: CANADA
+  :service: n
+  :description: ''
+'264':
+  :type: general purpose code
+  :state: ''
+  :country: ANGUILLA
+  :service: y
+  :description: ''
+'265':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'266':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'267':
+  :type: general purpose code
+  :state: PA
+  :country: US
+  :service: y
+  :description: ''
+'268':
+  :type: general purpose code
+  :state: ''
+  :country: ANTIGUA/BARBUDA
+  :service: y
+  :description: ''
+'269':
+  :type: general purpose code
+  :state: MI
+  :country: US
+  :service: y
+  :description: ''
+'270':
+  :type: general purpose code
+  :state: KY
+  :country: US
+  :service: y
+  :description: ''
+'271':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'272':
+  :type: general purpose code
+  :state: PA
+  :country: US
+  :service: y
+  :description: ''
+'273':
+  :type: general purpose code
+  :state: ''
+  :country: CANADA
+  :service: n
+  :description: ''
+'274':
+  :type: general purpose code
+  :state: WI
+  :country: US
+  :service: n
+  :description: ''
+'275':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'276':
+  :type: general purpose code
+  :state: VA
+  :country: US
+  :service: y
+  :description: ''
+'277':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'278':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'279':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'280':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'281':
+  :type: general purpose code
+  :state: TX
+  :country: US
+  :service: y
+  :description: ''
+'282':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'283':
+  :type: general purpose code
+  :state: OH
+  :country: US
+  :service: n
+  :description: ''
+'284':
+  :type: general purpose code
+  :state: ''
+  :country: BRITISH VIRGIN ISLANDS
+  :service: y
+  :description: ''
+'285':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'286':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'287':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'288':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'289':
+  :type: general purpose code
+  :state: 'ON'
+  :country: CANADA
+  :service: y
+  :description: ''
+'290':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'291':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'292':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'293':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'294':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'295':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'296':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'297':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'298':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'299':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'300':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'301':
+  :type: general purpose code
+  :state: MD
+  :country: US
+  :service: y
+  :description: ''
+'302':
+  :type: general purpose code
+  :state: DE
+  :country: US
+  :service: y
+  :description: ''
+'303':
+  :type: general purpose code
+  :state: CO
+  :country: US
+  :service: y
+  :description: ''
+'304':
+  :type: general purpose code
+  :state: WV
+  :country: US
+  :service: y
+  :description: ''
+'305':
+  :type: general purpose code
+  :state: FL
+  :country: US
+  :service: y
+  :description: ''
+'306':
+  :type: general purpose code
+  :state: SK
+  :country: CANADA
+  :service: y
+  :description: ''
+'307':
+  :type: general purpose code
+  :state: WY
+  :country: US
+  :service: y
+  :description: ''
+'308':
+  :type: general purpose code
+  :state: NE
+  :country: US
+  :service: y
+  :description: ''
+'309':
+  :type: general purpose code
+  :state: IL
+  :country: US
+  :service: y
+  :description: ''
+'310':
+  :type: general purpose code
+  :state: CA
+  :country: US
+  :service: y
+  :description: ''
+'311':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: n11 code
+'312':
+  :type: general purpose code
+  :state: IL
+  :country: US
+  :service: y
+  :description: ''
+'313':
+  :type: general purpose code
+  :state: MI
+  :country: US
+  :service: y
+  :description: ''
+'314':
+  :type: general purpose code
+  :state: MO
+  :country: US
+  :service: y
+  :description: ''
+'315':
+  :type: general purpose code
+  :state: NY
+  :country: US
+  :service: y
+  :description: ''
+'316':
+  :type: general purpose code
+  :state: KS
+  :country: US
+  :service: y
+  :description: ''
+'317':
+  :type: general purpose code
+  :state: IN
+  :country: US
+  :service: y
+  :description: ''
+'318':
+  :type: general purpose code
+  :state: LA
+  :country: US
+  :service: y
+  :description: ''
+'319':
+  :type: general purpose code
+  :state: IA
+  :country: US
+  :service: y
+  :description: ''
+'320':
+  :type: general purpose code
+  :state: MN
+  :country: US
+  :service: y
+  :description: ''
+'321':
+  :type: general purpose code
+  :state: FL
+  :country: US
+  :service: y
+  :description: ''
+'322':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'323':
+  :type: general purpose code
+  :state: CA
+  :country: US
+  :service: y
+  :description: ''
+'324':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'325':
+  :type: general purpose code
+  :state: TX
+  :country: US
+  :service: y
+  :description: ''
+'326':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'327':
+  :type: general purpose code
+  :state: AR
+  :country: US
+  :service: n
+  :description: ''
+'328':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'329':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'330':
+  :type: general purpose code
+  :state: OH
+  :country: US
+  :service: y
+  :description: ''
+'331':
+  :type: general purpose code
+  :state: IL
+  :country: US
+  :service: y
+  :description: ''
+'332':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'333':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'334':
+  :type: general purpose code
+  :state: AL
+  :country: US
+  :service: y
+  :description: ''
+'335':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'336':
+  :type: general purpose code
+  :state: NC
+  :country: US
+  :service: y
+  :description: ''
+'337':
+  :type: general purpose code
+  :state: LA
+  :country: US
+  :service: y
+  :description: ''
+'338':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'339':
+  :type: general purpose code
+  :state: MA
+  :country: US
+  :service: y
+  :description: ''
+'340':
+  :type: general purpose code
+  :state: VI
+  :country: VIRGIN ISLAND
+  :service: y
+  :description: ''
+'341':
+  :type: general purpose code
+  :state: ''
+  :country: US
+  :service: n
+  :description: ''
+'342':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'343':
+  :type: general purpose code
+  :state: 'ON'
+  :country: CANADA
+  :service: y
+  :description: ''
+'344':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'345':
+  :type: general purpose code
+  :state: ''
+  :country: CAYMAN ISLANDS
+  :service: y
+  :description: ''
+'346':
+  :type: general purpose code
+  :state: TX
+  :country: US
+  :service: n
+  :description: ''
+'347':
+  :type: general purpose code
+  :state: NY
+  :country: US
+  :service: y
+  :description: ''
+'348':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'349':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'350':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'351':
+  :type: general purpose code
+  :state: MA
+  :country: US
+  :service: y
+  :description: ''
+'352':
+  :type: general purpose code
+  :state: FL
+  :country: US
+  :service: y
+  :description: ''
+'353':
+  :type: general purpose code
+  :state: ''
+  :country: US
+  :service: n
+  :description: ''
+'354':
+  :type: general purpose code
+  :state: ''
+  :country: CANADA
+  :service: n
+  :description: ''
+'355':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'356':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'357':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'358':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'359':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'360':
+  :type: general purpose code
+  :state: WA
+  :country: US
+  :service: y
+  :description: ''
+'361':
+  :type: general purpose code
+  :state: TX
+  :country: US
+  :service: y
+  :description: ''
+'362':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'363':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'364':
+  :type: general purpose code
+  :state: KY
+  :country: US
+  :service: y
+  :description: ''
+'365':
+  :type: general purpose code
+  :state: 'ON'
+  :country: CANADA
+  :service: y
+  :description: ''
+'366':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'367':
+  :type: general purpose code
+  :state: ''
+  :country: CANADA
+  :service: n
+  :description: ''
+'368':
+  :type: general purpose code
+  :state: ''
+  :country: CANADA
+  :service: n
+  :description: ''
+'369':
+  :type: general purpose code
+  :state: ''
+  :country: US
+  :service: n
+  :description: ''
+'370':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: reserved by inc
+'371':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: reserved by inc
+'372':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: reserved by inc
+'373':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: reserved by inc
+'374':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: reserved by inc
+'375':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: reserved by inc
+'376':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: reserved by inc
+'377':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: reserved by inc
+'378':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: reserved by inc
+'379':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: reserved by inc
+'380':
+  :type: general purpose code
+  :state: OH
+  :country: US
+  :service: n
+  :description: ''
+'381':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'382':
+  :type: general purpose code
+  :state: ''
+  :country: CANADA
+  :service: n
+  :description: ''
+'383':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'384':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'385':
+  :type: general purpose code
+  :state: UT
+  :country: US
+  :service: y
+  :description: ''
+'386':
+  :type: general purpose code
+  :state: FL
+  :country: US
+  :service: y
+  :description: ''
+'387':
+  :type: general purpose code
+  :state: ''
+  :country: CANADA
+  :service: n
+  :description: ''
+'388':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'389':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'390':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'391':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'392':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'393':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'394':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'395':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'396':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'397':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'398':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'399':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'400':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'401':
+  :type: general purpose code
+  :state: RI
+  :country: US
+  :service: y
+  :description: ''
+'402':
+  :type: general purpose code
+  :state: NE
+  :country: US
+  :service: y
+  :description: ''
+'403':
+  :type: general purpose code
+  :state: AB
+  :country: CANADA
+  :service: y
+  :description: ''
+'404':
+  :type: general purpose code
+  :state: GA
+  :country: US
+  :service: y
+  :description: ''
+'405':
+  :type: general purpose code
+  :state: OK
+  :country: US
+  :service: y
+  :description: ''
+'406':
+  :type: general purpose code
+  :state: MT
+  :country: US
+  :service: y
+  :description: ''
+'407':
+  :type: general purpose code
+  :state: FL
+  :country: US
+  :service: y
+  :description: ''
+'408':
+  :type: general purpose code
+  :state: CA
+  :country: US
+  :service: y
+  :description: ''
+'409':
+  :type: general purpose code
+  :state: TX
+  :country: US
+  :service: y
+  :description: ''
+'410':
+  :type: general purpose code
+  :state: MD
+  :country: US
+  :service: y
+  :description: ''
+'411':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: n11 code
+'412':
+  :type: general purpose code
+  :state: PA
+  :country: US
+  :service: y
+  :description: ''
+'413':
+  :type: general purpose code
+  :state: MA
+  :country: US
+  :service: y
+  :description: ''
+'414':
+  :type: general purpose code
+  :state: WI
+  :country: US
+  :service: y
+  :description: ''
+'415':
+  :type: general purpose code
+  :state: CA
+  :country: US
+  :service: y
+  :description: ''
+'416':
+  :type: general purpose code
+  :state: 'ON'
+  :country: CANADA
+  :service: y
+  :description: ''
+'417':
+  :type: general purpose code
+  :state: MO
+  :country: US
+  :service: y
+  :description: ''
+'418':
+  :type: general purpose code
+  :state: QC
+  :country: CANADA
+  :service: y
+  :description: ''
+'419':
+  :type: general purpose code
+  :state: OH
+  :country: US
+  :service: y
+  :description: ''
+'420':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'421':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'422':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'423':
+  :type: general purpose code
+  :state: TN
+  :country: US
+  :service: y
+  :description: ''
+'424':
+  :type: general purpose code
+  :state: CA
+  :country: US
+  :service: y
+  :description: ''
+'425':
+  :type: general purpose code
+  :state: WA
+  :country: US
+  :service: y
+  :description: ''
+'426':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'427':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'428':
+  :type: general purpose code
+  :state: ''
+  :country: CANADA
+  :service: n
+  :description: ''
+'429':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'430':
+  :type: general purpose code
+  :state: TX
+  :country: US
+  :service: y
+  :description: ''
+'431':
+  :type: general purpose code
+  :state: MB
+  :country: CANADA
+  :service: y
+  :description: ''
+'432':
+  :type: general purpose code
+  :state: TX
+  :country: US
+  :service: y
+  :description: ''
+'433':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'434':
+  :type: general purpose code
+  :state: VA
+  :country: US
+  :service: y
+  :description: ''
+'435':
+  :type: general purpose code
+  :state: UT
+  :country: US
+  :service: y
+  :description: ''
+'436':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'437':
+  :type: general purpose code
+  :state: 'ON'
+  :country: CANADA
+  :service: y
+  :description: ''
+'438':
+  :type: general purpose code
+  :state: QC
+  :country: CANADA
+  :service: y
+  :description: ''
+'439':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'440':
+  :type: general purpose code
+  :state: OH
+  :country: US
+  :service: y
+  :description: ''
+'441':
+  :type: general purpose code
+  :state: ''
+  :country: BERMUDA
+  :service: y
+  :description: ''
+'442':
+  :type: general purpose code
+  :state: CA
+  :country: US
+  :service: y
+  :description: ''
+'443':
+  :type: general purpose code
+  :state: MD
+  :country: US
+  :service: y
+  :description: ''
+'444':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'445':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'446':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'447':
+  :type: general purpose code
+  :state: IL
+  :country: US
+  :service: n
+  :description: ''
+'448':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'449':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'450':
+  :type: general purpose code
+  :state: QC
+  :country: CANADA
+  :service: y
+  :description: ''
+'451':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'452':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'453':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'454':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'455':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'456':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: y
+  :description: inbound international
+'457':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'458':
+  :type: general purpose code
+  :state: OR
+  :country: US
+  :service: y
+  :description: ''
+'459':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'460':
+  :type: general purpose code
+  :state: ''
+  :country: CANADA
+  :service: n
+  :description: ''
+'461':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'462':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'463':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'464':
+  :type: general purpose code
+  :state: IL
+  :country: US
+  :service: n
+  :description: ''
+'465':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'466':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'467':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'468':
+  :type: general purpose code
+  :state: ''
+  :country: CANADA
+  :service: n
+  :description: ''
+'469':
+  :type: general purpose code
+  :state: TX
+  :country: US
+  :service: y
+  :description: ''
+'470':
+  :type: general purpose code
+  :state: GA
+  :country: US
+  :service: y
+  :description: ''
+'471':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'472':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'473':
+  :type: general purpose code
+  :state: ''
+  :country: GRENADA
+  :service: y
+  :description: ''
+'474':
+  :type: general purpose code
+  :state: ''
+  :country: CANADA
+  :service: n
+  :description: ''
+'475':
+  :type: general purpose code
+  :state: CT
+  :country: US
+  :service: y
+  :description: ''
+'476':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'477':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'478':
+  :type: general purpose code
+  :state: GA
+  :country: US
+  :service: y
+  :description: ''
+'479':
+  :type: general purpose code
+  :state: AR
+  :country: US
+  :service: y
+  :description: ''
+'480':
+  :type: general purpose code
+  :state: AZ
+  :country: US
+  :service: y
+  :description: ''
+'481':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'482':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'483':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'484':
+  :type: general purpose code
+  :state: PA
+  :country: US
+  :service: y
+  :description: ''
+'485':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'486':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'487':
+  :type: general purpose code
+  :state: ''
+  :country: CANADA
+  :service: n
+  :description: ''
+'488':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'489':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'490':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'491':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'492':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'493':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'494':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'495':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'496':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'497':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'498':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'499':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'500':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: y
+  :description: non-geographic services
+'501':
+  :type: general purpose code
+  :state: AR
+  :country: US
+  :service: y
+  :description: ''
+'502':
+  :type: general purpose code
+  :state: KY
+  :country: US
+  :service: y
+  :description: ''
+'503':
+  :type: general purpose code
+  :state: OR
+  :country: US
+  :service: y
+  :description: ''
+'504':
+  :type: general purpose code
+  :state: LA
+  :country: US
+  :service: y
+  :description: ''
+'505':
+  :type: general purpose code
+  :state: NM
+  :country: US
+  :service: y
+  :description: ''
+'506':
+  :type: general purpose code
+  :state: NB
+  :country: CANADA
+  :service: y
+  :description: ''
+'507':
+  :type: general purpose code
+  :state: MN
+  :country: US
+  :service: y
+  :description: ''
+'508':
+  :type: general purpose code
+  :state: MA
+  :country: US
+  :service: y
+  :description: ''
+'509':
+  :type: general purpose code
+  :state: WA
+  :country: US
+  :service: y
+  :description: ''
+'510':
+  :type: general purpose code
+  :state: CA
+  :country: US
+  :service: y
+  :description: ''
+'511':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: n11 code
+'512':
+  :type: general purpose code
+  :state: TX
+  :country: US
+  :service: y
+  :description: ''
+'513':
+  :type: general purpose code
+  :state: OH
+  :country: US
+  :service: y
+  :description: ''
+'514':
+  :type: general purpose code
+  :state: QC
+  :country: CANADA
+  :service: y
+  :description: ''
+'515':
+  :type: general purpose code
+  :state: IA
+  :country: US
+  :service: y
+  :description: ''
+'516':
+  :type: general purpose code
+  :state: NY
+  :country: US
+  :service: y
+  :description: ''
+'517':
+  :type: general purpose code
+  :state: MI
+  :country: US
+  :service: y
+  :description: ''
+'518':
+  :type: general purpose code
+  :state: NY
+  :country: US
+  :service: y
+  :description: ''
+'519':
+  :type: general purpose code
+  :state: 'ON'
+  :country: CANADA
+  :service: y
+  :description: ''
+'520':
+  :type: general purpose code
+  :state: AZ
+  :country: US
+  :service: y
+  :description: ''
+'521':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: personal communication service
+'522':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: personal communication service
+'523':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: personal communication service
+'524':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: personal communication service
+'525':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: personal communication service
+'526':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: personal communication service
+'527':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: personal communication service
+'528':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: personal communication service
+'529':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: personal communication service
+'530':
+  :type: general purpose code
+  :state: CA
+  :country: US
+  :service: y
+  :description: ''
+'531':
+  :type: general purpose code
+  :state: NE
+  :country: US
+  :service: n
+  :description: ''
+'532':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: personal communication service
+'533':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: y
+  :description: non-geographic services
+'534':
+  :type: general purpose code
+  :state: WI
+  :country: US
+  :service: y
+  :description: ''
+'535':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'536':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'537':
+  :type: general purpose code
+  :state: ''
+  :country: CANADA
+  :service: n
+  :description: ''
+'538':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: personal communication service
+'539':
+  :type: general purpose code
+  :state: OK
+  :country: US
+  :service: y
+  :description: ''
+'540':
+  :type: general purpose code
+  :state: VA
+  :country: US
+  :service: y
+  :description: ''
+'541':
+  :type: general purpose code
+  :state: OR
+  :country: US
+  :service: y
+  :description: ''
+'542':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: personal communication service
+'543':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: personal communication service
+'544':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: y
+  :description: non-geographic services
+'545':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: personal communication service
+'546':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'547':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: personal communication service
+'548':
+  :type: general purpose code
+  :state: 'ON'
+  :country: CANADA
+  :service: n
+  :description: ''
+'549':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: personal communication service
+'550':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: personal communication service
+'551':
+  :type: general purpose code
+  :state: NJ
+  :country: US
+  :service: y
+  :description: ''
+'552':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: personal communication service
+'553':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: personal communication service
+'554':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: personal communication service
+'555':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: directory assistance
+'556':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: personal communication service
+'557':
+  :type: general purpose code
+  :state: MO
+  :country: US
+  :service: n
+  :description: ''
+'558':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'559':
+  :type: general purpose code
+  :state: CA
+  :country: US
+  :service: y
+  :description: ''
+'560':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'561':
+  :type: general purpose code
+  :state: FL
+  :country: US
+  :service: y
+  :description: ''
+'562':
+  :type: general purpose code
+  :state: CA
+  :country: US
+  :service: y
+  :description: ''
+'563':
+  :type: general purpose code
+  :state: IA
+  :country: US
+  :service: y
+  :description: ''
+'564':
+  :type: general purpose code
+  :state: WA
+  :country: US
+  :service: n
+  :description: ''
+'565':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'566':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: y
+  :description: non-geographic services
+'567':
+  :type: general purpose code
+  :state: OH
+  :country: US
+  :service: y
+  :description: ''
+'568':
+  :type: general purpose code
+  :state: ''
+  :country: CANADA
+  :service: n
+  :description: ''
+'569':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: personal communication service
+'570':
+  :type: general purpose code
+  :state: PA
+  :country: US
+  :service: y
+  :description: ''
+'571':
+  :type: general purpose code
+  :state: VA
+  :country: US
+  :service: y
+  :description: ''
+'572':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'573':
+  :type: general purpose code
+  :state: MO
+  :country: US
+  :service: y
+  :description: ''
+'574':
+  :type: general purpose code
+  :state: IN
+  :country: US
+  :service: y
+  :description: ''
+'575':
+  :type: general purpose code
+  :state: NM
+  :country: US
+  :service: y
+  :description: ''
+'576':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'577':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: personal communication service
+'578':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: personal communication service
+'579':
+  :type: general purpose code
+  :state: QC
+  :country: CANADA
+  :service: y
+  :description: ''
+'580':
+  :type: general purpose code
+  :state: OK
+  :country: US
+  :service: y
+  :description: ''
+'581':
+  :type: general purpose code
+  :state: QC
+  :country: CANADA
+  :service: y
+  :description: ''
+'582':
+  :type: general purpose code
+  :state: ''
+  :country: US
+  :service: n
+  :description: ''
+'583':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'584':
+  :type: general purpose code
+  :state: ''
+  :country: CANADA
+  :service: n
+  :description: ''
+'585':
+  :type: general purpose code
+  :state: NY
+  :country: US
+  :service: y
+  :description: ''
+'586':
+  :type: general purpose code
+  :state: MI
+  :country: US
+  :service: y
+  :description: ''
+'587':
+  :type: general purpose code
+  :state: AB
+  :country: CANADA
+  :service: y
+  :description: ''
+'588':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: personal communication service
+'589':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: personal communication service
+'590':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'591':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'592':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'593':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'594':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'595':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'596':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'597':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'598':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'599':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'600':
+  :type: easily recognizable code
+  :state: ''
+  :country: CANADA
+  :service: y
+  :description: canadian services
+'601':
+  :type: general purpose code
+  :state: MS
+  :country: US
+  :service: y
+  :description: ''
+'602':
+  :type: general purpose code
+  :state: AZ
+  :country: US
+  :service: y
+  :description: ''
+'603':
+  :type: general purpose code
+  :state: NH
+  :country: US
+  :service: y
+  :description: ''
+'604':
+  :type: general purpose code
+  :state: BC
+  :country: CANADA
+  :service: y
+  :description: ''
+'605':
+  :type: general purpose code
+  :state: SD
+  :country: US
+  :service: y
+  :description: ''
+'606':
+  :type: general purpose code
+  :state: KY
+  :country: US
+  :service: y
+  :description: ''
+'607':
+  :type: general purpose code
+  :state: NY
+  :country: US
+  :service: y
+  :description: ''
+'608':
+  :type: general purpose code
+  :state: WI
+  :country: US
+  :service: y
+  :description: ''
+'609':
+  :type: general purpose code
+  :state: NJ
+  :country: US
+  :service: y
+  :description: ''
+'610':
+  :type: general purpose code
+  :state: PA
+  :country: US
+  :service: y
+  :description: ''
+'611':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: n11 code
+'612':
+  :type: general purpose code
+  :state: MN
+  :country: US
+  :service: y
+  :description: ''
+'613':
+  :type: general purpose code
+  :state: 'ON'
+  :country: CANADA
+  :service: y
+  :description: ''
+'614':
+  :type: general purpose code
+  :state: OH
+  :country: US
+  :service: y
+  :description: ''
+'615':
+  :type: general purpose code
+  :state: TN
+  :country: US
+  :service: y
+  :description: ''
+'616':
+  :type: general purpose code
+  :state: MI
+  :country: US
+  :service: y
+  :description: ''
+'617':
+  :type: general purpose code
+  :state: MA
+  :country: US
+  :service: y
+  :description: ''
+'618':
+  :type: general purpose code
+  :state: IL
+  :country: US
+  :service: y
+  :description: ''
+'619':
+  :type: general purpose code
+  :state: CA
+  :country: US
+  :service: y
+  :description: ''
+'620':
+  :type: general purpose code
+  :state: KS
+  :country: US
+  :service: y
+  :description: ''
+'621':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'622':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'623':
+  :type: general purpose code
+  :state: AZ
+  :country: US
+  :service: y
+  :description: ''
+'624':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'625':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'626':
+  :type: general purpose code
+  :state: CA
+  :country: US
+  :service: y
+  :description: ''
+'627':
+  :type: general purpose code
+  :state: ''
+  :country: US
+  :service: n
+  :description: ''
+'628':
+  :type: general purpose code
+  :state: CA
+  :country: US
+  :service: n
+  :description: ''
+'629':
+  :type: general purpose code
+  :state: TN
+  :country: US
+  :service: n
+  :description: ''
+'630':
+  :type: general purpose code
+  :state: IL
+  :country: US
+  :service: y
+  :description: ''
+'631':
+  :type: general purpose code
+  :state: NY
+  :country: US
+  :service: y
+  :description: ''
+'632':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'633':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'634':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'635':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'636':
+  :type: general purpose code
+  :state: MO
+  :country: US
+  :service: y
+  :description: ''
+'637':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'638':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'639':
+  :type: general purpose code
+  :state: SK
+  :country: CANADA
+  :service: y
+  :description: ''
+'640':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'641':
+  :type: general purpose code
+  :state: IA
+  :country: US
+  :service: y
+  :description: ''
+'642':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'643':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'644':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'645':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'646':
+  :type: general purpose code
+  :state: NY
+  :country: US
+  :service: y
+  :description: ''
+'647':
+  :type: general purpose code
+  :state: 'ON'
+  :country: CANADA
+  :service: y
+  :description: ''
+'648':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'649':
+  :type: general purpose code
+  :state: ''
+  :country: TURKS & CAICOS ISLANDS
+  :service: y
+  :description: ''
+'650':
+  :type: general purpose code
+  :state: CA
+  :country: US
+  :service: y
+  :description: ''
+'651':
+  :type: general purpose code
+  :state: MN
+  :country: US
+  :service: y
+  :description: ''
+'652':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'653':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'654':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'655':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'656':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'657':
+  :type: general purpose code
+  :state: CA
+  :country: US
+  :service: y
+  :description: ''
+'658':
+  :type: general purpose code
+  :state: ''
+  :country: JAMAICA
+  :service: n
+  :description: ''
+'659':
+  :type: general purpose code
+  :state: AL
+  :country: US
+  :service: n
+  :description: ''
+'660':
+  :type: general purpose code
+  :state: MO
+  :country: US
+  :service: y
+  :description: ''
+'661':
+  :type: general purpose code
+  :state: CA
+  :country: US
+  :service: y
+  :description: ''
+'662':
+  :type: general purpose code
+  :state: MS
+  :country: US
+  :service: y
+  :description: ''
+'663':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'664':
+  :type: general purpose code
+  :state: ''
+  :country: MONTSERRAT
+  :service: y
+  :description: ''
+'665':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'666':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'667':
+  :type: general purpose code
+  :state: MD
+  :country: US
+  :service: y
+  :description: ''
+'668':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'669':
+  :type: general purpose code
+  :state: CA
+  :country: US
+  :service: y
+  :description: ''
+'670':
+  :type: general purpose code
+  :state: MP
+  :country: COMMONWEALTH OF THE NORTHERN MARIANA ISLANDS
+  :service: y
+  :description: ''
+'671':
+  :type: general purpose code
+  :state: GU
+  :country: GUAM
+  :service: y
+  :description: ''
+'672':
+  :type: general purpose code
+  :state: ''
+  :country: CANADA
+  :service: n
+  :description: ''
+'673':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'674':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'675':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'676':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'677':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'678':
+  :type: general purpose code
+  :state: GA
+  :country: US
+  :service: y
+  :description: ''
+'679':
+  :type: general purpose code
+  :state: MI
+  :country: US
+  :service: n
+  :description: ''
+'680':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'681':
+  :type: general purpose code
+  :state: WV
+  :country: US
+  :service: y
+  :description: ''
+'682':
+  :type: general purpose code
+  :state: TX
+  :country: US
+  :service: y
+  :description: ''
+'683':
+  :type: general purpose code
+  :state: ''
+  :country: CANADA
+  :service: n
+  :description: ''
+'684':
+  :type: general purpose code
+  :state: AS
+  :country: AMERICAN SAMOA
+  :service: y
+  :description: ''
+'685':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'686':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'687':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'688':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'689':
+  :type: general purpose code
+  :state: FL
+  :country: US
+  :service: n
+  :description: ''
+'690':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'691':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'692':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'693':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'694':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'695':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'696':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'697':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'698':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'699':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'700':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: y
+  :description: interexchange carrier services
+'701':
+  :type: general purpose code
+  :state: ND
+  :country: US
+  :service: y
+  :description: ''
+'702':
+  :type: general purpose code
+  :state: NV
+  :country: US
+  :service: y
+  :description: ''
+'703':
+  :type: general purpose code
+  :state: VA
+  :country: US
+  :service: y
+  :description: ''
+'704':
+  :type: general purpose code
+  :state: NC
+  :country: US
+  :service: y
+  :description: ''
+'705':
+  :type: general purpose code
+  :state: 'ON'
+  :country: CANADA
+  :service: y
+  :description: ''
+'706':
+  :type: general purpose code
+  :state: GA
+  :country: US
+  :service: y
+  :description: ''
+'707':
+  :type: general purpose code
+  :state: CA
+  :country: US
+  :service: y
+  :description: ''
+'708':
+  :type: general purpose code
+  :state: IL
+  :country: US
+  :service: y
+  :description: ''
+'709':
+  :type: general purpose code
+  :state: NL
+  :country: CANADA
+  :service: y
+  :description: ''
+'710':
+  :type: general purpose code
+  :state: ''
+  :country: US
+  :service: y
+  :description: us government
+'711':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: n11 code
+'712':
+  :type: general purpose code
+  :state: IA
+  :country: US
+  :service: y
+  :description: ''
+'713':
+  :type: general purpose code
+  :state: TX
+  :country: US
+  :service: y
+  :description: ''
+'714':
+  :type: general purpose code
+  :state: CA
+  :country: US
+  :service: y
+  :description: ''
+'715':
+  :type: general purpose code
+  :state: WI
+  :country: US
+  :service: y
+  :description: ''
+'716':
+  :type: general purpose code
+  :state: NY
+  :country: US
+  :service: y
+  :description: ''
+'717':
+  :type: general purpose code
+  :state: PA
+  :country: US
+  :service: y
+  :description: ''
+'718':
+  :type: general purpose code
+  :state: NY
+  :country: US
+  :service: y
+  :description: ''
+'719':
+  :type: general purpose code
+  :state: CO
+  :country: US
+  :service: y
+  :description: ''
+'720':
+  :type: general purpose code
+  :state: CO
+  :country: US
+  :service: y
+  :description: ''
+'721':
+  :type: general purpose code
+  :state: ''
+  :country: SINT MAARTEN
+  :service: y
+  :description: ''
+'722':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'723':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'724':
+  :type: general purpose code
+  :state: PA
+  :country: US
+  :service: y
+  :description: ''
+'725':
+  :type: general purpose code
+  :state: NV
+  :country: US
+  :service: n
+  :description: ''
+'726':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'727':
+  :type: general purpose code
+  :state: FL
+  :country: US
+  :service: y
+  :description: ''
+'728':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'729':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'730':
+  :type: general purpose code
+  :state: IL
+  :country: US
+  :service: n
+  :description: ''
+'731':
+  :type: general purpose code
+  :state: TN
+  :country: US
+  :service: y
+  :description: ''
+'732':
+  :type: general purpose code
+  :state: NJ
+  :country: US
+  :service: y
+  :description: ''
+'733':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'734':
+  :type: general purpose code
+  :state: MI
+  :country: US
+  :service: y
+  :description: ''
+'735':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'736':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'737':
+  :type: general purpose code
+  :state: TX
+  :country: US
+  :service: y
+  :description: ''
+'738':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'739':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'740':
+  :type: general purpose code
+  :state: OH
+  :country: US
+  :service: y
+  :description: ''
+'741':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'742':
+  :type: general purpose code
+  :state: ''
+  :country: CANADA
+  :service: n
+  :description: ''
+'743':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'744':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'745':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'746':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'747':
+  :type: general purpose code
+  :state: CA
+  :country: US
+  :service: y
+  :description: ''
+'748':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'749':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'750':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'751':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'752':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'753':
+  :type: general purpose code
+  :state: ''
+  :country: CANADA
+  :service: n
+  :description: ''
+'754':
+  :type: general purpose code
+  :state: FL
+  :country: US
+  :service: y
+  :description: ''
+'755':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'756':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'757':
+  :type: general purpose code
+  :state: VA
+  :country: US
+  :service: y
+  :description: ''
+'758':
+  :type: general purpose code
+  :state: ''
+  :country: ST LUCIA
+  :service: y
+  :description: ''
+'759':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'760':
+  :type: general purpose code
+  :state: CA
+  :country: US
+  :service: y
+  :description: ''
+'761':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'762':
+  :type: general purpose code
+  :state: GA
+  :country: US
+  :service: y
+  :description: ''
+'763':
+  :type: general purpose code
+  :state: MN
+  :country: US
+  :service: y
+  :description: ''
+'764':
+  :type: general purpose code
+  :state: ''
+  :country: US
+  :service: n
+  :description: ''
+'765':
+  :type: general purpose code
+  :state: IN
+  :country: US
+  :service: y
+  :description: ''
+'766':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'767':
+  :type: general purpose code
+  :state: ''
+  :country: DOMINICA
+  :service: y
+  :description: ''
+'768':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'769':
+  :type: general purpose code
+  :state: MS
+  :country: US
+  :service: y
+  :description: ''
+'770':
+  :type: general purpose code
+  :state: GA
+  :country: US
+  :service: y
+  :description: ''
+'771':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'772':
+  :type: general purpose code
+  :state: FL
+  :country: US
+  :service: y
+  :description: ''
+'773':
+  :type: general purpose code
+  :state: IL
+  :country: US
+  :service: y
+  :description: ''
+'774':
+  :type: general purpose code
+  :state: MA
+  :country: US
+  :service: y
+  :description: ''
+'775':
+  :type: general purpose code
+  :state: NV
+  :country: US
+  :service: y
+  :description: ''
+'776':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'777':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'778':
+  :type: general purpose code
+  :state: BC
+  :country: CANADA
+  :service: y
+  :description: ''
+'779':
+  :type: general purpose code
+  :state: IL
+  :country: US
+  :service: y
+  :description: ''
+'780':
+  :type: general purpose code
+  :state: AB
+  :country: CANADA
+  :service: y
+  :description: ''
+'781':
+  :type: general purpose code
+  :state: MA
+  :country: US
+  :service: y
+  :description: ''
+'782':
+  :type: general purpose code
+  :state: NS,PE
+  :country: CANADA
+  :service: n
+  :description: ''
+'783':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'784':
+  :type: general purpose code
+  :state: ''
+  :country: ST VINCENT & GRENADINES
+  :service: y
+  :description: ''
+'785':
+  :type: general purpose code
+  :state: KS
+  :country: US
+  :service: y
+  :description: ''
+'786':
+  :type: general purpose code
+  :state: FL
+  :country: US
+  :service: y
+  :description: ''
+'787':
+  :type: general purpose code
+  :state: PR
+  :country: US
+  :service: y
+  :description: ''
+'788':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'789':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'790':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'791':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'792':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'793':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'794':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'795':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'796':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'797':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'798':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'799':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'800':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: y
+  :description: toll-free
+'801':
+  :type: general purpose code
+  :state: UT
+  :country: US
+  :service: y
+  :description: ''
+'802':
+  :type: general purpose code
+  :state: VT
+  :country: US
+  :service: y
+  :description: ''
+'803':
+  :type: general purpose code
+  :state: SC
+  :country: US
+  :service: y
+  :description: ''
+'804':
+  :type: general purpose code
+  :state: VA
+  :country: US
+  :service: y
+  :description: ''
+'805':
+  :type: general purpose code
+  :state: CA
+  :country: US
+  :service: y
+  :description: ''
+'806':
+  :type: general purpose code
+  :state: TX
+  :country: US
+  :service: y
+  :description: ''
+'807':
+  :type: general purpose code
+  :state: 'ON'
+  :country: CANADA
+  :service: y
+  :description: ''
+'808':
+  :type: general purpose code
+  :state: HI
+  :country: US
+  :service: y
+  :description: ''
+'809':
+  :type: general purpose code
+  :state: ''
+  :country: DOMINICAN REPUBLIC
+  :service: y
+  :description: ''
+'810':
+  :type: general purpose code
+  :state: MI
+  :country: US
+  :service: y
+  :description: ''
+'811':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: n11 code
+'812':
+  :type: general purpose code
+  :state: IN
+  :country: US
+  :service: y
+  :description: ''
+'813':
+  :type: general purpose code
+  :state: FL
+  :country: US
+  :service: y
+  :description: ''
+'814':
+  :type: general purpose code
+  :state: PA
+  :country: US
+  :service: y
+  :description: ''
+'815':
+  :type: general purpose code
+  :state: IL
+  :country: US
+  :service: y
+  :description: ''
+'816':
+  :type: general purpose code
+  :state: MO
+  :country: US
+  :service: y
+  :description: ''
+'817':
+  :type: general purpose code
+  :state: TX
+  :country: US
+  :service: y
+  :description: ''
+'818':
+  :type: general purpose code
+  :state: CA
+  :country: US
+  :service: y
+  :description: ''
+'819':
+  :type: general purpose code
+  :state: QC
+  :country: CANADA
+  :service: y
+  :description: ''
+'820':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'821':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'822':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'823':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'824':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'825':
+  :type: general purpose code
+  :state: AB
+  :country: CANADA
+  :service: n
+  :description: ''
+'826':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'827':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'828':
+  :type: general purpose code
+  :state: NC
+  :country: US
+  :service: y
+  :description: ''
+'829':
+  :type: general purpose code
+  :state: ''
+  :country: DOMINICAN REPUBLIC
+  :service: y
+  :description: ''
+'830':
+  :type: general purpose code
+  :state: TX
+  :country: US
+  :service: y
+  :description: ''
+'831':
+  :type: general purpose code
+  :state: CA
+  :country: US
+  :service: y
+  :description: ''
+'832':
+  :type: general purpose code
+  :state: TX
+  :country: US
+  :service: y
+  :description: ''
+'833':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'834':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'835':
+  :type: general purpose code
+  :state: ''
+  :country: US
+  :service: n
+  :description: ''
+'836':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'837':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'838':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'839':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'840':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'841':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'842':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'843':
+  :type: general purpose code
+  :state: SC
+  :country: US
+  :service: y
+  :description: ''
+'844':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: y
+  :description: toll-free
+'845':
+  :type: general purpose code
+  :state: NY
+  :country: US
+  :service: y
+  :description: ''
+'846':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'847':
+  :type: general purpose code
+  :state: IL
+  :country: US
+  :service: y
+  :description: ''
+'848':
+  :type: general purpose code
+  :state: NJ
+  :country: US
+  :service: y
+  :description: ''
+'849':
+  :type: general purpose code
+  :state: ''
+  :country: DOMINICAN REPUBLIC
+  :service: y
+  :description: ''
+'850':
+  :type: general purpose code
+  :state: FL
+  :country: US
+  :service: y
+  :description: ''
+'851':
+  :type: general purpose code
+  :state: ''
+  :country: CANADA
+  :service: n
+  :description: ''
+'852':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'853':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'854':
+  :type: general purpose code
+  :state: SC
+  :country: US
+  :service: n
+  :description: ''
+'855':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: y
+  :description: toll-free
+'856':
+  :type: general purpose code
+  :state: NJ
+  :country: US
+  :service: y
+  :description: ''
+'857':
+  :type: general purpose code
+  :state: MA
+  :country: US
+  :service: y
+  :description: ''
+'858':
+  :type: general purpose code
+  :state: CA
+  :country: US
+  :service: y
+  :description: ''
+'859':
+  :type: general purpose code
+  :state: KY
+  :country: US
+  :service: y
+  :description: ''
+'860':
+  :type: general purpose code
+  :state: CT
+  :country: US
+  :service: y
+  :description: ''
+'861':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'862':
+  :type: general purpose code
+  :state: NJ
+  :country: US
+  :service: y
+  :description: ''
+'863':
+  :type: general purpose code
+  :state: FL
+  :country: US
+  :service: y
+  :description: ''
+'864':
+  :type: general purpose code
+  :state: SC
+  :country: US
+  :service: y
+  :description: ''
+'865':
+  :type: general purpose code
+  :state: TN
+  :country: US
+  :service: y
+  :description: ''
+'866':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: y
+  :description: toll-free
+'867':
+  :type: general purpose code
+  :state: NT,NU,YT
+  :country: CANADA
+  :service: y
+  :description: ''
+'868':
+  :type: general purpose code
+  :state: ''
+  :country: TRINIDAD AND TOBAGO
+  :service: y
+  :description: ''
+'869':
+  :type: general purpose code
+  :state: ''
+  :country: ST KITTS AND NEVIS
+  :service: y
+  :description: ''
+'870':
+  :type: general purpose code
+  :state: AR
+  :country: US
+  :service: y
+  :description: ''
+'871':
+  :type: general purpose code
+  :state: ''
+  :country: CANADA
+  :service: n
+  :description: ''
+'872':
+  :type: general purpose code
+  :state: IL
+  :country: US
+  :service: y
+  :description: ''
+'873':
+  :type: general purpose code
+  :state: QC
+  :country: CANADA
+  :service: y
+  :description: ''
+'874':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'875':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'876':
+  :type: general purpose code
+  :state: ''
+  :country: JAMAICA
+  :service: y
+  :description: ''
+'877':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: y
+  :description: toll-free
+'878':
+  :type: general purpose code
+  :state: PA
+  :country: US
+  :service: y
+  :description: ''
+'879':
+  :type: general purpose code
+  :state: ''
+  :country: CANADA
+  :service: n
+  :description: ''
+'880':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: toll-free
+'881':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: toll-free
+'882':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: toll-free
+'883':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: toll-free
+'884':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: toll-free
+'885':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: toll-free
+'886':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: toll-free
+'887':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: toll-free
+'888':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: y
+  :description: toll-free
+'889':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: toll-free
+'890':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'891':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'892':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'893':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'894':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'895':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'896':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'897':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'898':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'899':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'900':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: y
+  :description: premium services
+'901':
+  :type: general purpose code
+  :state: TN
+  :country: US
+  :service: y
+  :description: ''
+'902':
+  :type: general purpose code
+  :state: NS,PE
+  :country: CANADA
+  :service: y
+  :description: ''
+'903':
+  :type: general purpose code
+  :state: TX
+  :country: US
+  :service: y
+  :description: ''
+'904':
+  :type: general purpose code
+  :state: FL
+  :country: US
+  :service: y
+  :description: ''
+'905':
+  :type: general purpose code
+  :state: 'ON'
+  :country: CANADA
+  :service: y
+  :description: ''
+'906':
+  :type: general purpose code
+  :state: MI
+  :country: US
+  :service: y
+  :description: ''
+'907':
+  :type: general purpose code
+  :state: AK
+  :country: US
+  :service: y
+  :description: ''
+'908':
+  :type: general purpose code
+  :state: NJ
+  :country: US
+  :service: y
+  :description: ''
+'909':
+  :type: general purpose code
+  :state: CA
+  :country: US
+  :service: y
+  :description: ''
+'910':
+  :type: general purpose code
+  :state: NC
+  :country: US
+  :service: y
+  :description: ''
+'911':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: n11 code
+'912':
+  :type: general purpose code
+  :state: GA
+  :country: US
+  :service: y
+  :description: ''
+'913':
+  :type: general purpose code
+  :state: KS
+  :country: US
+  :service: y
+  :description: ''
+'914':
+  :type: general purpose code
+  :state: NY
+  :country: US
+  :service: y
+  :description: ''
+'915':
+  :type: general purpose code
+  :state: TX
+  :country: US
+  :service: y
+  :description: ''
+'916':
+  :type: general purpose code
+  :state: CA
+  :country: US
+  :service: y
+  :description: ''
+'917':
+  :type: general purpose code
+  :state: NY
+  :country: US
+  :service: y
+  :description: ''
+'918':
+  :type: general purpose code
+  :state: OK
+  :country: US
+  :service: y
+  :description: ''
+'919':
+  :type: general purpose code
+  :state: NC
+  :country: US
+  :service: y
+  :description: ''
+'920':
+  :type: general purpose code
+  :state: WI
+  :country: US
+  :service: y
+  :description: ''
+'921':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'922':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'923':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'924':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'925':
+  :type: general purpose code
+  :state: CA
+  :country: US
+  :service: y
+  :description: ''
+'926':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'927':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'928':
+  :type: general purpose code
+  :state: AZ
+  :country: US
+  :service: y
+  :description: ''
+'929':
+  :type: general purpose code
+  :state: NY
+  :country: US
+  :service: y
+  :description: ''
+'930':
+  :type: general purpose code
+  :state: IN
+  :country: US
+  :service: n
+  :description: ''
+'931':
+  :type: general purpose code
+  :state: TN
+  :country: US
+  :service: y
+  :description: ''
+'932':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'933':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'934':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'935':
+  :type: general purpose code
+  :state: ''
+  :country: US
+  :service: n
+  :description: ''
+'936':
+  :type: general purpose code
+  :state: TX
+  :country: US
+  :service: y
+  :description: ''
+'937':
+  :type: general purpose code
+  :state: OH
+  :country: US
+  :service: y
+  :description: ''
+'938':
+  :type: general purpose code
+  :state: AL
+  :country: US
+  :service: y
+  :description: ''
+'939':
+  :type: general purpose code
+  :state: PR
+  :country: US
+  :service: y
+  :description: ''
+'940':
+  :type: general purpose code
+  :state: TX
+  :country: US
+  :service: y
+  :description: ''
+'941':
+  :type: general purpose code
+  :state: FL
+  :country: US
+  :service: y
+  :description: ''
+'942':
+  :type: general purpose code
+  :state: ''
+  :country: CANADA
+  :service: n
+  :description: ''
+'943':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'944':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'945':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'946':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'947':
+  :type: general purpose code
+  :state: MI
+  :country: US
+  :service: y
+  :description: ''
+'948':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'949':
+  :type: general purpose code
+  :state: CA
+  :country: US
+  :service: y
+  :description: ''
+'950':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: carrier access
+'951':
+  :type: general purpose code
+  :state: CA
+  :country: US
+  :service: y
+  :description: ''
+'952':
+  :type: general purpose code
+  :state: MN
+  :country: US
+  :service: y
+  :description: ''
+'953':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'954':
+  :type: general purpose code
+  :state: FL
+  :country: US
+  :service: y
+  :description: ''
+'955':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'956':
+  :type: general purpose code
+  :state: TX
+  :country: US
+  :service: y
+  :description: ''
+'957':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'958':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'959':
+  :type: general purpose code
+  :state: CT
+  :country: US
+  :service: n
+  :description: ''
+'960':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: reserved by inc
+'961':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: reserved by inc
+'962':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: reserved by inc
+'963':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: reserved by inc
+'964':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: reserved by inc
+'965':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: reserved by inc
+'966':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: reserved by inc
+'967':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: reserved by inc
+'968':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: reserved by inc
+'969':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: reserved by inc
+'970':
+  :type: general purpose code
+  :state: CO
+  :country: US
+  :service: y
+  :description: ''
+'971':
+  :type: general purpose code
+  :state: OR
+  :country: US
+  :service: y
+  :description: ''
+'972':
+  :type: general purpose code
+  :state: TX
+  :country: US
+  :service: y
+  :description: ''
+'973':
+  :type: general purpose code
+  :state: NJ
+  :country: US
+  :service: y
+  :description: ''
+'974':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'975':
+  :type: general purpose code
+  :state: MO
+  :country: US
+  :service: n
+  :description: ''
+'976':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'977':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'978':
+  :type: general purpose code
+  :state: MA
+  :country: US
+  :service: y
+  :description: ''
+'979':
+  :type: general purpose code
+  :state: TX
+  :country: US
+  :service: y
+  :description: ''
+'980':
+  :type: general purpose code
+  :state: NC
+  :country: US
+  :service: y
+  :description: ''
+'981':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'982':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'983':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'984':
+  :type: general purpose code
+  :state: NC
+  :country: US
+  :service: y
+  :description: ''
+'985':
+  :type: general purpose code
+  :state: LA
+  :country: US
+  :service: y
+  :description: ''
+'986':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'987':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'988':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: ''
+'989':
+  :type: general purpose code
+  :state: MI
+  :country: US
+  :service: y
+  :description: ''
+'990':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'991':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'992':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'993':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'994':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'995':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'996':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'997':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'998':
+  :type: general purpose code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code
+'999':
+  :type: easily recognizable code
+  :state: ''
+  :country: ''
+  :service: n
+  :description: expansion code

@@ -110,6 +110,9 @@ Geolookup::Country.code_to_name("AS")
 
 Geolookup::Country.lat_long("American Samoa")
 # => [ -14333300, -170000000 ]
+
+Geolookup::USA::AreaCode.info('202')
+# => {country: 'US', description: '', service: 'y', state: 'DC', type: 'general purpose code'}
 ```
 
 For additional functions and documentation please look in geolookup/fips.rb and geolookup/country.rb.
