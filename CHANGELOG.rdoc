@@ -1,3 +1,6 @@
+=== 0.5.13
+ - renaming methods
+
 === 0.5.12
  - Moving PhonePrefixData::Code::AREA_CODES to geolookup
 

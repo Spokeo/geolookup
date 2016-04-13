@@ -1,15 +1,15 @@
 module Geolookup
   module USA
-    module AreaCode
+    module AreaCodes
 
       AREA_CODE_META_INFO_FILE = 'AREA_CODE_META_INFO.yml'
 
-      def self.area_codes_hash
+      def self.to_h
         @area_codes_hash ||= Geolookup.load_hash_from_file(AREA_CODE_META_INFO_FILE)
       end
 
-      def self.info(area_code)
-        area_codes_hash[area_code.to_s] || {}
+      def self.find(area_code)
+        to_h[area_code.to_s] || {}
       end
     end
   end
