@@ -1,4 +1,4 @@
-=== 0.5.15
+=== 0.6.0
  - Adding lat_long by zipcode lookup
 
 === 0.5.13
