@@ -113,6 +113,9 @@ Geolookup::Country.lat_long("American Samoa")
 
 Geolookup::USA::AreaCodes.find('202')
 # => {country: 'US', description: '', service: 'y', state: 'DC', type: 'general purpose code'}
+
+Geolookup::USA::Zipcodes.lat_long('90012')
+# => {:lat_int=>39715698, :long_int=>-104814319}
 ```
 
 For additional functions and documentation please look in geolookup/fips.rb and geolookup/country.rb.
