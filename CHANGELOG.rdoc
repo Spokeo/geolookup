@@ -1,3 +1,6 @@
+=== 0.5.15
+ - Adding lat_long by zipcode lookup
+
 === 0.5.13
  - renaming methods
 
