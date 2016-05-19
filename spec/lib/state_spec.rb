@@ -37,6 +37,18 @@ describe "Geolookup::USA::State" do
       expect(Geolookup::USA::State.codes).to include(6)
     end
   end
+  
+  describe "#ignored_state_codes" do
+    it 'should return an array of ignored state codes' do
+      expect(Geolookup::USA::State.ignored_state_codes).to include(60)
+    end
+  end
+  
+  describe "#ignored_state_names" do
+    it 'should return an array of ignored state names' do
+      expect(Geolookup::USA::State.ignored_state_names).to include("American Samoa")
+    end
+  end
 
   describe "#code_to_abbreviation" do
     it 'should return a state abbreviation gien a state code' do
