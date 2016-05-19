@@ -7,6 +7,7 @@ module Geolookup
       STATE_NAME_TO_CODE_FILE         = 'STATE_NAME_TO_CODE.yml'
       STATE_ABBREVIATION_TO_NAME_FILE = 'STATE_FULL_STATE_NAMES.yml'
       STATE_LAT_LONG_FILE             = 'STATE_LAT_LONG.yml'
+      IGNORED_STATES_FILE             = 'IGNORED_STATES.yml'
       DOMESTIC_STATE_CUTOFF           = 56
 
       @state_code_to_full
@@ -14,6 +15,7 @@ module Geolookup
       @state_name_to_code
       @state_abbreviation_to_name
       @state_lat_long
+      @ignored_states
       @domestic_state_code_to_name
       @domestic_state_code_to_abbreviation
       ###################################################################
@@ -162,6 +164,26 @@ module Geolookup
       def self.codes
         @state_code_to_full ||= Geolookup.load_hash_from_file(STATE_CODE_TO_FULL_FILE)
         @state_code_to_full.keys
+      end
+
+      ###################################################################
+      # self.ignored_state_codes
+      #
+      # Returns an array of ignored state codes
+      #
+      def self.ignored_state_codes
+        @ignored_states ||= Geolookup.load_hash_from_file(IGNORED_STATES_FILE)
+        @ignored_states.keys
+      end
+
+      ###################################################################
+      # self.ignored_state_names
+      #
+      # Returns an array of ignored state names
+      #
+      def self.ignored_state_names
+        @ignored_states ||= Geolookup.load_hash_from_file(IGNORED_STATES_FILE)
+        @ignored_states.values
       end
 
       class << self
