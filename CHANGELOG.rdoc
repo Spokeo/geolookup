@@ -1,3 +1,6 @@
+=== 0.6.2
+ - Added ignored_states and country_to_phone_code and associated methods
+
 === 0.6.0
  - Adding lat_long by zipcode lookup
 
