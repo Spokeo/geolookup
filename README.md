@@ -118,7 +118,7 @@ Geolookup::USA::Zipcodes.lat_long('90012')
 # => {:lat_int=>39715698, :long_int=>-104814319}
 
 Geolookup::Country::PhoneCodes.country_to_phone_code("US")
-
+# => 1
 ```
 
 
