@@ -12,4 +12,14 @@ describe "Geolookup::Country" do
       expect(Geolookup::Country.name_to_lat_long("United States")).to eql([38000000, -97000000])
     end
   end
+  
+  describe "#find_country_phone_code" do
+    it "expects a country phone code when given a country code" do
+      expect(Geolookup::Country::PhoneCodes.country_to_phone_code('DZ')).to eq(213)
+    end
+    
+    it "expects an array of country phone codes" do
+      expect(Geolookup::Country::PhoneCodes.country_phone_codes).to include(213)
+    end
+  end
 end

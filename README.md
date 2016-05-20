@@ -116,7 +116,11 @@ Geolookup::USA::AreaCodes.find('202')
 
 Geolookup::USA::Zipcodes.lat_long('90012')
 # => {:lat_int=>39715698, :long_int=>-104814319}
+
+Geolookup::Country::PhoneCodes.country_to_phone_code("US")
+# => 1
 ```
+
 
 For additional functions and documentation please look in geolookup/fips.rb and geolookup/country.rb.
 

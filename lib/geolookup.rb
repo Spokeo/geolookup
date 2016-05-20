@@ -3,6 +3,7 @@ require 'geolookup/usa/county'
 require 'geolookup/usa/state'
 require 'geolookup/usa/metro'
 require 'geolookup/country'
+require 'geolookup/country_phone_codes'
 require 'geolookup/usa/areacodes'
 require 'geolookup/usa/zipcodes'
 
