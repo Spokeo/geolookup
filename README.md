@@ -94,25 +94,24 @@ Geolookup::USA::State.territory_state_names
 # => ["American Samoa", "Guam", ...]
 
 # Determine if state is territory
+
+# With code
 Geolookup::USA::State.territory?(60)
 # => true
 
 Geolookup::USA::State.territory?('60')
 # => true
 
+# With state name
 Geolookup::USA::State.territory?('Guam')
 # => true
 
-Geolookup::USA::State.territory?(60)
-# => true
-
+# With state abbreviation
 Geolookup::USA::State.territory?('GU')
 # => true
 
 Geolookup::USA::State.territory?('AZ')
 # => false
-
-# 
 
 # US County Examples:
 
