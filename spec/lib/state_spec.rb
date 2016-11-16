@@ -179,4 +179,97 @@ describe "Geolookup::USA::State" do
       expect(Geolookup::USA::State.domestic_names).to_not include("Guam")
     end
   end
+
+  describe '#ignored?' do
+    context 'input is a code' do
+      context 'code is an integer' do
+        context 'state is ignored' do
+          it 'returns true' do
+            state_code = 60
+            expect(Geolookup::USA::State.ignored?(state_code)).to be true
+          end
+        end
+        context 'state is not ignored' do
+          it 'returns false' do
+            state_code = 1
+            expect(Geolookup::USA::State.ignored?(state_code)).to be false
+          end
+        end
+      end
+      context 'code is a string' do
+        context 'state is ignored' do
+          it 'returns true' do
+            state_code = '66'
+            expect(Geolookup::USA::State.ignored?(state_code)).to be true
+          end
+        end
+        context 'state is not ignored' do
+          it 'returns false' do
+            state_code = '2'
+            expect(Geolookup::USA::State.ignored?(state_code)).to be false
+          end
+        end
+      end
+    end
+    context 'input is an abbreviation' do
+      context 'casing is all upcase' do
+        context 'state is ignored' do
+          it 'returns true' do
+            state_abbreviation = 'MP'
+            expect(Geolookup::USA::State.ignored?(state_abbreviation)).to be true
+          end
+        end
+        context 'state is not ignored' do
+          it 'returns false' do
+            state_abbreviation = 'AZ'
+            expect(Geolookup::USA::State.ignored?(state_abbreviation)).to be false
+          end
+        end
+      end
+      context 'casing is mixed' do
+        context 'state is ignored' do
+          it 'returns true' do
+            state_abbreviation = 'vI'
+            expect(Geolookup::USA::State.ignored?(state_abbreviation)).to be true
+          end
+        end
+        context 'state is not ignored' do
+          it 'returns false' do
+            state_abbreviation = 'Ar'
+            expect(Geolookup::USA::State.ignored?(state_abbreviation)).to be false
+          end
+        end
+      end
+    end
+    context 'input is a state name' do
+      context 'casing is all upcase' do
+        context 'state is ignored' do
+          it 'returns true' do
+            state_name = 'AMERICAN SAMOA'
+            expect(Geolookup::USA::State.ignored?(state_name)).to be true
+          end
+        end
+        context 'state is not ignored' do
+          it 'returns false' do
+            state_name = 'CALIFORNIA'
+            expect(Geolookup::USA::State.ignored?(state_name)).to be false
+          end
+        end
+      end
+      context 'casing is mixed' do
+        context 'state is ignored' do
+          it 'returns true' do
+            state_name = 'Guam'
+            expect(Geolookup::USA::State.ignored?(state_name)).to be true
+          end
+        end
+        context 'state is not ignored' do
+          it 'returns false' do
+            state_name = 'CoLoRaDo'
+            expect(Geolookup::USA::State.ignored?(state_name)).to be false
+          end
+        end
+      end
+    end
+  end
 end
