@@ -1,3 +1,9 @@
+=== 0.6.4
+ - Changed the word 'ignored' to the more appropriate, general term 'territory'
+
+=== 0.6.3
+ - Added ignored? functionality
+
 === 0.6.2
  - Added ignored_states and country_to_phone_code and associated methods
 

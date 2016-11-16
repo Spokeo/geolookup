@@ -85,6 +85,35 @@ Geolookup::USA::State.abbreviations_and_names
 Geolookup::USA::State.codes
 # => [1, 2, 4, ...]
 
+# US Territory State Codes
+Geolookup::USA::State.territory_state_codes
+# => [60, 66, 69, ...]
+
+# US Territory State Names
+Geolookup::USA::State.territory_state_names
+# => ["American Samoa", "Guam", ...]
+
+# Determine if state is territory
+Geolookup::USA::State.territory?(60)
+# => true
+
+Geolookup::USA::State.territory?('60')
+# => true
+
+Geolookup::USA::State.territory?('Guam')
+# => true
+
+Geolookup::USA::State.territory?(60)
+# => true
+
+Geolookup::USA::State.territory?('GU')
+# => true
+
+Geolookup::USA::State.territory?('AZ')
+# => false
+
+# 
+
 # US County Examples:
 
 # Given a state code and county code return the county name
