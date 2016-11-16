@@ -6,8 +6,8 @@ require 'geolookup/version'
 Gem::Specification.new do |spec|
   spec.name          = "geolookup"
   spec.version       = Geolookup::VERSION
-  spec.authors       = ["Austin Fonacier", "David Butler", "Jeffrey Lee", "Wei Yan"]
-  spec.email         = ["austin@spokeo.com", "dwbutler@ucla.edu", "jlee@spokeo.com", "wyan@spokeo.com"]
+  spec.authors       = ["Austin Fonacier", "David Butler", "Jeffrey Lee", "Wei Yan", "Kyle Boss"]
+  spec.email         = ["austin@spokeo.com", "dwbutler@ucla.edu", "jlee@spokeo.com", "wyan@spokeo.com", "kboss@spokeo.com"]
   spec.summary       = "Common geo lookups"
   spec.description   = "Common geo lookups"
   spec.homepage      = "https://github.com/spokeo/geolookup"
