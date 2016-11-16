@@ -38,15 +38,15 @@ describe "Geolookup::USA::State" do
     end
   end
   
-  describe "#ignored_state_codes" do
-    it 'should return an array of ignored state codes' do
-      expect(Geolookup::USA::State.ignored_state_codes).to include(60)
+  describe "#territory_state_codes" do
+    it 'should return an array of territory state codes' do
+      expect(Geolookup::USA::State.territory_state_codes).to include(60)
     end
   end
   
-  describe "#ignored_state_names" do
-    it 'should return an array of ignored state names' do
-      expect(Geolookup::USA::State.ignored_state_names).to include("American Samoa")
+  describe "#territory_state_names" do
+    it 'should return an array of territory state names' do
+      expect(Geolookup::USA::State.territory_state_names).to include("American Samoa")
     end
   end
 
@@ -180,96 +180,114 @@ describe "Geolookup::USA::State" do
     end
   end
 
-  describe '#ignored?' do
+  describe '#territory?' do
     context 'input is a code' do
       context 'code is an integer' do
-        context 'state is ignored' do
+        context 'state is territory' do
           it 'returns true' do
             state_code = 60
-            expect(Geolookup::USA::State.ignored?(state_code)).to be true
+            expect(Geolookup::USA::State.territory?(state_code)).to be true
           end
         end
-        context 'state is not ignored' do
+        context 'state is not territory' do
           it 'returns false' do
             state_code = 1
-            expect(Geolookup::USA::State.ignored?(state_code)).to be false
+            expect(Geolookup::USA::State.territory?(state_code)).to be false
           end
         end
       end
       context 'code is a string' do
-        context 'state is ignored' do
+        context 'state is territory' do
           it 'returns true' do
             state_code = '66'
-            expect(Geolookup::USA::State.ignored?(state_code)).to be true
+            expect(Geolookup::USA::State.territory?(state_code)).to be true
           end
         end
-        context 'state is not ignored' do
+        context 'state is not territory' do
           it 'returns false' do
             state_code = '2'
-            expect(Geolookup::USA::State.ignored?(state_code)).to be false
+            expect(Geolookup::USA::State.territory?(state_code)).to be false
           end
         end
       end
     end
     context 'input is an abbreviation' do
       context 'casing is all upcase' do
-        context 'state is ignored' do
+        context 'state is territory' do
           it 'returns true' do
             state_abbreviation = 'MP'
-            expect(Geolookup::USA::State.ignored?(state_abbreviation)).to be true
+            expect(Geolookup::USA::State.territory?(state_abbreviation)).to be true
           end
         end
-        context 'state is not ignored' do
+        context 'state is not territory' do
           it 'returns false' do
             state_abbreviation = 'AZ'
-            expect(Geolookup::USA::State.ignored?(state_abbreviation)).to be false
+            expect(Geolookup::USA::State.territory?(state_abbreviation)).to be false
           end
         end
       end
       context 'casing is mixed' do
-        context 'state is ignored' do
+        context 'state is territory' do
           it 'returns true' do
             state_abbreviation = 'vI'
-            expect(Geolookup::USA::State.ignored?(state_abbreviation)).to be true
+            expect(Geolookup::USA::State.territory?(state_abbreviation)).to be true
           end
         end
-        context 'state is not ignored' do
+        context 'state is not territory' do
           it 'returns false' do
             state_abbreviation = 'Ar'
-            expect(Geolookup::USA::State.ignored?(state_abbreviation)).to be false
+            expect(Geolookup::USA::State.territory?(state_abbreviation)).to be false
           end
         end
       end
     end
     context 'input is a state name' do
       context 'casing is all upcase' do
-        context 'state is ignored' do
+        context 'state is territory' do
           it 'returns true' do
             state_name = 'AMERICAN SAMOA'
-            expect(Geolookup::USA::State.ignored?(state_name)).to be true
+            expect(Geolookup::USA::State.territory?(state_name)).to be true
           end
         end
-        context 'state is not ignored' do
+        context 'state is not territory' do
           it 'returns false' do
             state_name = 'CALIFORNIA'
-            expect(Geolookup::USA::State.ignored?(state_name)).to be false
+            expect(Geolookup::USA::State.territory?(state_name)).to be false
           end
         end
       end
       context 'casing is mixed' do
-        context 'state is ignored' do
+        context 'state is territory' do
           it 'returns true' do
             state_name = 'Guam'
-            expect(Geolookup::USA::State.ignored?(state_name)).to be true
+            expect(Geolookup::USA::State.territory?(state_name)).to be true
           end
         end
-        context 'state is not ignored' do
+        context 'state is not territory' do
           it 'returns false' do
             state_name = 'CoLoRaDo'
-            expect(Geolookup::USA::State.ignored?(state_name)).to be false
+            expect(Geolookup::USA::State.territory?(state_name)).to be false
           end
         end
       end
+    end
+  end
+
+  describe '#ignored_state_names' do
+    it 'returns territory_state_names' do
+      expect(Geolookup::USA::State.ignored_state_names).to eq Geolookup::USA::State.territory_state_names
+    end
+  end
+
+  describe '#ignored_state_codes' do
+    it 'returns territory_state_codes' do
+      expect(Geolookup::USA::State.ignored_state_codes).to eq Geolookup::USA::State.territory_state_codes
+    end
+  end
+
+  describe '#ignored?' do
+    it 'returns territory' do
+      expect(Geolookup::USA::State.ignored?('ca')).to eq Geolookup::USA::State.territory?('ca')
     end
   end
 end
