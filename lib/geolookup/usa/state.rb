@@ -203,6 +203,10 @@ module Geolookup
         is_territory_state_name || is_territory_state_code || is_territory_state_abbreviation
       end
 
+      def self.ignored_state_codes() territory_state_codes end
+      def self.ignored_state_names() territory_state_names end
+      def self.ignored?(state) territory?(state) end
+
       class << self
         alias :abbreviation_to_code :name_to_code
         alias :abbreviation_to_lat_long :name_to_lat_long
