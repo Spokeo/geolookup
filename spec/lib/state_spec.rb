@@ -272,4 +272,22 @@ describe "Geolookup::USA::State" do
       end
     end
   end
+
+  describe '#ignored_state_names' do
+    it 'returns territory_state_names' do
+      expect(Geolookup::USA::State.ignored_state_names).to eq Geolookup::USA::State.territory_state_names
+    end
+  end
+
+  describe '#ignored_state_codes' do
+    it 'returns territory_state_codes' do
+      expect(Geolookup::USA::State.ignored_state_codes).to eq Geolookup::USA::State.territory_state_codes
+    end
+  end
+
+  describe '#ignored?' do
+    it 'returns territory' do
+      expect(Geolookup::USA::State.ignored?('ca')).to eq Geolookup::USA::State.territory?('ca')
+    end
+  end
 end
