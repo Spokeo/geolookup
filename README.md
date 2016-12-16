@@ -42,6 +42,10 @@ Geolookup::USA::State.name_to_code("Alabama")
 Geolookup::USA::State.abbreviation_to_name("AL")
 # => "Alabama"
 
+# US State name to abbreviation
+Geolookup::USA::State.name_to_abbreviation("Alabama")
+# => "AL"
+
 # US State name / Abbreviation to lat and long
 Geolookup::USA::State.name_to_lat_long("Alabama")
 # => [ 32318231,  -86602298]
