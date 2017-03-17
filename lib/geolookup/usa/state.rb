@@ -7,7 +7,8 @@ module Geolookup
       STATE_NAME_TO_CODE_FILE         = 'STATE_NAME_TO_CODE.yml'
       STATE_ABBREVIATION_TO_NAME_FILE = 'STATE_FULL_STATE_NAMES.yml'
       STATE_LAT_LONG_FILE             = 'STATE_LAT_LONG.yml'
-      TERRITORY_STATES_FILE             = 'TERRITORY_STATES.yml'
+      TERRITORY_STATES_FILE           = 'TERRITORY_STATES.yml'
+      DISTRICT_STATES_FILE            = 'DISTRICT_STATES.yml'
       DOMESTIC_STATE_CUTOFF           = 56
 
       @state_code_to_full
@@ -16,6 +17,7 @@ module Geolookup
       @state_abbreviation_to_name
       @state_lat_long
       @territory_states
+      @district_states
       @domestic_state_code_to_name
       @domestic_state_code_to_abbreviation
       ###################################################################
@@ -190,17 +192,59 @@ module Geolookup
       # self.territory?
       #
       # Given a state name, abbreviation, or code, returns true if the
-      # state should be territory and false otherwise.
+      # state is a territory and false otherwise.
       #
       def self.territory?(state)
-        @territory_states ||= Geolookup.load_hash_from_file(TERRITORY_STATES_FILE)
-        titlized_state_name = state.to_s.split.map(&:capitalize).join(' ')
+        @territory_states ||= Geolookup
+                                .load_hash_from_file(TERRITORY_STATES_FILE)
+        titlized_state_name = state.to_s.split.map(&:upcase).join(' ')
 
-        is_territory_state_name = territory_state_names.include? titlized_state_name
-        is_territory_state_code = territory_state_codes.include? state.to_i
-        is_territory_state_abbreviation = territory_state_names.include? abbreviation_to_name(state)
+        capped_tty_names = territory_state_names.map(&:upcase)
+        is_tty_state_name = capped_tty_names.include? titlized_state_name
+        is_tty_state_code = territory_state_codes.include? state.to_i
+        is_tty_state_abbrev = territory_state_names
+                                .include? abbreviation_to_name(state)
 
-        is_territory_state_name || is_territory_state_code || is_territory_state_abbreviation
+        is_tty_state_name || is_tty_state_code || is_tty_state_abbrev
+      end
+
+      ###################################################################
+      # self.district_state_codes
+      #
+      # Returns an array of district state codes
+      #
+      def self.district_state_codes
+        @district_states ||= Geolookup.load_hash_from_file(DISTRICT_STATES_FILE)
+        @district_states.keys
+      end
+
+      ###################################################################
+      # self.district_state_names
+      #
+      # Returns an array of district state names
+      #
+      def self.district_state_names
+        @district_states ||= Geolookup.load_hash_from_file(DISTRICT_STATES_FILE)
+        @district_states.values
+      end
+
+      ###################################################################
+      # self.district?
+      #
+      # Given a state name, abbreviation, or code, returns true if the
+      # state is a district and false otherwise.
+      #
+      def self.district?(state)
+        @district_states ||= Geolookup.load_hash_from_file(DISTRICT_STATES_FILE)
+        titlized_state_name = state.to_s.split.map(&:upcase).join(' ')
+
+        capped_dtt_names = district_state_names.map(&:upcase)
+        is_dtt_state_name = capped_dtt_names.include? titlized_state_name
+        is_dtt_state_code = district_state_codes.include? state.to_i
+        is_dtt_state_abbreviation = district_state_names
+                                      .include? abbreviation_to_name(state)
+
+        is_dtt_state_name || is_dtt_state_code || is_dtt_state_abbreviation
       end
 
       def self.ignored_state_codes() territory_state_codes end

@@ -97,6 +97,14 @@ Geolookup::USA::State.territory_state_codes
 Geolookup::USA::State.territory_state_names
 # => ["American Samoa", "Guam", ...]
 
+# US District State Codes
+Geolookup::USA::State.district_state_codes
+# => [11]
+
+# US District State Names
+Geolookup::USA::State.district_state_names
+# => ["District of Columbia"]
+
 # Determine if state is territory
 
 # With code
@@ -115,6 +123,26 @@ Geolookup::USA::State.territory?('GU')
 # => true
 
 Geolookup::USA::State.territory?('AZ')
+# => false
+
+# Determine if state is district
+
+# With code
+Geolookup::USA::State.district?(11)
+# => true
+
+Geolookup::USA::State.district?('11')
+# => true
+
+# With state name
+Geolookup::USA::State.district?('District of Columbia')
+# => true
+
+# With state abbreviation
+Geolookup::USA::State.district?('DC')
+# => true
+
+Geolookup::USA::State.district?('FL')
 # => false
 
 # US County Examples:

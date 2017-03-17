@@ -1,4 +1,7 @@
 === 0.6.4.1
+ - Added District functionality
+
+=== 0.6.4.1
  - Added collaborator
 
 === 0.6.4
