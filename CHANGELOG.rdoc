@@ -1,3 +1,6 @@
+=== 0.6.4.3
+ - Added Puerto Rico as a Territory
+
 === 0.6.4.2
  - Added District functionality
 
