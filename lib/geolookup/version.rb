@@ -1,3 +1,3 @@
 module Geolookup
-  VERSION = '0.6.4.3'
+  VERSION = '0.6.7'
 end

@@ -6,6 +6,7 @@ require 'geolookup/country'
 require 'geolookup/country_phone_codes'
 require 'geolookup/usa/areacodes'
 require 'geolookup/usa/zipcodes'
+require 'geolookup/region'
 
 module Geolookup
   ###################################################################

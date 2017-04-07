@@ -179,6 +179,21 @@ Geolookup::USA::Zipcodes.lat_long('90012')
 
 Geolookup::Country::PhoneCodes.country_to_phone_code("US")
 # => 1
+
+
+# Region Examples:
+
+Geolookup::Region.country_abbr_and_region_code_to_region_name(country_abbr: "AD", region_code: "02")
+# => "Canillo"
+
+Geolookup::Region.country_abbr_and_region_code_to_region_name(country_abbr: :ad, region_code: "02")
+# => "Canillo"
+
+Geolookup::Region.country_abbr_and_region_code_to_region_name(country_abbr: "ZZ", region_code: "02")
+# => nil
+
+Geolookup::Region.country_abbr_and_region_code_to_region_name(country_abbr: "AD", region_code: "ZZ")
+# => nil
 ```
 
 

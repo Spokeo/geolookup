@@ -28,10 +28,6 @@ module Geolookup
       @country_code_to_name[country_code.to_s.upcase]
     end
 
-    #def self.code_to_lat_long(country_code)
-    #  LAT_LONG[country_code.to_s.upcase]
-    #end
-
     def self.name_to_lat_long(country_name)
       @country_lat_long ||= Geolookup.load_hash_from_file(COUNTRY_LAT_LONG_FILE)
       @country_lat_long[country_name.to_s.upcase]
