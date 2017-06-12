@@ -9,7 +9,7 @@ module Geolookup
 
     def self.ignored_locations
       @ignored_locations ||= Geolookup.load_hash_from_file(IGNORED_LOCATIONS_FILE)
-      @ignored_locations.keys
+      @ignored_locations
     end
 
   end
