@@ -8,6 +8,7 @@ require 'geolookup/usa/areacodes'
 require 'geolookup/usa/zipcodes'
 require 'geolookup/region'
 require 'geolookup/ignored_locations'
+require 'geolookup/usa/city'
 
 module Geolookup
   ###################################################################
