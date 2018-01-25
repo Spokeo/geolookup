@@ -9,7 +9,7 @@ module Geolookup
       def self.find_cities_by_name(city_name)
         @cities_by_name ||= Geolookup.load_hash_from_file(CITY_MAP)
 
-        @cities_by_name[city_name.downcase] || []
+        @cities_by_name[city_name.to_s.downcase] || []
       end
 
     end
