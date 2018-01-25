@@ -26,7 +26,8 @@ describe 'Geolookup::USA::Cities' do
       cities = Geolookup::USA::City.find_cities_by_name('StoCkTon')
       expect(cities.count).to eq 11
 
-      expect(cities.first['city']).to eq 'stockton'
+      expect(cities.first['county']).to eq 'baldwin'
+      expect(cities.first['state']).to eq 'al'
     end
 
     it 'should not die because of nil parameter' do
