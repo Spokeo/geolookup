@@ -37,4 +37,15 @@ describe 'Geolookup::USA::Cities' do
 
   end
 
+  describe '#find_city_by_zip' do
+    it 'finds a city by zip' do
+      expect(Geolookup::USA::City.find_city_by_zip('91107')).to eq 'Pasadena'
+    end
+
+    it 'returns nil if it cannot find by zip' do
+      expect(Geolookup::USA::City.find_city_by_zip('foobar')).to eq nil
+    end
+
+  end
+
 end
