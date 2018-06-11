@@ -85,6 +85,18 @@ describe "geo_state" do
       expect(geo_state.name_to_code('california')).to eql(6)
     end
 
+    context 'given a territory abbrev' do
+      it 'return the state code' do
+        expect(geo_state.name_to_code('AS')).to eql(60)
+      end
+    end
+
+    context 'given a territory name' do
+      it 'return the state code' do
+        expect(geo_state.name_to_code('American Samoa')).to eql(60)
+      end
+    end
+
     it "given a non state name return nil" do
       expect(geo_state.name_to_code('foo')).to be_nil
     end
