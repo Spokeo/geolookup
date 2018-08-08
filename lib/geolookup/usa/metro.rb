@@ -16,8 +16,8 @@ module Geolookup
       def self.code_to_name(metro_code, v2 = false)
         @metro_code_to_name ||= Geolookup.load_hash_from_file(METRO_CODE_TO_NAME_FILE)
         name = get_value_from_hash(@metro_code_to_name, metro_code.to_s.to_i)
-        name.tr('-', '_') unless v2
-        name
+        return name.tr('-', '_') if !v2 && name
+        return name
       end
 
       ###################################################################
