@@ -139,9 +139,9 @@
   :description: ''
 '223':
   :type: general purpose code
-  :state: ''
-  :country: ''
-  :service: n
+  :state: PA
+  :country: US
+  :service: y
   :description: ''
 '224':
   :type: general purpose code
@@ -475,9 +475,9 @@
   :description: ''
 '279':
   :type: general purpose code
-  :state: ''
-  :country: ''
-  :service: n
+  :state: CA
+  :country: US
+  :service: y
   :description: ''
 '280':
   :type: general purpose code
@@ -793,9 +793,9 @@
   :description: ''
 '332':
   :type: general purpose code
-  :state: ''
-  :country: ''
-  :service: n
+  :state: NY
+  :country: US
+  :service: y
   :description: ''
 '333':
   :type: easily recognizable code
@@ -1471,9 +1471,9 @@
   :description: ''
 '445':
   :type: general purpose code
-  :state: ''
-  :country: ''
-  :service: n
+  :state: PA
+  :country: US
+  :service: y
   :description: ''
 '446':
   :type: general purpose code
@@ -1579,9 +1579,9 @@
   :description: ''
 '463':
   :type: general purpose code
-  :state: ''
-  :country: ''
-  :service: n
+  :state: IN
+  :country: US
+  :service: y
   :description: ''
 '464':
   :type: general purpose code
@@ -1802,7 +1802,7 @@
 '500':
   :type: easily recognizable code
   :state: ''
-  :country: ''
+  :country: US
   :service: y
   :description: non-geographic services
 '501':
@@ -1928,14 +1928,14 @@
 '521':
   :type: general purpose code
   :state: ''
-  :country: ''
-  :service: n
+  :country: US
+  :service: y
   :description: personal communication service
 '522':
   :type: easily recognizable code
   :state: ''
-  :country: ''
-  :service: n
+  :country: US
+  :service: y
   :description: personal communication service
 '523':
   :type: general purpose code
@@ -2000,7 +2000,7 @@
 '533':
   :type: easily recognizable code
   :state: ''
-  :country: ''
+  :country: US
   :service: y
   :description: non-geographic services
 '534':
@@ -2066,7 +2066,7 @@
 '544':
   :type: easily recognizable code
   :state: ''
-  :country: ''
+  :country: US
   :service: y
   :description: non-geographic services
 '545':
@@ -2198,7 +2198,7 @@
 '566':
   :type: easily recognizable code
   :state: ''
-  :country: ''
+  :country: US
   :service: y
   :description: non-geographic services
 '567':
@@ -2264,8 +2264,8 @@
 '577':
   :type: easily recognizable code
   :state: ''
-  :country: ''
-  :service: n
+  :country: US
+  :service: y
   :description: personal communication service
 '578':
   :type: general purpose code
@@ -2330,8 +2330,8 @@
 '588':
   :type: easily recognizable code
   :state: ''
-  :country: ''
-  :service: n
+  :country: US
+  :service: y
   :description: personal communication service
 '589':
   :type: general purpose code
@@ -2534,8 +2534,8 @@
 '622':
   :type: easily recognizable code
   :state: ''
-  :country: ''
-  :service: n
+  :country: US
+  :service: y
   :description: ''
 '623':
   :type: general purpose code
@@ -2881,9 +2881,9 @@
   :description: ''
 '680':
   :type: general purpose code
-  :state: ''
-  :country: ''
-  :service: n
+  :state: NY
+  :country: US
+  :service: y
   :description: ''
 '681':
   :type: general purpose code
@@ -3157,9 +3157,9 @@
   :description: ''
 '726':
   :type: general purpose code
-  :state: ''
-  :country: ''
-  :service: n
+  :state: TX
+  :country: US
+  :service: y
   :description: ''
 '727':
   :type: general purpose code
@@ -3259,9 +3259,9 @@
   :description: ''
 '743':
   :type: general purpose code
-  :state: ''
-  :country: ''
-  :service: n
+  :state: NC
+  :country: US
+  :service: y
   :description: ''
 '744':
   :type: easily recognizable code
@@ -3829,9 +3829,9 @@
   :description: ''
 '838':
   :type: general purpose code
-  :state: ''
-  :country: ''
-  :service: n
+  :state: NY
+  :country: US
+  :service: y
   :description: ''
 '839':
   :type: general purpose code
@@ -4202,7 +4202,7 @@
 '900':
   :type: easily recognizable code
   :state: ''
-  :country: ''
+  :country: US
   :service: y
   :description: premium services
 '901':
@@ -4405,9 +4405,9 @@
   :description: ''
 '934':
   :type: general purpose code
-  :state: ''
-  :country: ''
-  :service: n
+  :state: NY
+  :country: US
+  :service: y
   :description: ''
 '935':
   :type: general purpose code
@@ -4717,9 +4717,9 @@
   :description: ''
 '986':
   :type: general purpose code
-  :state: ''
-  :country: ''
-  :service: n
+  :state: ID
+  :country: US
+  :service: y
   :description: ''
 '987':
   :type: general purpose code
