@@ -123,7 +123,7 @@
   :type: general purpose code
   :state: OH
   :country: US
-  :service: n
+  :service: y
   :description: ''
 '221':
   :type: general purpose code
@@ -879,7 +879,7 @@
   :type: general purpose code
   :state: TX
   :country: US
-  :service: n
+  :service: y
   :description: ''
 '347':
   :type: general purpose code
@@ -1083,7 +1083,7 @@
   :type: general purpose code
   :state: OH
   :country: US
-  :service: n
+  :service: y
   :description: ''
 '381':
   :type: general purpose code
@@ -1579,9 +1579,9 @@
   :description: ''
 '463':
   :type: general purpose code
-  :state: ''
-  :country: ''
-  :service: n
+  :state: IN
+  :country: US
+  :service: y
   :description: ''
 '464':
   :type: general purpose code
@@ -1989,7 +1989,7 @@
   :type: general purpose code
   :state: NE
   :country: US
-  :service: n
+  :service: y
   :description: ''
 '532':
   :type: general purpose code
@@ -2265,7 +2265,7 @@
   :type: easily recognizable code
   :state: ''
   :country: ''
-  :service: n
+  :service: y
   :description: personal communication service
 '578':
   :type: general purpose code
@@ -2571,13 +2571,13 @@
   :type: general purpose code
   :state: CA
   :country: US
-  :service: n
+  :service: y
   :description: ''
 '629':
   :type: general purpose code
   :state: TN
   :country: US
-  :service: n
+  :service: y
   :description: ''
 '630':
   :type: general purpose code
@@ -3153,7 +3153,7 @@
   :type: general purpose code
   :state: NV
   :country: US
-  :service: n
+  :service: y
   :description: ''
 '726':
   :type: general purpose code
@@ -3495,7 +3495,7 @@
   :type: general purpose code
   :state: NS,PE
   :country: CANADA
-  :service: n
+  :service: y
   :description: ''
 '783':
   :type: general purpose code
@@ -3927,7 +3927,7 @@
   :type: general purpose code
   :state: SC
   :country: US
-  :service: n
+  :service: y
   :description: ''
 '855':
   :type: easily recognizable code
@@ -4383,7 +4383,7 @@
   :type: general purpose code
   :state: IN
   :country: US
-  :service: n
+  :service: y
   :description: ''
 '931':
   :type: general purpose code
@@ -4557,7 +4557,7 @@
   :type: general purpose code
   :state: CT
   :country: US
-  :service: n
+  :service: y
   :description: ''
 '960':
   :type: general purpose code
