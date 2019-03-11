@@ -78,4 +78,29 @@ describe Geolookup::USA::AreaCodes do
     end
 
   end
+
+  describe 'Detail' do
+    let(:record) do
+      described_class.details.find do |r|
+        r.statecode==6 && r.countycode == 59
+      end
+    end
+
+    context 'state' do
+      it 'returns state_name' do
+        expect(record.state_name).to eql('California')
+      end
+
+      it 'returns state_abbrev' do
+        expect(record.state_abbrev).to eql('CA')
+      end
+    end
+
+    context 'county' do
+      it 'returns county-name' do
+        expect(record.county_name).to eql('ORANGE')
+      end
+    end
+  end
+
 end

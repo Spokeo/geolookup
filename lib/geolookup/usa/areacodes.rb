@@ -82,8 +82,19 @@ module Geolookup
           @countycode = countycode
           @population = population
         end
-      end
 
+        def state_name
+          State.code_to_name(statecode)
+        end
+
+        def state_abbrev
+          State.code_to_abbreviation(statecode)
+        end
+
+        def county_name
+          County.code_to_name(statecode, countycode).
+        end
+      end
     end
   end
 end
