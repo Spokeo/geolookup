@@ -1,4 +1,5 @@
-describe 'Geolookup::USA::Cities' do
+# RAILS_ENV=test rspec spec/lib/city_spec.rb
+describe Geolookup::USA::City do
 
   describe '#find_cities_by_name' do
 
