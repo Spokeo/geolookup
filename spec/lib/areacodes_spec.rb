@@ -31,10 +31,10 @@ describe Geolookup::USA::AreaCodes do
 
     it 'has valid records' do
       described_class.details.each do |r|
-        expect(r.areacode>200).to be_truthy, "Failed areacode: #{r}"
+        expect(r.area_code>200).to be_truthy, "Failed area_code: #{r}"
         expect(r.city).to_not be_empty, "Failed city: #{r}"
-        expect(r.statecode>0).to be_truthy, "Failed state: #{r}"
-        expect(r.countycode>0).to be_truthy, "Failed county: #{r}"
+        expect(r.state_code>0).to be_truthy, "Failed state: #{r}"
+        expect(r.county_code>0).to be_truthy, "Failed county: #{r}"
         expect(r.population>0).to be_truthy, "Failed population: #{r}"
       end
     end
@@ -43,7 +43,7 @@ describe Geolookup::USA::AreaCodes do
 
   describe '.major_cities' do
     it 'creates major cities lookup hash' do
-      lookup = described_class.create_major_cities_by_areacode
+      lookup = described_class.create_major_cities_by_area_code
       expect(lookup).to_not be_empty
       expected_val = 286
       expect(lookup.size >= expected_val)
@@ -53,27 +53,27 @@ describe Geolookup::USA::AreaCodes do
     it 'returns cities sorted by population descending' do
       cities = described_class.major_cities(949)
       expected_records = Geolookup::USA::AreaCodes.details.select do |r|
-        r.areacode == 949
+        r.area_code == 949
       end.sort_by {|r| -r.population }
       expect(cities).to eql(expected_records)
     end
   end
 
-  describe '.areacodes_by_city_and_statecode' do
+  describe '.area_codes_by_city_and_state_code' do
     it 'returns area codes for anaheim' do
-      codes = described_class.areacodes_by_city_and_statecode('anaheim', 6)
+      codes = described_class.area_codes_by_city_and_state_code('anaheim', 6)
       expect(codes).to eql([714, 657].sort)
     end
 
     it 'returns area codes for anaheim - capitalized' do
-      codes = described_class.areacodes_by_city_and_statecode('ANAHEIM', 6)
+      codes = described_class.area_codes_by_city_and_state_code('ANAHEIM', 6)
       expect(codes).to eql([714, 657].sort)
     end
   end
 
-  describe '.areacodes_by_countycode_and_statecode' do
+  describe '.area_codes_by_county_code_and_state_code' do
     it 'returns area codes for anaheim' do
-      codes = described_class.areacodes_by_countycode_and_statecode(59, 6)
+      codes = described_class.area_codes_by_county_code_and_state_code(59, 6)
       expect(codes).to eql([562, 657, 714, 949].sort)
     end
 
@@ -82,7 +82,7 @@ describe Geolookup::USA::AreaCodes do
   describe 'Detail' do
     let(:record) do
       described_class.details.find do |r|
-        r.statecode==6 && r.countycode == 59
+        r.state_code==6 && r.county_code == 59
       end
     end
 
