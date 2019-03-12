@@ -23,16 +23,20 @@ module Geolookup
         to_h[area_code.to_s] || {}
       end
 
+      # Return a list of detail records for areacode,
+      # sorted by population in descending order.
       def self.major_cities(areacode)
         @major_cities_by_areacode ||= create_major_cities_by_areacode
         @major_cities_by_areacode.fetch(areacode.to_i, [])
       end
 
+      # Return a list of areacodes for city and statecode.
       def self.areacodes_by_city_and_statecode(city, statecode)
         @areacodes_by_city_and_state ||= create_areacodes_by_city_and_statecode
         @areacodes_by_city_and_state.fetch(statecode).fetch(city.downcase, [])
       end
 
+      # Return a list of areacodes for countycode and statecode
       def self.areacodes_by_countycode_and_statecode(countycode, statecode)
         @areacodes_by_county_and_state ||= create_areacodes_by_countycode_and_statecode
         @areacodes_by_county_and_state.fetch(statecode).fetch(countycode, [])
