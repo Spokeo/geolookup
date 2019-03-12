@@ -42,14 +42,6 @@ describe Geolookup::USA::AreaCodes do
   end
 
   describe '.major_cities' do
-    it 'creates major cities lookup hash' do
-      lookup = described_class.create_major_cities_by_area_code
-      expect(lookup).to_not be_empty
-      expected_val = 286
-      expect(lookup.size >= expected_val)
-        .to be_truthy,"Got #{lookup.size}, expected > #{expected_val}"
-    end
-
     it 'returns cities sorted by population descending' do
       cities = described_class.major_cities(949)
       expected_records = Geolookup::USA::AreaCodes.details.select do |r|
