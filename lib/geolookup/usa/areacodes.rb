@@ -3,14 +3,14 @@ module Geolookup
     module AreaCodes
 
       AREA_CODE_META_INFO_FILE = 'AREA_CODE_META_INFO.yml'
-      AREACODE_POPULATION_FILE = 'CITY_STATE_COUNTY_POPULATION.csv'
+      AREA_CODE_POPULATION_FILE = 'CITY_STATE_COUNTY_POPULATION.csv'
 
       def self.to_h
         @area_codes_hash ||= Geolookup.load_hash_from_file(AREA_CODE_META_INFO_FILE)
       end
 
       def self.details
-        @records ||= Geolookup.load_list_from_csv(AREACODE_POPULATION_FILE).map do |r|
+        @records ||= Geolookup.load_list_from_csv(AREA_CODE_POPULATION_FILE).map do |r|
           Detail.new(area_code: r[0].to_i,
                      city: r[1],
                      state_code: r[2].to_i,
