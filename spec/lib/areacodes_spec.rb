@@ -59,21 +59,21 @@ describe Geolookup::USA::AreaCodes do
     end
   end
 
-  describe '.areacodes_by_city_and_state' do
+  describe '.areacodes_by_city_and_statecode' do
     it 'returns area codes for anaheim' do
-      codes = described_class.areacodes_by_city_and_state('anaheim', 6)
+      codes = described_class.areacodes_by_city_and_statecode('anaheim', 6)
       expect(codes).to eql([714, 657].sort)
     end
 
     it 'returns area codes for anaheim - capitalized' do
-      codes = described_class.areacodes_by_city_and_state('ANAHEIM', 6)
+      codes = described_class.areacodes_by_city_and_statecode('ANAHEIM', 6)
       expect(codes).to eql([714, 657].sort)
     end
   end
 
-  describe '.areacodes_by_county_and_state' do
+  describe '.areacodes_by_countycode_and_statecode' do
     it 'returns area codes for anaheim' do
-      codes = described_class.areacodes_by_county_and_state(59, 6)
+      codes = described_class.areacodes_by_countycode_and_statecode(59, 6)
       expect(codes).to eql([562, 657, 714, 949].sort)
     end
 

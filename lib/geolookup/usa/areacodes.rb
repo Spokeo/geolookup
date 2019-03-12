@@ -28,19 +28,19 @@ module Geolookup
         @major_cities_by_areacode.fetch(areacode.to_i, [])
       end
 
-      def self.areacodes_by_city_and_state(city, statecode)
-        @areacodes_by_city_and_state ||= create_areacodes_by_city_and_state
+      def self.areacodes_by_city_and_statecode(city, statecode)
+        @areacodes_by_city_and_state ||= create_areacodes_by_city_and_statecode
         @areacodes_by_city_and_state.fetch(statecode).fetch(city.downcase, [])
       end
 
-      def self.areacodes_by_county_and_state(countycode, statecode)
-        @areacodes_by_county_and_state ||= create_areacodes_by_county_and_state
+      def self.areacodes_by_countycode_and_statecode(countycode, statecode)
+        @areacodes_by_county_and_state ||= create_areacodes_by_countycode_and_statecode
         @areacodes_by_county_and_state.fetch(statecode).fetch(countycode, [])
       end
 
       private
 
-      def self.create_areacodes_by_county_and_state
+      def self.create_areacodes_by_countycode_and_statecode
         h = {}
         details.group_by{ |r| r.statecode }.each do |state, records|
           counties = {}
@@ -60,7 +60,7 @@ module Geolookup
         m
       end
 
-      def self.create_areacodes_by_city_and_state
+      def self.create_areacodes_by_city_and_statecode
         h = {}
         details.group_by{ |r| r.statecode }.each do |state, records|
           cities = {}
@@ -92,9 +92,10 @@ module Geolookup
         end
 
         def county_name
-          County.code_to_name(statecode, countycode).
+          County.code_to_name(statecode, countycode)
         end
       end
+
     end
   end
 end
