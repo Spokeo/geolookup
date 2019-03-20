@@ -1,5 +1,6 @@
-describe Geolookup::USA::AreaCodes do
+# rspec spec/lib/areacodes_spec.rb
 
+describe Geolookup::USA::AreaCodes do
 
   describe 'info' do
     it 'should return data from the Area Code hash if area code is passed in as a string' do
@@ -35,7 +36,7 @@ describe Geolookup::USA::AreaCodes do
         expect(r.city).to_not be_empty, "Failed city: #{r}"
         expect(r.state_code>0).to be_truthy, "Failed state: #{r}"
         expect(r.county_code>0).to be_truthy, "Failed county: #{r}"
-        expect(r.population>0).to be_truthy, "Failed population: #{r}"
+        expect(r.population>=0).to be_truthy, "Failed population: #{r}"
       end
     end
 
@@ -69,6 +70,34 @@ describe Geolookup::USA::AreaCodes do
       expect(codes).to eql([562, 657, 714, 949].sort)
     end
 
+    context 'SPK-37704 - missing area codes' do
+      let(:state_and_counties) do
+        [ # statename, min_count, statecode, state-counties
+          ['Hawaii', 1, 15, [3, 7, 1, 9, 5]],
+          ['Maine', 1, 23, [5, 1, 19, 31, 11, 3, 23, 9, 13, 27, 29, 21, 15, 17, 25, 7]],
+          ['Massachusetts', 9, 25, [9, 17, 21, 25, 23, 27, 13, 3, 15, 11, 5, 1, 7, 19]],
+          ['New Hampshire', 1, 33, [11, 13, 17, 5, 15, 1, 9, 19, 7, 3]],
+          ['Connecticut', 4, 9, [1, 9, 5, 3, 7, 11, 15, 13]],
+          ['New Jersey', 9, 34, [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41]],
+          ['Rhode Island', 1, 44, [1, 3, 5, 7, 9]],
+          ['Vermont', 1, 50, [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27]],
+        ]
+      end
+
+      it 'has area codes for state and counties' do
+        state_and_counties.each do |name, mincount, state, counties|
+          allcodes = []
+          counties.each do |county|
+            codes = described_class.area_codes_by_county_code_and_state_code(county, state)
+            expect(codes).to_not be_empty, "County (#{county}) for #{name} is empty."
+            allcodes.concat(codes)
+          end
+          total = allcodes.uniq.size
+          failed_msg = "State #{name} (#{state}) not enough area-codes. #{total} < #{mincount}"
+          expect(total >= mincount).to be_truthy, failed_msg
+        end
+      end
+    end
   end
 
   describe 'Detail' do
