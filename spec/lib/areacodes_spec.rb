@@ -86,12 +86,13 @@ describe Geolookup::USA::AreaCodes do
 
       it 'has area codes for state and counties' do
         state_and_counties.each do |name, mincount, state, counties|
-          total = 0
+          allcodes = []
           counties.each do |county|
             codes = described_class.area_codes_by_county_code_and_state_code(county, state)
             expect(codes).to_not be_empty, "County (#{county}) for #{name} is empty."
-            total += codes.size
+            allcodes.concat(codes)
           end
+          total = allcodes.uniq.size
           failed_msg = "State #{name} (#{state}) not enough area-codes. #{total} < #{mincount}"
           expect(total >= mincount).to be_truthy, failed_msg
         end
