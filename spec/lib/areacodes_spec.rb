@@ -89,6 +89,7 @@ describe Geolookup::USA::AreaCodes do
           total = 0
           counties.each do |county|
             codes = described_class.area_codes_by_county_code_and_state_code(county, state)
+            expect(codes).to_not be_empty, "County (#{county}) for #{name} is empty."
             total += codes.size
           end
           failed_msg = "State #{name} (#{state}) not enough area-codes. #{total} < #{mincount}"
