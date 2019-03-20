@@ -59,8 +59,7 @@ module Geolookup
       def self.create_major_cities_by_area_code
         m = {}
         details.group_by { |r| r.area_code }.each do |code, records|
-          recs_with_pop = records.select { |r| r.population > 0 }
-          m[code] = recs_with_pop.sort_by{ |r| [-r.population, r.city, r.state_code] }
+          m[code] = records.sort_by{ |r| [-r.population, r.city, r.state_code] }
         end
         m
       end

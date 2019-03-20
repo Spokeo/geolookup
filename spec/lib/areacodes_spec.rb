@@ -46,7 +46,7 @@ describe Geolookup::USA::AreaCodes do
     it 'returns cities sorted by population descending' do
       cities = described_class.major_cities(949)
       expected_records = Geolookup::USA::AreaCodes.details.select do |r|
-        r.area_code == 949 and r.population > 0
+        r.area_code == 949
       end.sort_by {|r| -r.population }
       expect(cities).to eql(expected_records)
     end
