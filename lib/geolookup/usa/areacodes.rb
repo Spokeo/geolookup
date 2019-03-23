@@ -30,6 +30,11 @@ module Geolookup
         @major_cities_by_area_code.fetch(area_code.to_i, [])
       end
 
+      def self.area_codes_by_state_code(state_code)
+        @area_codes_by_state_code ||= create_area_codes_by_state_code
+        @area_codes_by_state_code.fetch(state_code, [])
+      end
+
       # Return a list of area_codes for city and state_code.
       def self.area_codes_by_city_and_state_code(city, state_code)
         @area_codes_by_city_and_state ||= create_area_codes_by_city_and_state_code
@@ -52,6 +57,14 @@ module Geolookup
           records.group_by{ |r| r.county_code }.each do |county, countyrecords|
             counties[county] = countyrecords.map{ |r| r.area_code }.sort.uniq
           end
+        end
+        h
+      end
+
+      def self.create_area_codes_by_state_code
+        h = {}
+        details.group_by{ |r| r.state_code }.each do |state, records|
+          h[state] = records.map{ |r| r.area_code }.uniq
         end
         h
       end
