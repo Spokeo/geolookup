@@ -50,6 +50,15 @@ describe Geolookup::USA::AreaCodes do
       end.sort_by {|r| -r.population }
       expect(cities).to eql(expected_records)
     end
+
+    it 'has only one state per area-code result' do
+      area_codes = described_class.details.map { |r| r.area_code }.uniq
+      area_codes.each do |ac|
+        major_cities = described_class.major_cities(ac)
+        states = major_cities.map{ |r| r.state_code }.uniq
+        expect(states.size).to eql(1), "Areacode: #{ac} has states: #{states}"
+      end
+    end
   end
 
   describe '.area_codes_by_state_code' do
