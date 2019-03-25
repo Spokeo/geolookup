@@ -55,8 +55,13 @@ describe Geolookup::USA::AreaCodes do
   describe '.area_codes_by_state_code' do
     it 'returns area_codes' do
       codes = described_class.area_codes_by_state_code(1)
-      expected = [205, 251, 256, 334, 938].sort
-      expect(codes.sort).to eql(expected)
+      expect(codes).to_not be_empty
+      expect(codes[0]).to be_a(Integer)
+    end
+
+    it 'has no area_codes' do
+      codes = described_class.area_codes_by_state_code(123)
+      expect(codes).to be_empty
     end
   end
 
