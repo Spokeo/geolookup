@@ -69,7 +69,7 @@ describe Geolookup::USA::AreaCodes do
         affected_area_codes.each do |ac|
           major_cities = described_class.major_cities(ac)
           expect(major_cities).to_not be_empty
-          expect(major_cities[0].population > 0).to be_truthy
+          expect(major_cities[0].population).to be > 0
         end
       end
     end
