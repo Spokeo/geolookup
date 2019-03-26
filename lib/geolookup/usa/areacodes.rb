@@ -114,6 +114,8 @@ module Geolookup
 
         private
 
+        # TODO: Temporary fix - remove in future when population data improves
+        # or put in a file.
         POP_LOOKUP = {
           ['aiea', 15] => 40281,
           ['captain cook', 15] => 6505,
