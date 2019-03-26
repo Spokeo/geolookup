@@ -59,6 +59,21 @@ describe Geolookup::USA::AreaCodes do
         expect(states.size).to eql(1), "Areacode: #{ac} has states: #{states}"
       end
     end
+
+    context 'fix bug - population missing for major cities for some area-codes' do
+      let(:affected_area_codes) do
+        [808, 838, 872, 934]
+      end
+
+      it 'has records with population' do
+        affected_area_codes.each do |ac|
+          major_cities = described_class.major_cities(ac)
+          expect(major_cities).to_not be_empty
+          expect(major_cities[0].population > 0).to be_truthy
+        end
+      end
+    end
+
   end
 
   describe '.area_codes_by_state_code' do

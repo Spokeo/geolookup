@@ -97,7 +97,7 @@ module Geolookup
           @city = city
           @state_code = state_code
           @county_code = county_code
-          @population = population
+          add_population!(population)
         end
 
         def state_name
@@ -111,6 +111,80 @@ module Geolookup
         def county_name
           County.code_to_name(state_code, county_code)
         end
+
+        private
+
+        POP_LOOKUP = {
+          ['aiea', 15] => 40281,
+          ['captain cook', 15] => 6505,
+          ['ewa beach', 15] => 62730,
+          ['haiku-pauwela', 15] => 10220,
+          ['hana', 15] => 1990,
+          ['kahului', 15] => 24816,
+          ['kapolei', 15] => 38817,
+          ['kaunakakai', 15] => 4503,
+          ['kihei', 15] => 26892,
+          ['athens', 36] => 3010,
+          ['buskirk', 36] => 1172,
+          ['cadyville', 36] => 2381,
+          ['castleton-on-hudson', 36] => 7851,
+          ['childwold', 36] => 65,
+          ['craryville', 36] => 1644,
+          ['delanson', 36] => 4587,
+          ['delmar', 36] => 16918,
+          ['eagle bridge', 36] => 1835,
+          ['east greenbush', 36] => 9050,
+          ['east schodack', 36] => 444,
+          ['elizaville', 36] => 1798,
+          ['esperance', 36] => 2143,
+          ['ghent', 36] => 3418,
+          ['hague', 36] => 574,
+          ['hoosick falls', 36] => 6262,
+          ['lyon mountain', 36] => 546,
+          ['moriah', 36] => 1148,
+          ['moriah center', 36] => 180,
+          ['peru', 36] => 6364,
+          ['port henry', 36] => 1599,
+          ['schuyler falls', 36] => 1072,
+          ['sharon springs', 36] => 2222,
+          ['silver bay', 36] => 142,
+          ['tupper lake', 36] => 6120,
+          ['chicago', 17] => 11110,
+          ['amityville', 36] => 27109,
+          ['bayport', 36] => 8030,
+          ['bellport', 36] => 10401,
+          ['brentwood', 36] => 60745,
+          ['brightwaters', 36] => 3103,
+          ['brookhaven', 36] => 3589,
+          ['centerport', 36] => 6292,
+          ['central islip', 36] => 35177,
+          ['copiague', 36] => 19857,
+          ['dix hills', 36] => 47211,
+          ['east northport', 36] => 30184,
+          ['farmingdale', 36] => 32098,
+          ['greenlawn', 36] => 9454,
+          ['hauppauge', 36] => 16821,
+          ['islandia', 36] => 3345,
+          ['lindenhurst', 36] => 45700,
+          ['melville', 36] => 19803,
+          ['miller place', 36] => 13200,
+          ['mount sinai', 36] => 12635,
+          ['nesconset', 36] => 14530,
+          ['ridge', 36] => 12834,
+          ['smithtown', 36] => 35772,
+          ['southampton', 36] => 11593,
+          ['stony brook', 36] => 18511,
+          ['terryville', 36] => 1207,
+          ['west babylon', 36] => 40222,
+          ['yaphank', 36] => 4990,
+        }
+
+        def add_population!(population)
+          @population = population
+          return if population > 0
+          @population = POP_LOOKUP.fetch([city.downcase, state_code], 0)
+        end
+
       end
 
     end
