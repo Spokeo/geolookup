@@ -43,6 +43,14 @@ describe Geolookup::USA::AreaCodes do
   end
 
   describe '.major_cities' do
+    it 'has unique cities' do
+      cities = described_class.major_cities(347)
+      found_cities = Geolookup::USA::AreaCodes.details.select do |r|
+        r.area_code == 347
+      end
+      expect(cities.size).to be < found_cities.size
+    end
+
     it 'returns cities sorted by population descending' do
       cities = described_class.major_cities(949)
       expected_records = Geolookup::USA::AreaCodes.details.select do |r|
