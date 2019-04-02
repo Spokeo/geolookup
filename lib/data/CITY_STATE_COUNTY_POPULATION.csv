@@ -50,7 +50,7 @@
 201,Midland Park,34,3,7384
 201,Allendale,34,3,6906
 201,Wharton,34,27,6571
-201,Washington Township,34,3,6461
+201,Washington,34,3,6461
 201,Carlstadt,34,3,6314
 201,Woodcliff Lake,34,3,5903
 201,Mendham,34,27,5845
@@ -59,7 +59,7 @@
 201,Englewood Cliffs,34,3,5453
 201,Demarest,34,3,5032
 201,Harrington Park,34,3,4846
-201,Ho-Ho-Kus,34,3,4183
+201,Ho Ho Kus,34,3,4183
 201,Haworth,34,3,3497
 201,Saddle River,34,3,3262
 201,Moonachie,34,3,2800
@@ -105,9 +105,9 @@
 203,Redding,9,1,9233
 203,Easton,9,1,7579
 203,Beacon Falls,9,9,6168
-203,Bethlehem Village,9,5,0
+203,Bethlehem,9,5,0
 203,Botsford,9,1,0
-203,Cheshire Village,9,9,0
+203,Cheshire,9,9,0
 203,Cos Cob,9,1,0
 203,Georgetown,9,1,0
 203,Hawleyville,9,1,0
@@ -312,7 +312,7 @@
 207,Millinocket,23,19,4292
 207,Monmouth,23,11,4104
 207,Oxford,23,17,4056
-207,Dover-Foxcroft,23,21,4047
+207,Dover Foxcroft,23,21,4047
 207,Pittsfield,23,25,4025
 207,Naples,23,5,3963
 207,Winterport,23,27,3963
@@ -659,7 +659,7 @@
 208,Weiser,16,87,5365
 208,Fruitland,16,75,5234
 208,Rigby,16,51,4062
-208,McCall,16,85,3351
+208,Mccall,16,85,3351
 208,Heyburn,16,67,3329
 208,Grangeville,16,49,3166
 208,Salmon,16,59,3108
@@ -702,7 +702,7 @@
 208,Greenleaf,16,27,880
 208,Council,16,3,865
 208,Kootenai,16,17,834
-208,McCammon,16,5,821
+208,Mccammon,16,5,821
 208,Potlatch,16,57,817
 208,Oakley,16,31,797
 208,Menan,16,51,794
@@ -911,7 +911,7 @@
 209,Lockeford,6,77,0
 209,Long Barn,6,109,0
 209,Mariposa,6,43,0
-209,Mi-Wuk Village,6,109,0
+209,Mi Wuk Village,6,109,0
 209,Midpines,6,43,0
 209,Moccasin,6,109,0
 209,Mountain Ranch,6,9,0
@@ -930,7 +930,7 @@
 209,South Dos Palos,6,47,0
 209,Strawberry,6,109,0
 209,Thornton,6,77,0
-209,Tuolumne City,6,109,0
+209,Tuolumne,6,109,0
 209,Twain Harte,6,109,0
 209,Valley Springs,6,9,0
 209,Volcano,6,5,0
@@ -948,7 +948,7 @@
 213,Carson,6,37,92735
 213,Gardena,6,37,60224
 214,Irving,48,113,240373
-214,McKinney,48,85,181330
+214,Mckinney,48,85,181330
 214,Lewisville,48,121,104765
 214,Allen,48,85,100685
 214,Richardson,48,113,83701
@@ -959,7 +959,7 @@
 214,Grand Prairie,48,113,60284
 214,Grapevine,48,121,53982
 214,Grapevine,48,439,53982
-214,DeSoto,48,113,53568
+214,Desoto,48,113,53568
 214,Rockwall,48,397,44208
 214,Waxahachie,48,139,35340
 214,Midlothian,48,139,25254
@@ -1021,7 +1021,7 @@
 215,Dresher,42,91,0
 215,Earlington,42,91,0
 215,Elkins Park,42,91,0
-215,Feasterville-Trevose,42,17,0
+215,Feasterville Trevose,42,17,0
 215,Flourtown,42,91,0
 215,Forest Grove,42,17,0
 215,Fort Washington,42,91,0
@@ -1030,7 +1030,7 @@
 215,Glenside,42,91,0
 215,Gwynedd,42,91,0
 215,Harleysville,42,91,0
-215,Jamison City,42,17,0
+215,Jamison,42,17,0
 215,Levittown,42,17,0
 215,Line Lexington,42,17,0
 215,Lumberville,42,17,0
@@ -1465,7 +1465,7 @@
 218,Motley,27,97,639
 218,Taconite,27,61,633
 218,Ottertail,27,111,617
-218,McIntosh,27,119,614
+218,Mcintosh,27,119,614
 218,Embarrass,27,137,611
 218,Littlefork,27,71,610
 218,Barnum,27,17,601
@@ -1503,7 +1503,7 @@
 218,Miltona,27,41,401
 218,Willow River,27,115,399
 218,Remer,27,21,397
-218,McGregor,27,1,367
+218,Mcgregor,27,1,367
 218,Newfolden,27,89,367
 218,Alvarado,27,89,360
 218,Badger,27,135,360
@@ -1804,7 +1804,7 @@
 224,Franklin Park,17,31,18012
 224,Cary,17,111,17885
 224,Morton Grove,17,31,17268
-224,Lake in the Hills,17,111,16170
+224,Lake In The Hills,17,111,16170
 224,Barrington,17,97,16072
 224,Wood Dale,17,43,13798
 224,Winnetka,17,31,12480
@@ -1815,7 +1815,7 @@
 224,Gilberts,17,89,7704
 224,Lake Forest,17,97,7555
 224,Winthrop Harbor,17,97,6745
-224,McHenry,17,111,6400
+224,Mchenry,17,111,6400
 224,Lake Bluff,17,97,5662
 224,Highwood,17,97,5325
 224,Island Lake,17,97,4779
@@ -1855,7 +1855,7 @@
 225,Walker,22,63,6269
 225,Addis,22,121,5227
 225,New Roads,22,77,4634
-225,Amite City,22,105,4442
+225,Amite,22,105,4442
 225,Jackson,22,37,3740
 225,Gramercy,22,93,3409
 225,Lutcher,22,93,3300
@@ -2447,7 +2447,7 @@
 248,Davisburg,26,125,0
 248,Lakeville,26,125,0
 248,New Hudson,26,125,0
-248,West Bloomfield Township,26,125,0
+248,West Bloomfield,26,125,0
 251,Mobile,1,97,190265
 251,Fairhope,1,3,20935
 251,Troy,1,109,19037
@@ -2692,7 +2692,7 @@
 253,Sumner,53,53,10093
 253,Auburn,53,33,9617
 253,Gig Harbor,53,53,9507
-253,DuPont,53,53,9487
+253,Dupont,53,53,9487
 253,Milton,53,53,6816
 253,Roy,53,53,820
 253,Anderson Island,53,53,0
@@ -2732,7 +2732,7 @@
 254,De Leon,48,93,2178
 254,Whitney,48,217,2139
 254,Bartlett,48,27,2080
-254,Little River-Academy,48,27,2000
+254,Little River Academy,48,27,2000
 254,Troy,48,27,1979
 254,Mart,48,309,1912
 254,Lorena,48,309,1761
@@ -3142,7 +3142,7 @@
 267,Dresher,42,91,0
 267,Earlington,42,91,0
 267,Elkins Park,42,91,0
-267,Feasterville-Trevose,42,17,0
+267,Feasterville Trevose,42,17,0
 267,Flourtown,42,91,0
 267,Forest Grove,42,17,0
 267,Fort Washington,42,91,0
@@ -3151,7 +3151,7 @@
 267,Glenside,42,91,0
 267,Gwynedd,42,91,0
 267,Harleysville,42,91,0
-267,Jamison City,42,17,0
+267,Jamison,42,17,0
 267,Levittown,42,17,0
 267,Line Lexington,42,17,0
 267,Lumberville,42,17,0
@@ -3495,7 +3495,7 @@
 270,White Mills,21,93,0
 270,Windsor,21,45,0
 272,Scranton,42,69,77605
-272,Wilkes-Barre,42,79,40806
+272,Wilkes Barre,42,79,40806
 272,Williamsport,42,81,28462
 272,Montgomery,42,81,26110
 272,Hazleton,42,79,24723
@@ -4012,7 +4012,7 @@
 304,Mannington,54,49,2043
 304,Richwood,54,67,1906
 304,Belington,54,1,1864
-304,McMechen,54,51,1775
+304,Mcmechen,54,51,1775
 304,Harrisville,54,85,1740
 304,Welch,54,47,1740
 304,Romney,54,27,1737
@@ -4122,8 +4122,8 @@
 304,Reedy,54,87,165
 304,Smithfield,54,103,152
 304,Leon,54,53,150
-304,Camden-on-Gauley,54,41,148
-304,Camden-on-Gauley,54,101,148
+304,Camden On Gauley,54,41,148
+304,Camden On Gauley,54,101,148
 304,Pullman,54,85,140
 304,Harman,54,83,138
 304,Friendly,54,95,124
@@ -4430,7 +4430,7 @@
 305,Hialeah,12,86,239673
 305,Homestead,12,86,69907
 305,Key West,12,87,25208
-305,Opa-locka,12,86,16479
+305,Opa Locka,12,86,16479
 305,Key Largo,12,87,0
 307,Cheyenne,56,21,63624
 307,Casper,56,25,57814
@@ -4559,7 +4559,7 @@
 307,Osage,56,45,0
 307,Otto,56,3,0
 307,Parkman,56,33,0
-307,Point of Rocks,56,37,0
+307,Point Of Rocks,56,37,0
 307,Ralston,56,29,0
 307,Recluse,56,5,0
 307,Reliance,56,37,0
@@ -4712,7 +4712,7 @@
 308,Elsie,31,135,106
 308,Dunning,31,9,104
 308,Rockville,31,163,104
-308,McGrew,31,157,103
+308,Mcgrew,31,157,103
 308,Naponee,31,61,100
 308,Bloomington,31,61,98
 308,Danbury,31,145,97
@@ -4967,7 +4967,7 @@
 310,El Segundo,6,37,16853
 310,Malibu,6,37,12877
 310,Avalon,6,37,3764
-310,Marina del Rey,6,37,0
+310,Marina Del Rey,6,37,0
 312,Wheeling,17,31,154766
 312,Bloomingdale,17,43,112073
 312,Buffalo Grove,17,97,27609
@@ -5014,7 +5014,7 @@
 315,Newark,36,117,8919
 315,Seneca Falls,36,99,8719
 315,Sodus,36,117,8103
-315,Hastings-on-Hudson,36,75,8008
+315,Hastings On Hudson,36,75,8008
 315,Ilion,36,43,7768
 315,Palmyra,36,117,7608
 315,Waterloo,36,99,7376
@@ -5243,7 +5243,7 @@
 315,Raymondville,36,89,0
 315,Redwood,36,45,0
 315,Rooseveltown,36,89,0
-315,Rosendale Village,36,117,0
+315,Rosendale,36,117,0
 315,Saint Regis Falls,36,33,0
 315,Salisbury Center,36,43,0
 315,Sauquoit,36,65,0
@@ -6330,8 +6330,8 @@
 334,Vinemont,1,43,0
 334,Wing,1,39,0
 336,Greensboro,37,81,290222
-336,Winston-Salem,37,57,244605
-336,Winston-Salem,37,67,244605
+336,Winston Salem,37,57,244605
+336,Winston Salem,37,67,244605
 336,Asheboro,37,151,25863
 336,Clemmons,37,59,20420
 336,Clemmons,37,67,20420
@@ -6471,7 +6471,7 @@
 337,Iowa,22,19,3279
 337,Welsh,22,53,3230
 337,Mamou,22,39,3179
-337,DeQuincy,22,19,3114
+337,Dequincy,22,19,3114
 337,Sunset,22,97,2966
 337,Lake Arthur,22,53,2755
 337,Kinder,22,3,2412
@@ -6497,7 +6497,7 @@
 337,Loreauville,22,45,885
 337,Anacoco,22,115,829
 337,Mermentau,22,1,644
-337,DeRidder,22,11,496
+337,Deridder,22,11,496
 337,Turkey Creek,22,39,459
 337,Fenton,22,53,369
 337,Chataignier,22,39,365
@@ -6689,7 +6689,7 @@
 352,Center Hill,12,119,1371
 352,Inglis,12,75,1320
 352,Archer,12,1,1209
-352,Howey-in-the-Hills,12,69,1166
+352,Howey In The Hills,12,69,1166
 352,Bronson,12,75,1119
 352,Webster,12,119,1090
 352,Waldo,12,1,1030
@@ -6791,7 +6791,7 @@
 360,Napavine,53,41,1893
 360,Tenino,53,67,1830
 360,Yacolt,53,11,1735
-360,McCleary,53,27,1691
+360,Mccleary,53,27,1691
 360,Cosmopolis,53,27,1624
 360,Long Beach,53,49,1413
 360,Darrington,53,61,1406
@@ -7033,7 +7033,7 @@
 386,Daytona Beach,12,127,68055
 386,Deland,12,127,32506
 386,Edgewater,12,127,22399
-386,DeBary,12,127,20784
+386,Debary,12,127,20784
 386,Lake City,12,23,12163
 386,Palatka,12,107,10389
 386,Alachua,12,1,9982
@@ -7142,7 +7142,7 @@
 402,Falls City,31,147,4187
 402,Waverly,31,109,3838
 402,Fairbury,31,95,3707
-402,O'Neill,31,89,3635
+402,Oneill,31,89,3635
 402,West Point,31,39,3340
 402,Auburn,31,127,3302
 402,David City,31,23,2823
@@ -7429,7 +7429,7 @@
 402,Gilead,31,169,38
 402,Crab Orchard,31,97,37
 402,Liberty,31,67,37
-402,McLean,31,139,36
+402,Mclean,31,139,36
 402,Strang,31,59,27
 402,Nenzel,31,31,20
 402,Saronville,31,35,20
@@ -7472,7 +7472,7 @@
 405,Pauls Valley,40,49,6169
 405,Holdenville,40,63,5547
 405,Kingfisher,40,73,4876
-405,McLoud,40,125,4685
+405,Mcloud,40,125,4685
 405,Wewoka,40,133,3316
 405,Hinton,40,15,3242
 405,Okemah,40,107,3196
@@ -7711,7 +7711,7 @@
 406,Dayton,30,29,0
 406,Decker,30,3,0
 406,Dixon,30,89,0
-406,East Glacier Park Village,30,35,0
+406,East Glacier Park,30,35,0
 406,Edgar,30,9,0
 406,Elmo,30,47,0
 406,Emigrant,30,67,0
@@ -7764,7 +7764,7 @@
 406,Lonepine,30,89,0
 406,Loring,30,71,0
 406,Lothair,30,51,0
-406,Malmstrom AFB ,30,13,0
+406,Malmstrom Afb,30,13,0
 406,Marion,30,29,0
 406,Martin City,30,29,0
 406,Martinsdale,30,59,0
@@ -7913,7 +7913,7 @@
 409,Nome,48,245,602
 409,Colmesneil,48,457,591
 409,Port Arthur,48,245,8
-409,Warren City,48,457,8
+409,Warren,48,457,8
 409,Bon Wier,48,351,0
 409,Bronson,48,403,0
 409,Brookeland,48,241,0
@@ -7943,7 +7943,7 @@
 410,Easton,24,41,16514
 410,Aberdeen,24,25,16049
 410,Elkton,24,15,15652
-410,Havre de Grace,24,25,13576
+410,Havre De Grace,24,25,13576
 410,Cambridge,24,19,12376
 410,Bel Air,24,25,10037
 410,Ocean City,24,47,6969
@@ -8073,7 +8073,7 @@
 410,Linkwood,24,19,0
 410,Lisbon,24,27,0
 410,Lothian,24,3,0
-410,Lutherville-Timonium,24,5,0
+410,Lutherville Timonium,24,5,0
 410,Madison,24,19,0
 410,Manokin,24,39,0
 410,Marion Station,24,39,0
@@ -8134,7 +8134,7 @@
 412,West Mifflin,42,3,19839
 412,Greensburg,42,129,14299
 412,Washington,42,125,13566
-412,South Park Township,42,3,13343
+412,South Park,42,3,13343
 412,Butler,42,19,13107
 412,North Versailles,42,3,10031
 412,Uniontown,42,51,9824
@@ -8651,7 +8651,7 @@
 419,Bettsville,39,147,629
 419,Risingsun,39,173,627
 419,Shiloh,39,139,626
-419,Put-in-Bay,39,123,620
+419,Put In Bay,39,123,620
 419,Cygnet,39,173,613
 419,Metamora,39,51,611
 419,Green Springs,39,147,600
@@ -8778,7 +8778,7 @@
 423,Bristol,47,163,26842
 423,Greeneville,47,59,14888
 423,Elizabethton,47,19,13743
-423,Soddy-Daisy,47,65,13693
+423,Soddy Daisy,47,65,13693
 423,Athens,47,107,13615
 423,Collegedale,47,65,11659
 423,Dayton,47,143,7354
@@ -8905,7 +8905,7 @@
 424,El Segundo,6,37,16853
 424,Malibu,6,37,12877
 424,Avalon,6,37,3764
-424,Marina del Rey,6,37,0
+424,Marina Del Rey,6,37,0
 425,Bellevue,53,33,144444
 425,Kent,53,33,128458
 425,Everett,53,15,110079
@@ -9110,7 +9110,7 @@
 434,Jarratt,51,81,125
 434,Brodnax,51,25,45
 434,Scottsville,51,29,38
-434,Pamplin City,51,11,31
+434,Pamplin,51,11,31
 434,Afton,51,125,0
 434,Alton,51,83,0
 434,Arlington,51,29,0
@@ -9199,7 +9199,7 @@
 435,Cedar City,49,21,31806
 435,Brigham City,49,3,19182
 435,Hurricane,49,53,17135
-435,Heber,49,51,15792
+435,Heber City,49,51,15792
 435,Santaquin,49,49,11652
 435,Grantsville,49,45,11000
 435,Vernal,49,47,10291
@@ -9394,7 +9394,7 @@
 440,Independence,39,35,7124
 440,Huron,39,43,6923
 440,Wellington,39,93,6299
-440,LaGrange,39,93,6210
+440,Lagrange,39,93,6210
 440,Geneva,39,7,5975
 440,Vermilion,39,43,5823
 440,Newbury,39,55,5563
@@ -9517,7 +9517,7 @@
 443,Easton,24,41,16514
 443,Aberdeen,24,25,16049
 443,Elkton,24,15,15652
-443,Havre de Grace,24,25,13576
+443,Havre De Grace,24,25,13576
 443,Cambridge,24,19,12376
 443,Bel Air,24,25,10037
 443,Ocean City,24,47,6969
@@ -9613,7 +9613,7 @@
 443,Linkwood,24,19,0
 443,Lisbon,24,27,0
 443,Lothian,24,3,0
-443,Lutherville-Timonium,24,5,0
+443,Lutherville Timonium,24,5,0
 443,Madison,24,19,0
 443,Manokin,24,39,0
 443,Middle River,24,5,0
@@ -9673,7 +9673,7 @@
 445,Trumbauersville,42,17,946
 445,Green Lane,42,91,507
 445,Portage,42,21,219
-445,Feasterville-Trevose,42,17,0
+445,Feasterville Trevose,42,17,0
 445,Harleysville,42,91,0
 445,Mainland,42,91,0
 445,Milford Square,42,17,0
@@ -9701,7 +9701,7 @@
 458,North Bend,41,11,9702
 458,Florence,41,39,8947
 458,Umatilla,41,59,7132
-458,Milton-Freewater,41,59,7027
+458,Milton Freewater,41,59,7027
 458,Madras,41,31,6839
 458,Talent,41,29,6492
 458,Junction City,41,39,6101
@@ -9757,7 +9757,7 @@
 463,Beech Grove,18,97,0
 463,Mooresville,18,109,0
 469,Irving,48,113,240373
-469,McKinney,48,85,181330
+469,Mckinney,48,85,181330
 469,Lewisville,48,121,104765
 469,Allen,48,85,100685
 469,Richardson,48,113,83701
@@ -9768,7 +9768,7 @@
 469,Grand Prairie,48,113,60284
 469,Grapevine,48,121,53982
 469,Grapevine,48,439,53982
-469,DeSoto,48,113,53568
+469,Desoto,48,113,53568
 469,Rockwall,48,397,44208
 469,Waxahachie,48,139,35340
 469,Cleburne,48,251,30230
@@ -9915,9 +9915,9 @@
 475,Redding,9,1,9233
 475,Easton,9,1,7579
 475,Beacon Falls,9,9,6168
-475,Bethlehem Village,9,5,0
+475,Bethlehem,9,5,0
 475,Botsford,9,1,0
-475,Cheshire Village,9,9,0
+475,Cheshire,9,9,0
 475,Cos Cob,9,1,0
 475,Georgetown,9,1,0
 475,Hawleyville,9,1,0
@@ -10219,7 +10219,7 @@
 484,Kelton,42,29,0
 484,Kemblesville,42,29,0
 484,Kempton,42,11,0
-484,King of Prussia,42,91,0
+484,King Of Prussia,42,91,0
 484,Kintnersville,42,17,0
 484,Lafayette Hill,42,91,0
 484,Landenberg,42,29,0
@@ -10413,7 +10413,7 @@
 503,Beaver,41,57,97514
 503,Beaverton,41,67,97514
 503,Oregon City,41,5,36360
-503,McMinnville,41,71,34347
+503,Mcminnville,41,71,34347
 503,Salem,41,47,27096
 503,Woodburn,41,47,25780
 503,Newberg,41,71,23609
@@ -10654,7 +10654,7 @@
 507,Morgan,27,127,850
 507,Mazeppa,27,157,840
 507,Walnut Grove,27,127,814
-507,Rushford Village,27,45,811
+507,Rushford,27,45,811
 507,Lake Park,27,59,801
 507,Adams,27,99,786
 507,Lamberton,27,127,775
@@ -10815,7 +10815,7 @@
 508,Peabody,25,9,52987
 508,Methuen,25,9,50259
 508,Attleboro,25,5,44590
-508,Barnstable Town,25,1,44163
+508,Barnstable,25,1,44163
 508,Billerica,25,17,43962
 508,Beverly,25,9,41816
 508,Fitchburg,25,27,40793
@@ -11396,7 +11396,7 @@
 517,Napoleon,26,75,6753
 517,Addison,26,91,6566
 517,Eaton Rapids,26,45,5196
-517,DeWitt,26,37,4712
+517,Dewitt,26,37,4712
 517,Jerome,26,59,4686
 517,Somerset,26,59,4561
 517,Homer,26,25,3982
@@ -11569,7 +11569,7 @@
 518,Ancram,36,21,1503
 518,Petersburg,36,83,1492
 518,Burke,36,33,1481
-518,Castleton-on-Hudson,36,83,1471
+518,Castleton On Hudson,36,83,1471
 518,Schuylerville,36,91,1366
 518,Bombay,36,33,1308
 518,Hagaman,36,57,1281
@@ -11831,14 +11831,14 @@
 530,Arbuckle,6,11,0
 530,Artois,6,21,0
 530,Bangor,6,7,0
-530,Beale AFB,6,115,0
+530,Beale Afb,6,115,0
 530,Beckwourth,6,63,0
 530,Belden,6,63,0
 530,Berry Creek,6,7,0
 530,Bieber,6,35,0
 530,Big Bar,6,105,0
 530,Big Bend,6,89,0
-530,Blairsden-graeagle,6,63,0
+530,Blairsden Graeagle,6,63,0
 530,Brooks,6,113,0
 530,Brownsville,6,115,0
 530,Burney,6,89,0
@@ -11924,8 +11924,8 @@
 530,Markleeville,6,3,0
 530,Mather,6,67,0
 530,Maxwell,6,11,0
-530,McArthur,6,35,0
-530,McCloud,6,93,0
+530,Mcarthur,6,35,0
+530,Mccloud,6,93,0
 530,Meadow Vista,6,61,0
 530,Meridian,6,101,0
 530,Milford,6,35,0
@@ -11999,7 +11999,7 @@
 531,Plattsmouth,31,25,6451
 531,Schuyler,31,37,6212
 531,Wayne,31,179,5494
-531,O'Neill,31,89,3635
+531,Oneill,31,89,3635
 531,West Point,31,39,3340
 531,Auburn,31,127,3302
 531,Madison,31,119,2359
@@ -12066,7 +12066,7 @@
 539,Broken Arrow,40,143,19824
 539,Broken Arrow,40,145,19824
 539,Sand Springs,40,143,19507
-539,McAlester,40,121,18044
+539,Mcalester,40,121,18044
 539,Okmulgee,40,111,11994
 539,Wagoner,40,145,8904
 539,Poteau,40,79,8866
@@ -12369,7 +12369,7 @@
 541,Sutherlin,41,19,8025
 541,Hood River,41,27,7686
 541,Umatilla,41,59,7132
-541,Milton-Freewater,41,59,7027
+541,Milton Freewater,41,59,7027
 541,Madras,41,31,6839
 541,Talent,41,29,6492
 541,Brookings,41,15,6440
@@ -12630,14 +12630,14 @@
 551,Emerson,34,3,7739
 551,Midland Park,34,3,7384
 551,Allendale,34,3,6906
-551,Washington Township,34,3,6461
+551,Washington,34,3,6461
 551,Carlstadt,34,3,6314
 551,Woodcliff Lake,34,3,5903
 551,Rochelle Park,34,3,5705
 551,Englewood Cliffs,34,3,5453
 551,Demarest,34,3,5032
 551,Harrington Park,34,3,4846
-551,Ho-Ho-Kus,34,3,4183
+551,Ho Ho Kus,34,3,4183
 551,Haworth,34,3,3497
 551,Saddle River,34,3,3262
 551,Moonachie,34,3,2800
@@ -12976,7 +12976,7 @@
 567,Mendon,39,107,648
 567,Bettsville,39,147,629
 567,Shiloh,39,139,626
-567,Put-in-Bay,39,123,620
+567,Put In Bay,39,123,620
 567,Green Springs,39,147,600
 567,Arcadia,39,63,594
 567,Lucas,39,139,593
@@ -13048,7 +13048,7 @@
 567,Williamstown,39,63,0
 567,Williston,39,123,0
 570,Scranton,42,69,77605
-570,Wilkes-Barre,42,79,40806
+570,Wilkes Barre,42,79,40806
 570,Williamsport,42,81,28462
 570,Easton,42,95,27109
 570,Montgomery,42,81,26110
@@ -13116,7 +13116,7 @@
 570,Berwick,42,37,2396
 570,Matamoras,42,103,2359
 570,Watsontown,42,97,2284
-570,McAdoo,42,107,2182
+570,Mcadoo,42,107,2182
 570,Coaldale,42,107,2166
 570,New Stanton,42,129,2086
 570,Jermyn,42,69,2067
@@ -13775,7 +13775,7 @@
 575,Socorro,35,53,8440
 575,Ruidoso,35,27,7756
 575,Raton,35,7,6066
-575,Truth or Consequences,35,51,5948
+575,Truth Or Consequences,35,51,5948
 575,Tucumcari,35,37,4915
 575,Eunice,35,25,2954
 575,Tularosa,35,35,2930
@@ -13843,7 +13843,7 @@
 575,Broadview,35,37,0
 575,Buckhorn,35,17,0
 575,Caballo,35,51,0
-575,Cannon AFB,35,9,0
+575,Cannon Afb,35,9,0
 575,Caprock,35,25,0
 575,Capulin,35,59,0
 575,Cerro,35,55,0
@@ -14394,7 +14394,7 @@
 601,Pascagoula,28,59,21733
 601,Laurel,28,67,18493
 601,Natchez,28,1,14886
-601,McComb,28,113,12799
+601,Mccomb,28,113,12799
 601,Canton,28,89,12725
 601,Brookhaven,28,85,12173
 601,Picayune,28,109,10382
@@ -15049,7 +15049,7 @@
 605,Caputa,46,103,0
 605,Carpenter,46,5,0
 605,Cherry Creek,46,137,0
-605,Ellsworth AFB,46,93,0
+605,Ellsworth Afb,46,93,0
 605,Enning,46,93,0
 605,Fedora,46,97,0
 605,Ferney,46,13,0
@@ -15572,7 +15572,7 @@
 608,Tomah,55,81,9369
 608,Delavan,55,127,8356
 608,Mount Horeb,55,25,7421
-608,Prairie du Chien,55,23,5653
+608,Prairie Du Chien,55,23,5653
 608,Milton,55,105,5581
 608,Edgerton,55,105,5516
 608,Evansville,55,105,5335
@@ -15620,7 +15620,7 @@
 608,Barneveld,55,49,1239
 608,Shullsburg,55,65,1207
 608,Mazomanie,55,25,1167
-608,Prairie du Sac,55,111,1127
+608,Prairie Du Sac,55,111,1127
 608,Hazel Green,55,43,1119
 608,Cashton,55,81,1103
 608,Dane,55,25,1048
@@ -15961,7 +15961,7 @@
 610,Kelton,42,29,0
 610,Kemblesville,42,29,0
 610,Kempton,42,11,0
-610,King of Prussia,42,91,0
+610,King Of Prussia,42,91,0
 610,Kintnersville,42,17,0
 610,Kunkletown,42,89,0
 610,Lafayette Hill,42,91,0
@@ -16306,7 +16306,7 @@
 618,Dix,17,81,597
 618,Barnhill,17,191,592
 618,Oakdale,17,189,575
-618,Prairie du Rocher,17,157,564
+618,Prairie Du Rocher,17,157,564
 618,Pittsburg,17,199,561
 618,Creal Springs,17,199,535
 618,Thompsonville,17,55,530
@@ -16349,7 +16349,7 @@
 618,Kampsville,17,13,311
 618,Broughton,17,65,298
 618,Olmsted,17,153,298
-618,Cave-In-Rock,17,69,289
+618,Cave In Rock,17,69,289
 618,Elizabethtown,17,69,284
 618,Bellmont,17,185,268
 618,Sims,17,191,248
@@ -16480,7 +16480,7 @@
 620,Pittsburg,20,37,20216
 620,Liberal,20,175,19826
 620,Great Bend,20,9,15344
-620,McPherson,20,113,13201
+620,Mcpherson,20,113,13201
 620,Winfield,20,35,12104
 620,Arkansas City,20,35,11866
 620,Parsons,20,99,9761
@@ -16533,7 +16533,7 @@
 620,Leoti,20,203,1451
 620,Arma,20,37,1439
 620,Kinsley,20,47,1392
-620,Johnson City,20,187,1377
+620,Johnson,20,187,1377
 620,Sublette,20,81,1372
 620,Harper,20,77,1355
 620,Inman,20,113,1335
@@ -17170,7 +17170,7 @@
 641,Blockton,19,173,187
 641,Davis City,19,53,187
 641,Drakesville,19,51,187
-641,Decatur City,19,53,182
+641,Decatur,19,53,182
 641,Tingley,19,159,178
 641,Kirkville,19,179,173
 641,Haverhill,19,127,172
@@ -17866,7 +17866,7 @@
 667,Ingleside,24,35,0
 667,Kennedyville,24,29,0
 667,Lothian,24,3,0
-667,Lutherville-Timonium,24,5,0
+667,Lutherville Timonium,24,5,0
 667,Massey,24,29,0
 667,Mcdaniel,24,41,0
 667,Middle River,24,5,0
@@ -18000,7 +18000,7 @@
 680,Oaks Corners,36,69,0
 680,Pine City,36,15,0
 680,Pyrites,36,89,0
-680,Rosendale Village,36,117,0
+680,Rosendale,36,117,0
 681,Charleston,54,39,47929
 681,Morgantown,54,61,30547
 681,Parkersburg,54,107,30096
@@ -18035,7 +18035,7 @@
 681,Moorefield,54,31,2433
 681,Shinnston,54,33,2129
 681,Richwood,54,67,1906
-681,McMechen,54,51,1775
+681,Mcmechen,54,51,1775
 681,Harrisville,54,85,1740
 681,Welch,54,47,1740
 681,Romney,54,27,1737
@@ -18104,8 +18104,8 @@
 681,Blacksville,54,61,180
 681,Smithfield,54,103,152
 681,Leon,54,53,150
-681,Camden-on-Gauley,54,41,148
-681,Camden-on-Gauley,54,101,148
+681,Camden On Gauley,54,41,148
+681,Camden On Gauley,54,101,148
 681,Harman,54,83,138
 681,Bruceton Mills,54,77,86
 681,Accoville,54,45,0
@@ -18355,7 +18355,7 @@
 701,Wishek,38,51,935
 701,Walhalla,38,67,932
 701,Cooperstown,38,39,919
-701,LaMoure,38,45,903
+701,Lamoure,38,45,903
 701,Northwood,38,35,902
 701,Hankinson,38,77,891
 701,Gwinner,38,81,873
@@ -18401,7 +18401,7 @@
 701,South Heart,38,89,410
 701,Westhope,38,9,408
 701,Maddock,38,5,387
-701,McClusky,38,83,378
+701,Mcclusky,38,83,378
 701,Strasburg,38,29,373
 701,Manvel,38,35,372
 701,Fairmount,38,77,356
@@ -18414,7 +18414,7 @@
 701,Kulm,38,45,334
 701,Sawyer,38,101,334
 701,Arvilla,38,35,332
-701,McVille,38,63,331
+701,Mcville,38,63,331
 701,Buxton,38,97,315
 701,Alexander,38,53,308
 701,Medina,38,93,299
@@ -18422,7 +18422,7 @@
 701,Grenora,38,105,287
 701,Carson,38,37,284
 701,Powers Lake,38,13,284
-701,Michigan City,38,63,276
+701,Michigan,38,63,276
 701,Scranton,38,11,276
 701,Drake,38,49,274
 701,Granville,38,49,269
@@ -18577,7 +18577,7 @@
 701,Marshall,38,25,56
 701,Milton,38,19,56
 701,Brocket,38,71,55
-701,McHenry,38,31,55
+701,Mchenry,38,31,55
 701,Donnybrook,38,101,53
 701,Souris,38,9,53
 701,Forbes,38,21,52
@@ -18639,7 +18639,7 @@
 701,Cummings,38,97,0
 701,Fort Totten,38,5,0
 701,Glasston,38,67,0
-701,Grand Forks AFB,38,35,0
+701,Grand Forks Afb,38,35,0
 701,Grandin,38,17,0
 701,Grassy Butte,38,53,0
 701,Jessie,38,39,0
@@ -18649,7 +18649,7 @@
 701,Mandaree,38,53,0
 701,Mcgregor,38,105,0
 701,Mcleod,38,77,0
-701,Minot AFB,38,101,0
+701,Minot Afb,38,101,0
 701,Moffit,38,15,0
 701,Saint Anthony,38,59,0
 701,Saint Michael,38,5,0
@@ -18664,11 +18664,11 @@
 702,Boulder City,32,3,15971
 702,Blue Diamond,32,3,0
 702,Bunkerville,32,3,0
-702,Cal-Nev-Ari,32,3,0
+702,Cal Nev Ari,32,3,0
 702,Indian Springs,32,3,0
 702,Jean,32,3,0
 702,Laughlin,32,3,0
-702,Moapa Town,32,3,0
+702,Moapa,32,3,0
 702,Overton,32,3,0
 702,Searchlight,32,3,0
 703,Alexandria,51,59,160035
@@ -18786,7 +18786,7 @@
 706,Atlanta,13,121,452380
 706,Rome,13,115,36375
 706,Dalton,13,313,33748
-706,LaGrange,13,285,30472
+706,Lagrange,13,285,30472
 706,Calhoun,13,129,16414
 706,Grovetown,13,73,14109
 706,Jefferson,13,157,11136
@@ -19033,7 +19033,7 @@
 707,Lucerne,6,33,0
 707,Mad River,6,105,0
 707,Manchester,6,45,0
-707,McKinleyville,6,23,0
+707,Mckinleyville,6,23,0
 707,Middletown,6,33,0
 707,Miranda,6,23,0
 707,Monte Rio,6,97,0
@@ -19442,7 +19442,7 @@
 715,Star Prairie,55,95,3582
 715,Black River Falls,55,53,3503
 715,Bloomer,55,17,3498
-715,Lac du Flambeau,55,125,3442
+715,Lac Du Flambeau,55,125,3442
 715,Peshtigo,55,75,3373
 715,River Falls,55,93,3363
 715,Wilson,55,109,3362
@@ -19479,7 +19479,7 @@
 715,Stratford,55,73,1579
 715,Niagara,55,75,1553
 715,Augusta,55,35,1514
-715,Marathon City,55,73,1507
+715,Marathon,55,73,1507
 715,Eagle River,55,125,1498
 715,Edgar,55,73,1455
 715,Cadott,55,17,1428
@@ -20180,7 +20180,7 @@
 724,Greensburg,42,129,14299
 724,Derry,42,129,14037
 724,Washington,42,125,13566
-724,South Park Township,42,3,13343
+724,South Park,42,3,13343
 724,Sharon,42,85,13259
 724,Butler,42,19,13107
 724,New Kensington,42,129,12466
@@ -20238,7 +20238,7 @@
 724,New Eagle,42,125,2103
 724,Conway,42,7,2101
 724,New Stanton,42,129,2086
-724,Robinson Township,42,63,1905
+724,Robinson,42,63,1905
 724,Fairchance,42,51,1902
 724,Darlington,42,7,1890
 724,Martinsburg,42,51,1883
@@ -20306,8 +20306,8 @@
 724,Beaver,42,7,534
 724,Allenport,42,125,523
 724,Bruin,42,19,501
+724,Harmony,42,7,492
 724,Harmony,42,19,492
-724,Harmony Township,42,7,492
 724,Aleppo,42,59,487
 724,Hyde Park,42,129,477
 724,Clintonville,42,7,475
@@ -20493,7 +20493,7 @@
 725,Henderson,32,3,302539
 725,Boulder City,32,3,15971
 725,Blue Diamond,32,3,0
-725,Cal-Nev-Ari,32,3,0
+725,Cal Nev Ari,32,3,0
 725,Jean,32,3,0
 725,Searchlight,32,3,0
 726,Rosenberg,48,157,37661
@@ -20662,7 +20662,7 @@
 732,Belmar,34,25,5682
 732,Highlands,34,25,4821
 732,Brielle,34,25,4724
-732,Neptune City,34,25,4708
+732,Neptune,34,25,4708
 732,Atlantic Highlands,34,25,4311
 732,Bradley Beach,34,25,4225
 732,Monmouth Beach,34,25,3236
@@ -20670,7 +20670,7 @@
 732,Helmetta,34,23,2223
 732,Englishtown,34,25,1943
 732,Allentown,34,25,1811
-732,Avon-by-the-Sea,34,25,1794
+732,Avon By The Sea,34,25,1794
 732,Sea Girt,34,25,1774
 732,Island Heights,34,29,1667
 732,Beach Haven,34,29,1182
@@ -20834,7 +20834,7 @@
 740,Malta,39,115,1802
 740,Pomeroy,39,105,1790
 740,Radnor,39,41,1787
-740,McConnelsville,39,115,1776
+740,Mcconnelsville,39,115,1776
 740,Mount Sterling,39,97,1767
 740,Bridgeport,39,13,1766
 740,Caldwell,39,121,1703
@@ -21060,12 +21060,12 @@
 740,Vincent,39,167,0
 740,Wakefield,39,131,0
 740,Walhonding,39,31,0
-740,Waverly City,39,131,0
+740,Waverly,39,131,0
 740,Whipple,39,167,0
 740,White Cottage,39,119,0
 740,Wingett Run,39,167,0
 743,Greensboro,37,81,290222
-743,Winston-Salem,37,67,244605
+743,Winston Salem,37,67,244605
 743,Clemmons,37,67,20420
 743,Summerfield,37,81,11198
 743,Stokesdale,37,81,5413
@@ -21262,7 +21262,7 @@
 760,Yermo,6,71,0
 762,Rome,13,115,36375
 762,Dalton,13,313,33748
-762,LaGrange,13,285,30472
+762,Lagrange,13,285,30472
 762,Calhoun,13,129,16414
 762,Grovetown,13,73,14109
 762,Thomaston,13,293,8755
@@ -21471,7 +21471,7 @@
 765,Clarks Hill,18,157,711
 765,Rosedale,18,167,707
 765,West Lebanon,18,171,687
-765,Windfall City,18,159,671
+765,Windfall,18,159,671
 765,Paragon,18,109,665
 765,West College Corner,18,47,643
 765,Sharpsville,18,159,576
@@ -21530,7 +21530,7 @@
 765,Glenwood,18,41,167
 765,Cedar Grove,18,47,151
 765,Springport,18,65,141
-765,State Line City,18,171,137
+765,State Line,18,171,137
 765,Alamo,18,107,65
 765,Frankfort,18,23,19
 765,Roachdale,18,133,18
@@ -21580,7 +21580,7 @@
 769,Vicksburg,28,149,22489
 769,Pascagoula,28,59,21733
 769,Natchez,28,1,14886
-769,McComb,28,113,12799
+769,Mccomb,28,113,12799
 769,Picayune,28,109,10382
 769,Philadelphia,28,99,7271
 769,Forest,28,123,5655
@@ -21750,7 +21750,7 @@
 774,Plymouth,25,23,59885
 774,Taunton,25,5,57139
 774,Attleboro,25,5,44590
-774,Barnstable Town,25,1,44163
+774,Barnstable,25,1,44163
 774,Marlborough,25,17,39873
 774,Shrewsbury,25,27,37387
 774,Natick,25,17,36246
@@ -21944,7 +21944,7 @@
 775,Wellington,32,19,0
 779,Plainfield,17,197,82420
 779,Frankfort,17,197,59511
-779,DeKalb,17,37,42883
+779,Dekalb,17,37,42883
 779,New Lenox,17,197,42568
 779,Bourbonnais,17,91,39257
 779,Joliet,17,197,24353
@@ -21961,7 +21961,7 @@
 779,Clarendon Hills,17,37,8712
 779,Crystal Lake,17,111,7952
 779,Princeton,17,11,7578
-779,McHenry,17,111,6400
+779,Mchenry,17,111,6400
 779,Bolingbrook,17,197,6324
 779,Braceville,17,63,6277
 779,Spring Valley,17,11,5239
@@ -22105,7 +22105,7 @@
 785,Belleville,20,157,1895
 785,Plainville,20,163,1840
 785,Wellsville,20,59,1809
-785,WaKeeney,20,195,1792
+785,Wakeeney,20,195,1792
 785,Oberlin,20,39,1736
 785,Horton,20,13,1696
 785,Smith Center,20,183,1610
@@ -22303,7 +22303,7 @@
 785,Ludell,20,153,79
 785,Mahaska,20,201,77
 785,Powhattan,20,13,75
-785,Gove City,20,63,72
+785,Gove,20,63,72
 785,Longford,20,27,71
 785,Oneida,20,131,71
 785,Lost Springs,20,115,68
@@ -22353,7 +22353,7 @@
 786,Hialeah,12,86,239673
 786,Homestead,12,86,69907
 786,Key West,12,87,25208
-786,Opa-locka,12,86,16479
+786,Opa Locka,12,86,16479
 786,Key Largo,12,87,0
 787,Adjuntas,72,1,0
 787,Aguada,72,3,0
@@ -23053,9 +23053,9 @@
 806,Sudan,48,279,912
 806,Aspermont,48,433,855
 806,New Deal,48,303,817
-806,McLean,48,179,771
+806,Mclean,48,179,771
 806,Abernathy,48,189,754
-806,O'Donnell,48,305,707
+806,Odonnell,48,305,707
 806,Kress,48,437,693
 806,Amherst,48,279,682
 806,Silverton,48,45,680
@@ -23208,7 +23208,7 @@
 810,Palms,26,151,0
 810,Smiths Creek,26,147,0
 810,Snover,26,151,0
-810,West Bloomfield Township,26,125,0
+810,West Bloomfield,26,125,0
 812,Evansville,18,163,29404
 812,Vincennes,18,83,17729
 812,Bedford,18,93,13296
@@ -23498,7 +23498,7 @@
 814,Reynoldsville,42,65,2672
 814,Somerset,42,111,2646
 814,Cambridge Springs,42,39,2640
-814,Nanty-Glo,42,21,2538
+814,Nanty Glo,42,21,2538
 814,Roaring Spring,42,13,2481
 814,Berlin,42,111,2462
 814,Coudersport,42,105,2444
@@ -23602,7 +23602,7 @@
 814,Petersburg,42,61,471
 814,Hawthorn,42,31,466
 814,Springboro,42,39,455
-814,Broad Top City,42,61,452
+814,Broad Top,42,61,452
 814,Shippenville,42,31,451
 814,Beallsville,42,125,450
 814,Garrett,42,111,436
@@ -23794,7 +23794,7 @@
 815,Plainfield,17,197,82420
 815,Warren,17,85,64133
 815,Frankfort,17,197,59511
-815,DeKalb,17,37,42883
+815,Dekalb,17,37,42883
 815,New Lenox,17,197,42568
 815,Bourbonnais,17,91,39257
 815,Joliet,17,197,24353
@@ -23823,7 +23823,7 @@
 815,Caledonia,17,7,7353
 815,Richmond,17,111,6669
 815,Yorkville,17,93,6482
-815,McHenry,17,111,6400
+815,Mchenry,17,111,6400
 815,Bolingbrook,17,197,6324
 815,Braceville,17,63,6277
 815,Manlius,17,11,6028
@@ -24379,7 +24379,7 @@
 830,Kingsbury,48,187,0
 830,Knippa,48,463,0
 830,La Pryor,48,507,0
-830,Laughlin AFB,48,465,0
+830,Laughlin Afb,48,465,0
 830,Leesville,48,177,0
 830,Leming,48,13,0
 830,Medina,48,19,0
@@ -24413,7 +24413,7 @@
 831,Mendota,6,19,11438
 831,Capitola,6,87,10180
 831,Gonzales,6,53,8479
-831,Carmel-by-the-Sea,6,53,3897
+831,Carmel By The Sea,6,53,3897
 831,San Juan Bautista,6,69,1976
 831,Aptos,6,87,0
 831,Aromas,6,53,0
@@ -24422,7 +24422,7 @@
 831,Boulder Creek,6,87,0
 831,Bradley,6,53,0
 831,Brookdale,6,87,0
-831,Carmel Valley Village,6,53,0
+831,Carmel Valley,6,53,0
 831,Castroville,6,53,0
 831,Chualar,6,53,0
 831,Davenport,6,87,0
@@ -24490,7 +24490,7 @@
 838,Athens,36,39,3935
 838,Hoosick Falls,36,83,3399
 838,Esperance,36,57,2005
-838,Castleton-on-Hudson,36,83,1471
+838,Castleton On Hudson,36,83,1471
 838,Port Henry,36,31,1120
 838,Hague,36,113,681
 838,Sharon Springs,36,95,532
@@ -24534,7 +24534,7 @@
 843,Hollywood,45,19,5179
 843,Walterboro,45,29,5121
 843,Mullins,45,67,4387
-843,Isle of Palms,45,19,4363
+843,Isle Of Palms,45,19,4363
 843,Ridgeland,45,53,4067
 843,Manning,45,27,3977
 843,Kingstree,45,89,3096
@@ -24779,7 +24779,7 @@
 845,Poughquag,36,27,0
 845,Purdys,36,119,0
 845,Rifton,36,111,0
-845,Rosendale Village,36,111,0
+845,Rosendale,36,111,0
 845,Salt Point,36,27,0
 845,Shokan,36,111,0
 845,Slate Hill,36,71,0
@@ -24828,7 +24828,7 @@
 847,Franklin Park,17,31,18012
 847,Cary,17,111,17885
 847,Morton Grove,17,31,17268
-847,Lake in the Hills,17,111,16170
+847,Lake In The Hills,17,111,16170
 847,Barrington,17,97,16072
 847,Wood Dale,17,43,13798
 847,La Grange Park,17,31,13433
@@ -24843,7 +24843,7 @@
 847,Gilberts,17,89,7704
 847,Lake Forest,17,97,7555
 847,Winthrop Harbor,17,97,6745
-847,McHenry,17,111,6400
+847,Mchenry,17,111,6400
 847,Lake Bluff,17,97,5662
 847,Highwood,17,97,5325
 847,Island Lake,17,97,4779
@@ -24912,14 +24912,14 @@
 848,Oceanport,34,25,5755
 848,Belmar,34,25,5682
 848,Highlands,34,25,4821
-848,Neptune City,34,25,4708
+848,Neptune,34,25,4708
 848,Atlantic Highlands,34,25,4311
 848,Bradley Beach,34,25,4225
 848,Monmouth Beach,34,25,3236
 848,Seaside Heights,34,29,2903
 848,Englishtown,34,25,1943
 848,Allentown,34,25,1811
-848,Avon-by-the-Sea,34,25,1794
+848,Avon By The Sea,34,25,1794
 848,Island Heights,34,29,1667
 848,Beach Haven,34,29,1182
 848,Shrewsbury,34,25,1010
@@ -24981,7 +24981,7 @@
 850,Greensboro,12,39,607
 850,Jay,12,113,603
 850,Laurel Hill,12,131,601
-850,Ponce de Leon,12,59,558
+850,Ponce De Leon,12,59,558
 850,Altha,12,13,526
 850,Alford,12,63,475
 850,Sopchoppy,12,129,473
@@ -25000,7 +25000,7 @@
 850,Clarksville,12,13,0
 850,Crawfordville,12,129,0
 850,Eastpoint,12,37,0
-850,Eglin AFB,12,91,0
+850,Eglin Afb,12,91,0
 850,Gonzalez,12,33,0
 850,Hosford,12,77,0
 850,Hurlburt Field,12,91,0
@@ -25026,7 +25026,7 @@
 854,Hollywood,45,19,5179
 854,Walterboro,45,29,5121
 854,Mullins,45,67,4387
-854,Isle of Palms,45,19,4363
+854,Isle Of Palms,45,19,4363
 854,Ridgeville,45,35,1755
 854,Lake View,45,33,762
 854,Fork,45,33,0
@@ -25269,7 +25269,7 @@
 860,East Glastonbury,9,3,0
 860,East Hartland,9,3,0
 860,East Windsor Hill,9,3,0
-860,Essex Village,9,7,0
+860,Essex,9,7,0
 860,Falls Village,9,5,0
 860,Gales Ferry,9,11,0
 860,Gaylordsville,9,5,0
@@ -25296,7 +25296,7 @@
 860,Old Mystic,9,11,0
 860,Oneco,9,15,0
 860,Pawcatuck,9,11,0
-860,Plainfield Village,9,15,0
+860,Plainfield,9,15,0
 860,Plantsville,9,3,0
 860,Quaker Hill,9,11,0
 860,Quinebaug,9,15,0
@@ -25397,7 +25397,7 @@
 863,Lake Alfred,12,105,5941
 863,Okeechobee,12,93,5725
 863,Wauchula,12,49,4928
-863,LaBelle,12,51,4852
+863,Labelle,12,51,4852
 863,Davenport,12,105,4544
 863,Dundee,12,105,4497
 863,Mulberry,12,105,4118
@@ -25753,7 +25753,7 @@
 870,Buckner,5,73,246
 870,Lexa,5,107,243
 870,Rosston,5,99,241
-870,Garland,5,91,240
+870,Garland City,5,91,240
 870,Concord,5,23,236
 870,Pyatt,5,89,230
 870,Pineville,5,65,229
@@ -25773,7 +25773,7 @@
 870,Sidney,5,135,183
 870,Winthrop,5,81,180
 870,Omaha,5,9,179
-870,Fifty-Six,5,137,177
+870,Fifty Six,5,137,177
 870,Valley Springs,5,89,170
 870,Washington,5,57,170
 870,Tupelo,5,67,168
@@ -26132,7 +26132,7 @@
 903,Dodd City,48,147,377
 903,Sadler,48,181,368
 903,Scottsville,48,203,366
-903,Gary City,48,365,303
+903,Gary,48,365,303
 903,Annona,48,387,295
 903,Bailey,48,147,295
 903,Richland,48,349,267
@@ -26437,7 +26437,7 @@
 907,Clear,2,68,0
 907,Cooper Landing,2,122,0
 907,Crooked Creek,2,50,0
-907,Eielson AFB,2,90,0
+907,Eielson Afb,2,90,0
 907,Fort Greely,2,240,0
 907,Fort Wainwright,2,90,0
 907,Glennallen,2,261,0
@@ -26459,7 +26459,7 @@
 907,Port Alsworth,2,164,0
 907,Red Devil,2,50,0
 907,Salcha,2,90,0
-907,Seldovia Village,2,122,0
+907,Seldovia,2,122,0
 907,Skagway,2,230,0
 907,Sterling,2,122,0
 907,Stevens Village,2,290,0
@@ -26876,7 +26876,7 @@
 914,Pelham,36,119,12659
 914,Dobbs Ferry,36,119,11147
 914,Mount Kisco,36,119,10998
-914,Croton-on-Hudson,36,119,8258
+914,Croton On Hudson,36,119,8258
 914,Briarcliff Manor,36,119,7332
 914,Pleasantville,36,119,7322
 914,Irvington,36,119,6606
@@ -26981,7 +26981,7 @@
 918,Broken Arrow,40,145,19824
 918,Sand Springs,40,143,19507
 918,Claremore,40,131,18729
-918,McAlester,40,121,18044
+918,Mcalester,40,121,18044
 918,Tahlequah,40,21,16736
 918,Glenpool,40,143,13814
 918,Miami,40,115,13212
@@ -27073,7 +27073,7 @@
 918,Welch,40,35,589
 918,Keota,40,61,554
 918,Ramona,40,147,549
-918,McCurtain,40,61,509
+918,Mccurtain,40,61,509
 918,Red Oak,40,77,500
 918,Tryon,40,81,500
 918,Bokoshe,40,79,494
@@ -27169,7 +27169,7 @@
 919,Goldsboro,37,191,35197
 919,Sanford,37,105,29313
 919,Garner,37,183,28858
-919,Fuquay-Varina,37,183,27906
+919,Fuquay Varina,37,183,27906
 919,Carrboro,37,135,21544
 919,Knightdale,37,183,15849
 919,Smithfield,37,101,12309
@@ -27224,7 +27224,7 @@
 920,Green Bay,55,9,105116
 920,Oshkosh,55,139,66665
 920,Sheboygan,55,117,48329
-920,Fond du Lac,55,39,42809
+920,Fond Du Lac,55,39,42809
 920,Manitowoc,55,71,32697
 920,Neenah,55,139,25951
 920,De Pere,55,9,25034
@@ -27458,7 +27458,7 @@
 928,Fort Thomas,4,9,0
 928,Ganado,4,1,0
 928,Golden Valley,4,15,0
-928,Grand Canyon Village,4,5,0
+928,Grand Canyon,4,5,0
 928,Greer,4,1,0
 928,Happy Jack,4,5,0
 928,Houck,4,1,0
@@ -27471,7 +27471,7 @@
 928,Lukachukai,4,1,0
 928,Many Farms,4,1,0
 928,Marble Canyon,4,5,0
-928,McNary,4,1,0
+928,Mcnary,4,1,0
 928,Meadview,4,15,0
 928,Mohave Valley,4,15,0
 928,Morenci,4,11,0
@@ -27529,8 +27529,8 @@
 931,Cookeville,47,141,33452
 931,Spring Hill,47,119,29817
 931,Shelbyville,47,3,21532
-931,Soddy-Daisy,47,65,13693
-931,McMinnville,47,177,13662
+931,Soddy Daisy,47,65,13693
+931,Mcminnville,47,177,13662
 931,Lewisburg,47,117,11857
 931,Crossville,47,35,11449
 931,Lawrenceburg,47,99,10772
@@ -27551,7 +27551,7 @@
 931,Jamestown,47,49,1956
 931,New Johnsonville,47,85,1910
 931,Loretto,47,99,1761
-931,Gruetli-Laager,47,61,1735
+931,Gruetli Laager,47,61,1735
 931,Cowan,47,51,1658
 931,Spencer,47,175,1637
 931,Chapel Hill,47,117,1503
@@ -28110,7 +28110,7 @@
 947,Clarkston,26,125,0
 947,Commerce Township,26,125,0
 947,Lakeville,26,125,0
-947,West Bloomfield Township,26,125,0
+947,West Bloomfield,26,125,0
 949,Irvine,6,59,277453
 949,Costa Mesa,6,59,113825
 949,Mission Viejo,6,59,96016
@@ -28169,7 +28169,7 @@
 954,Coconut Creek,12,11,61010
 956,Laredo,48,479,260654
 956,Brownsville,48,61,183299
-956,McAllen,48,215,142696
+956,Mcallen,48,215,142696
 956,Edinburg,48,215,90280
 956,Mission,48,215,84424
 956,Pharr,48,215,79487
@@ -28241,7 +28241,7 @@
 959,Dayville,9,15,0
 959,East Berlin,9,3,0
 959,East Windsor Hill,9,3,0
-959,Essex Village,9,7,0
+959,Essex,9,7,0
 959,Gilman,9,11,0
 959,Hanover,9,11,0
 959,Ivoryton,9,7,0
@@ -28284,7 +28284,7 @@
 970,Yuma,8,125,3511
 970,Frisco,8,117,3129
 970,Silt,8,45,3129
-970,Orchard City,8,29,3096
+970,Orchard,8,29,3096
 970,Snowmass Village,8,97,2769
 970,Platteville,8,123,2743
 970,Bayfield,8,67,2687
@@ -28424,7 +28424,7 @@
 970,Yellow Jacket,8,83,0
 971,Gresham,41,51,111053
 971,Beaverton,41,67,97514
-971,McMinnville,41,71,34347
+971,Mcminnville,41,71,34347
 971,Salem,41,47,27096
 971,Woodburn,41,47,25780
 971,Newberg,41,71,23609
@@ -28493,7 +28493,7 @@
 971,Tolovana Park,41,7,0
 971,Welches,41,5,0
 972,Irving,48,113,240373
-972,McKinney,48,85,181330
+972,Mckinney,48,85,181330
 972,Lewisville,48,121,104765
 972,Allen,48,85,100685
 972,Richardson,48,113,83701
@@ -28504,7 +28504,7 @@
 972,Grand Prairie,48,113,60284
 972,Grapevine,48,121,53982
 972,Grapevine,48,439,53982
-972,DeSoto,48,113,53568
+972,Desoto,48,113,53568
 972,Rockwall,48,397,44208
 972,Waxahachie,48,139,35340
 972,Cleburne,48,251,30230
@@ -28853,7 +28853,7 @@
 984,Goldsboro,37,191,35197
 984,Sanford,37,105,29313
 984,Garner,37,183,28858
-984,Fuquay-Varina,37,183,27906
+984,Fuquay Varina,37,183,27906
 984,Carrboro,37,135,21544
 984,Smithfield,37,101,12309
 984,Oxford,37,77,8752
@@ -28902,7 +28902,7 @@
 985,Ponchatoula,22,105,7265
 985,Patterson,22,101,5982
 985,Berwick,22,101,4585
-985,Amite City,22,105,4442
+985,Amite,22,105,4442
 985,Franklinton,22,117,3781
 985,Pearl River,22,103,2612
 985,Abita Springs,22,103,2540
