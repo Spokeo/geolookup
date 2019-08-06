@@ -29,6 +29,7 @@
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '53.7609,-98.8139'
 '205':
   :type: general purpose code
   :state: AL
@@ -161,6 +162,7 @@
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '51.2538,-85.3232'
 '227':
   :type: general purpose code
   :state: MD
@@ -221,6 +223,7 @@
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '53.7267,-127.6476'
 '237':
   :type: general purpose code
   :state: ''
@@ -257,6 +260,7 @@
   :country: BAHAMAS
   :service: y
   :description: ''
+  :latlon: '25.0343,-77.3963'
 '243':
   :type: general purpose code
   :state: ''
@@ -281,6 +285,7 @@
   :country: BARBADOS
   :service: y
   :description: ''
+  :latlon: '13.1939,-59.5432'
 '247':
   :type: general purpose code
   :state: ''
@@ -299,12 +304,14 @@
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '51.2538,-85.3232'
 '250':
   :type: general purpose code
   :state: BC
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '53.7267,-127.6476'
 '251':
   :type: general purpose code
   :state: AL
@@ -389,6 +396,7 @@
   :country: ANGUILLA
   :service: y
   :description: ''
+  :latlon: '18.2206,-63.0686'
 '265':
   :type: general purpose code
   :state: ''
@@ -413,6 +421,7 @@
   :country: ANTIGUA/BARBUDA
   :service: y
   :description: ''
+  :latlon: '17.0608,-61.7964'
 '269':
   :type: general purpose code
   :state: MI
@@ -509,6 +518,7 @@
   :country: BRITISH VIRGIN ISLANDS
   :service: y
   :description: ''
+  :latlon: '18.4207,-64.6400'
 '285':
   :type: general purpose code
   :state: ''
@@ -539,6 +549,7 @@
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '51.2538,-85.3232'
 '290':
   :type: general purpose code
   :state: ''
@@ -641,6 +652,7 @@
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '52.9399,-106.4509'
 '307':
   :type: general purpose code
   :state: WY
@@ -845,6 +857,7 @@
   :country: VIRGIN ISLAND
   :service: y
   :description: ''
+  :latlon: '18.3358,-64.8963'
 '341':
   :type: general purpose code
   :state: ''
@@ -863,6 +876,7 @@
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '51.2538,-85.3232'
 '344':
   :type: easily recognizable code
   :state: ''
@@ -875,6 +889,7 @@
   :country: CAYMAN ISLANDS
   :service: y
   :description: ''
+  :latlon: '19.3133,-81.2546'
 '346':
   :type: general purpose code
   :state: TX
@@ -995,6 +1010,7 @@
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '51.2538,-85.3232'
 '366':
   :type: easily recognizable code
   :state: ''
@@ -1223,6 +1239,7 @@
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '53.9333,-116.5765'
 '404':
   :type: general purpose code
   :state: GA
@@ -1301,6 +1318,7 @@
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '51.2538,-85.3232'
 '417':
   :type: general purpose code
   :state: MO
@@ -1391,6 +1409,7 @@
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '53.7609,-98.8139'
 '432':
   :type: general purpose code
   :state: TX
@@ -1427,12 +1446,14 @@
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '51.2538,-85.3232'
 '438':
   :type: general purpose code
   :state: QC
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '52.9399,-73.5491'
 '439':
   :type: general purpose code
   :state: ''
@@ -1451,6 +1472,7 @@
   :country: BERMUDA
   :service: y
   :description: ''
+  :latlon: '32.3078,-64.7505'
 '442':
   :type: general purpose code
   :state: CA
@@ -1505,6 +1527,7 @@
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '52.9399,-73.5491'
 '451':
   :type: general purpose code
   :state: ''
@@ -1643,6 +1666,7 @@
   :country: GRENADA
   :service: y
   :description: ''
+  :latlon: '12.1165,-61.6790'
 '474':
   :type: general purpose code
   :state: ''
@@ -1841,6 +1865,7 @@
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '46.5653,-66.4619'
 '507':
   :type: general purpose code
   :state: MN
@@ -1889,6 +1914,7 @@
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '52.9399,-73.5491'
 '515':
   :type: general purpose code
   :state: IA
@@ -1919,6 +1945,7 @@
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '51.2538,-85.3232'
 '520':
   :type: general purpose code
   :state: AZ
@@ -2093,6 +2120,7 @@
   :country: CANADA
   :service: n
   :description: ''
+  :latlon: '51.2538,-85.3232'
 '549':
   :type: general purpose code
   :state: ''
@@ -2279,6 +2307,7 @@
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '52.9399,-73.5491'
 '580':
   :type: general purpose code
   :state: OK
@@ -2291,6 +2320,7 @@
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '52.9399,-73.5491'
 '582':
   :type: general purpose code
   :state: ''
@@ -2327,6 +2357,7 @@
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '53.9333,-116.5765'
 '588':
   :type: easily recognizable code
   :state: ''
@@ -2429,6 +2460,7 @@
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '53.7267,-127.6476'
 '605':
   :type: general purpose code
   :state: SD
@@ -2483,6 +2515,7 @@
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '51.2538,-85.3232'
 '614':
   :type: general purpose code
   :state: OH
@@ -2639,6 +2672,7 @@
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '52.9399,-106.4509'
 '640':
   :type: general purpose code
   :state: ''
@@ -2687,6 +2721,7 @@
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '51.2538,-85.3232'
 '648':
   :type: general purpose code
   :state: ''
@@ -2699,6 +2734,7 @@
   :country: TURKS & CAICOS ISLANDS
   :service: y
   :description: ''
+  :latlon: '21.6940,-71.7979'
 '650':
   :type: general purpose code
   :state: CA
@@ -2753,6 +2789,7 @@
   :country: JAMAICA
   :service: n
   :description: ''
+  :latlon: '18.1096,-77.2975'
 '659':
   :type: general purpose code
   :state: AL
@@ -2789,6 +2826,7 @@
   :country: MONTSERRAT
   :service: y
   :description: ''
+  :latlon: '16.7425,-62.1874'
 '665':
   :type: general purpose code
   :state: ''
@@ -2825,12 +2863,14 @@
   :country: COMMONWEALTH OF THE NORTHERN MARIANA ISLANDS
   :service: y
   :description: ''
+  :latlon: '15.0979,145.6739'
 '671':
   :type: general purpose code
   :state: GU
   :country: GUAM
   :service: y
   :description: ''
+  :latlon: '13.4443,144.7937'
 '672':
   :type: general purpose code
   :state: ''
@@ -2909,6 +2949,7 @@
   :country: AMERICAN SAMOA
   :service: y
   :description: ''
+  :latlon: '-14.2710,-170.1322'
 '685':
   :type: general purpose code
   :state: ''
@@ -3035,6 +3076,7 @@
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '51.2538,-85.3232'
 '706':
   :type: general purpose code
   :state: GA
@@ -3059,6 +3101,7 @@
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '53.1355,-57.6604'
 '710':
   :type: general purpose code
   :state: ''
@@ -3131,6 +3174,7 @@
   :country: SINT MAARTEN
   :service: y
   :description: ''
+  :latlon: '18.0425,-63.0548'
 '722':
   :type: easily recognizable code
   :state: ''
@@ -3353,6 +3397,7 @@
   :country: ST LUCIA
   :service: y
   :description: ''
+  :latlon: '13.9094,-60.9789'
 '759':
   :type: general purpose code
   :state: ''
@@ -3407,6 +3452,7 @@
   :country: DOMINICA
   :service: y
   :description: ''
+  :latlon: '15.4150,-61.3710'
 '768':
   :type: general purpose code
   :state: ''
@@ -3473,6 +3519,7 @@
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '53.7267,-127.6476'
 '779':
   :type: general purpose code
   :state: IL
@@ -3485,6 +3532,7 @@
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '53.9333,-116.5765'
 '781':
   :type: general purpose code
   :state: MA
@@ -3497,6 +3545,7 @@
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '44.6820,-63.7443'
 '783':
   :type: general purpose code
   :state: ''
@@ -3509,6 +3558,7 @@
   :country: ST VINCENT & GRENADINES
   :service: y
   :description: ''
+  :latlon: '12.9843,-61.2872'
 '785':
   :type: general purpose code
   :state: KS
@@ -3647,6 +3697,7 @@
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '51.2538,-85.3232'
 '808':
   :type: general purpose code
   :state: HI
@@ -3659,6 +3710,7 @@
   :country: DOMINICAN REPUBLIC
   :service: y
   :description: ''
+  :latlon: '18.7357,-70.1627'
 '810':
   :type: general purpose code
   :state: MI
@@ -3719,6 +3771,7 @@
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '52.9399,-73.5491'
 '820':
   :type: general purpose code
   :state: ''
@@ -3755,6 +3808,7 @@
   :country: CANADA
   :service: n
   :description: ''
+  :latlon: '53.9333,-116.5765'
 '826':
   :type: general purpose code
   :state: ''
@@ -3779,6 +3833,7 @@
   :country: DOMINICAN REPUBLIC
   :service: y
   :description: ''
+  :latlon: '18.7357,-70.1627'
 '830':
   :type: general purpose code
   :state: TX
@@ -3899,6 +3954,7 @@
   :country: DOMINICAN REPUBLIC
   :service: y
   :description: ''
+  :latlon: '18.7357,-70.1627'
 '850':
   :type: general purpose code
   :state: FL
@@ -4007,18 +4063,21 @@
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '64.8255,-124.8457'
 '868':
   :type: general purpose code
   :state: ''
   :country: TRINIDAD AND TOBAGO
   :service: y
   :description: ''
+  :latlon: '10.6918,-61.2225'
 '869':
   :type: general purpose code
   :state: ''
   :country: ST KITTS AND NEVIS
   :service: y
   :description: ''
+  :latlon: '17.3578,-62.7830'
 '870':
   :type: general purpose code
   :state: AR
@@ -4043,6 +4102,7 @@
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '52.9399,-73.5491'
 '874':
   :type: general purpose code
   :state: ''
@@ -4061,6 +4121,7 @@
   :country: JAMAICA
   :service: y
   :description: ''
+  :latlon: '18.1096,-77.2975'
 '877':
   :type: easily recognizable code
   :state: ''
@@ -4217,6 +4278,7 @@
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '46.5107,-63.4168'
 '903':
   :type: general purpose code
   :state: TX
@@ -4235,6 +4297,7 @@
   :country: CANADA
   :service: y
   :description: ''
+  :latlon: '51.2538,-85.3232'
 '906':
   :type: general purpose code
   :state: MI
