@@ -3,6 +3,8 @@ module Geolookup
     module AreaCodes
 
       AREA_CODE_META_INFO_FILE = 'AREA_CODE_META_INFO.yml'
+      # SEO Revamp Update for Area Code: Adding latlon to non-US countries
+      # Latlon values obtained from Google Search of "lat long of " + country/province
       AREA_CODE_POPULATION_FILE = 'CITY_STATE_COUNTY_POPULATION.csv'
 
       def self.to_h
