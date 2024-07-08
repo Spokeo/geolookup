@@ -18,3 +18,4 @@ test/version_tmp
 tmp
 *.idea
 .byebug_history
+*.DS_Store

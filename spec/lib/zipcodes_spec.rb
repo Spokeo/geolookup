@@ -18,4 +18,10 @@ describe 'Geolookup::USA::Zipcodes' do
       expect(Geolookup::USA::Zipcodes.lat_long('900012')).to eql({})
     end
   end
+
+  describe 'city_state' do
+    it 'should return city and state' do
+      expect(Geolookup::USA::Zipcodes.city_state('91101')).to eq(['Pasadena', 'CA'])
+    end
+  end
 end
