@@ -4069,6 +4069,7 @@ glendale:
     - {state: ut, county: kane}
     - {state: ma, county: berkshire}
     - {state: ny, county: queens}
+    - {state: wi, county: milwaukee}
 goodyear:
     - {state: az, county: maricopa}
 higley:
@@ -9741,6 +9742,7 @@ greenfield:
     - {state: il, county: macoupin}
     - {state: in, county: shelby}
     - {state: oh, county: ross}
+    - {state: wi, county: milwaukee}
 'king city':
     - {state: ca, county: monterey}
     - {state: mo, county: gentry}
