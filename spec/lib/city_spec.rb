@@ -49,6 +49,19 @@ describe Geolookup::USA::City do
         expect(cities.keys.grep(/[()]/)).to eq []
       end
 
+      # 'balance' is a census bookkeeping suffix for the remainder of a city that
+      # merged into a consolidated government, not a place. It is also a surname,
+      # so a key here would make the parser split it out of a name as a location.
+      it 'should not store a city under the census "balance" suffix' do
+        expect(Geolookup::USA::City.find_cities_by_name('balance')).to eq []
+      end
+
+      it 'should still resolve the cities behind a consolidated government entry' do
+        expect(county_for('indianapolis', 'in')).to include 'marion'
+        expect(county_for('nashville', 'tn')).to include 'davidson'
+        expect(county_for('louisville', 'ky')).to include 'jefferson'
+      end
+
       it 'should find a city by its primary census name' do
         expect(county_for('bath', 'wv')).to eq ['morgan']
         expect(county_for('raymer', 'co')).to eq ['weld']

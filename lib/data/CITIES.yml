@@ -65214,15 +65214,6 @@ athalia:
     - {state: oh, county: lawrence}
 'athens clarke county unified government':
     - {state: ga, county: clarke}
-balance:
-    - {state: ga, county: clarke}
-    - {state: ga, county: richmond}
-    - {state: mt, county: 'silver bow'}
-    - {state: ks, county: greeley}
-    - {state: in, county: marion}
-    - {state: ky, county: jefferson}
-    - {state: ct, county: 'new haven'}
-    - {state: tn, county: davidson}
 atlantis:
     - {state: fl, county: 'palm beach'}
 'atu u':
