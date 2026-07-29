@@ -25,7 +25,7 @@ describe Geolookup::USA::City do
 
     it 'should be case insensitive match' do
       cities = Geolookup::USA::City.find_cities_by_name('StoCkTon')
-      expect(cities.count).to eq 11
+      expect(cities.count).to eq 17
 
       expect(cities.first['county']).to eq 'baldwin'
       expect(cities.first['state']).to eq 'al'
@@ -34,6 +34,51 @@ describe Geolookup::USA::City do
     it 'should not die because of nil parameter' do
       cities = Geolookup::USA::City.find_cities_by_name(nil)
       expect(cities).to eq []
+    end
+
+    context 'compound census place names' do
+
+      def county_for(name, state)
+        Geolookup::USA::City.find_cities_by_name(name)
+          .select { |city| city['state'] == state }
+          .map { |city| city['county'] }
+      end
+
+      it 'should not store any city under a parenthetical key' do
+        cities = Geolookup.load_hash_from_file(Geolookup::USA::City::CITY_MAP)
+        expect(cities.keys.grep(/[()]/)).to eq []
+      end
+
+      # 'balance' is a census bookkeeping suffix for the remainder of a city that
+      # merged into a consolidated government, not a place. It is also a surname,
+      # so a key here would make the parser split it out of a name as a location.
+      it 'should not store a city under the census "balance" suffix' do
+        expect(Geolookup::USA::City.find_cities_by_name('balance')).to eq []
+      end
+
+      it 'should still resolve the cities behind a consolidated government entry' do
+        expect(county_for('indianapolis', 'in')).to include 'marion'
+        expect(county_for('nashville', 'tn')).to include 'davidson'
+        expect(county_for('louisville', 'ky')).to include 'jefferson'
+      end
+
+      it 'should find a city by its primary census name' do
+        expect(county_for('bath', 'wv')).to eq ['morgan']
+        expect(county_for('raymer', 'co')).to eq ['weld']
+        expect(county_for('addison', 'wv')).to eq ['webster']
+      end
+
+      it 'should still find a city by its alternate census name' do
+        expect(county_for('berkeley springs', 'wv')).to include 'morgan'
+        expect(county_for('new raymer', 'co')).to include 'weld'
+        expect(county_for('webster springs', 'wv')).to include 'webster'
+      end
+
+      it 'should keep pre-existing entries for a reused primary name' do
+        expect(county_for('bath', 'me')).to eq ['sagadahoc']
+        expect(county_for('addison', 'tx')).to eq ['dallas']
+      end
+
     end
 
   end

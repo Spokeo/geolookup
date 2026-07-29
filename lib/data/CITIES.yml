@@ -1446,6 +1446,7 @@ hartford:
     - {state: oh, county: trumbull}
     - {state: wi, county: dodge}
     - {state: me, county: oxford}
+    - {state: oh, county: licking}
 samson:
     - {state: al, county: geneva}
     - {state: al, county: coffee}
@@ -3576,6 +3577,7 @@ addison:
     - {state: tx, county: dallas}
     - {state: al, county: cullman}
     - {state: al, county: lawrence}
+    - {state: wv, county: webster}
 arley:
     - {state: al, county: winston}
     - {state: al, county: cullman}
@@ -3907,6 +3909,7 @@ fredonia:
     - {state: ks, county: montgomery}
     - {state: wi, county: sheboygan}
     - {state: ia, county: louisa}
+    - {state: ar, county: prairie}
 'happy jack':
     - {state: az, county: coconino}
 'mormon lake':
@@ -11128,6 +11131,8 @@ milpitas:
     - {state: nm, county: 'san miguel'}
     - {state: il, county: tazewell}
     - {state: il, county: logan}
+    - {state: mp, county: 'saipan municipality'}
+    - {state: mp, county: 'tinian municipality'}
 'san martin':
     - {state: ca, county: 'santa clara'}
 'santa clara':
@@ -17070,6 +17075,7 @@ rome:
     - {state: ga, county: chattooga}
     - {state: ga, county: bartow}
     - {state: ia, county: henry}
+    - {state: oh, county: adams}
 shannon:
     - {state: ga, county: floyd}
     - {state: il, county: carroll}
@@ -17437,6 +17443,7 @@ centerville:
     - {state: me, county: washington}
     - {state: ks, county: linn}
     - {state: mn, county: anoka}
+    - {state: oh, county: gallia}
 elko:
     - {state: ga, county: houston}
     - {state: nv, county: elko}
@@ -22006,6 +22013,7 @@ bath:
     - {state: sd, county: brown}
     - {state: oh, county: summit}
     - {state: in, county: union}
+    - {state: wv, county: morgan}
 'forest city':
     - {state: il, county: mason}
     - {state: ia, county: winnebago}
@@ -34590,6 +34598,7 @@ fenwick:
     - {state: mi, county: montcalm}
     - {state: mi, county: mecosta}
     - {state: mi, county: newaygo}
+    - {state: ne, county: howard}
 'six lakes':
     - {state: mi, county: montcalm}
     - {state: mi, county: mecosta}
@@ -48202,6 +48211,7 @@ wernersville:
     - {state: pa, county: berks}
 womelsdorf:
     - {state: pa, county: berks}
+    - {state: wv, county: randolph}
 duncansville:
     - {state: pa, county: blair}
 'east freedom':
@@ -65055,8 +65065,6 @@ acequia:
     - {state: id, county: minidoka}
 achugao:
     - {state: mp, county: 'saipan municipality'}
-'addison (webster springs)':
-    - {state: wv, county: webster}
 adeline:
     - {state: il, county: ogle}
 afao:
@@ -65067,7 +65075,9 @@ afetnas:
     - {state: mp, county: 'saipan municipality'}
 afono:
     - {state: as, county: 'eastern district'}
-'agatasi (payapai)':
+agatasi:
+    - {state: mp, county: 'rota municipality'}
+payapai:
     - {state: mp, county: 'rota municipality'}
 agingan:
     - {state: mp, county: 'saipan municipality'}
@@ -65176,7 +65186,9 @@ artas:
     - {state: mp, county: 'saipan municipality'}
 'as matuis':
     - {state: mp, county: 'saipan municipality'}
-'as niebes (nieves)':
+'as niebes':
+    - {state: mp, county: 'rota municipality'}
+nieves:
     - {state: mp, county: 'rota municipality'}
 'as palacios':
     - {state: mp, county: 'saipan municipality'}
@@ -65200,7 +65212,7 @@ asuncion:
     - {state: mp, county: 'northern islands municipality'}
 athalia:
     - {state: oh, county: lawrence}
-'athens clarke county unified government (balance)':
+'athens clarke county unified government':
     - {state: ga, county: clarke}
 atlantis:
     - {state: fl, county: 'palm beach'}
@@ -65213,7 +65225,7 @@ auasi:
 'audubon park':
     - {state: ky, county: jefferson}
     - {state: nj, county: camden}
-'augusta richmond county consolidated government (balance)':
+'augusta richmond county consolidated government':
     - {state: ga, county: richmond}
 aullville:
     - {state: mo, county: lafayette}
@@ -65261,8 +65273,6 @@ barkeyville:
 'batesburg leesville':
     - {state: sc, county: lexington}
     - {state: sc, county: saluda}
-'bath (berkeley springs)':
-    - {state: wv, county: morgan}
 'baxter estates':
     - {state: ny, county: nassau}
 'bay lake':
@@ -65448,7 +65458,7 @@ burnettown:
     - {state: in, county: porter}
 bushong:
     - {state: ks, county: lyon}
-'butte silver bow (balance)':
+'butte silver bow':
     - {state: mt, county: 'silver bow'}
 'caa±on city':
     - {state: co, county: fremont}
@@ -65470,7 +65480,7 @@ callimont:
     - {state: tx, county: henderson}
 cankton:
     - {state: la, county: 'saint landry parish'}
-'canton city (hensel)':
+'canton city':
     - {state: nd, county: pembina}
 'capitol hill':
     - {state: mp, county: 'saipan municipality'}
@@ -65518,8 +65528,6 @@ cave:
     - {state: mn, county: meeker}
 'cedar rock':
     - {state: nc, county: caldwell}
-'centerville (thurman)':
-    - {state: oh, county: gallia}
 'central high':
     - {state: ok, county: stephens}
 'central pacolet':
@@ -65844,7 +65852,9 @@ dunwoody:
     - {state: wy, county: 'hot springs'}
 'east washington':
     - {state: pa, county: washington}
-'eastern tinian (marpo valley)':
+'eastern tinian':
+    - {state: mp, county: 'tinian municipality'}
+'marpo valley':
     - {state: mp, county: 'tinian municipality'}
 'echols county consolidated government':
     - {state: ga, county: echols}
@@ -65866,7 +65876,7 @@ ehrenfeld:
     - {state: tx, county: webb}
 'el dara':
     - {state: il, county: pike}
-'el paso de robles (paso robles)':
+'el paso de robles':
     - {state: ca, county: 'san luis obispo'}
 ellport:
     - {state: pa, county: lawrence}
@@ -65995,8 +66005,6 @@ foxfire:
     - {state: nc, county: moore}
 'frankfort springs':
     - {state: pa, county: beaver}
-'fredonia (biscoe)':
-    - {state: ar, county: prairie}
 'fremont hills':
     - {state: mo, county: christian}
 friedenswald:
@@ -66015,7 +66023,7 @@ gampapa:
     - {state: mp, county: 'rota municipality'}
 gandy:
     - {state: ne, county: logan}
-'gann (brinkhaven)':
+gann:
     - {state: oh, county: knox}
 gaonan:
     - {state: mp, county: 'rota municipality'}
@@ -66025,7 +66033,9 @@ gasconade:
     - {state: mo, county: gasconade}
 gascoyne:
     - {state: nd, county: bowman}
-'gayaugan (kaan)':
+gayaugan:
+    - {state: mp, county: 'rota municipality'}
+kaan:
     - {state: mp, county: 'rota municipality'}
 gearhart:
     - {state: or, county: clatsop}
@@ -66047,7 +66057,9 @@ gholson:
     - {state: tx, county: mclennan}
 'gilt edge':
     - {state: tn, county: tipton}
-'ginalangan (chudan)':
+ginalangan:
+    - {state: mp, county: 'rota municipality'}
+chudan:
     - {state: mp, county: 'rota municipality'}
 'ginger blue':
     - {state: mo, county: mcdonald}
@@ -66120,7 +66132,7 @@ grantfork:
     - {state: ny, county: nassau}
 'greeley center':
     - {state: ne, county: greeley}
-'greeley county unified government (balance)':
+'greeley county unified government':
     - {state: ks, county: greeley}
 'green hills':
     - {state: pa, county: washington}
@@ -66182,8 +66194,6 @@ hansell:
     - {state: ia, county: franklin}
 harbine:
     - {state: ne, county: jefferson}
-'hartford (croton)':
-    - {state: oh, county: licking}
 'hartsville/trousdale county':
     - {state: tn, county: trousdale}
 'hawk cove':
@@ -66270,8 +66280,6 @@ homestown:
     - {state: ky, county: jefferson}
 'houston lake':
     - {state: mo, county: platte}
-'howard city (boelus)':
-    - {state: ne, county: howard}
 'howards grove':
     - {state: wi, county: sheboygan}
 howardville:
@@ -66331,7 +66339,7 @@ impact:
     - {state: al, county: shelby}
 'indian village':
     - {state: in, county: 'saint joseph'}
-'indianapolis city (balance)':
+'indianapolis city':
     - {state: in, county: marion}
 'ingleside on the bay':
     - {state: tx, county: 'san patricio'}
@@ -66450,7 +66458,7 @@ knowles:
     - {state: ok, county: beaver}
 koblerville:
     - {state: mp, county: 'saipan municipality'}
-'krupp (marlin)':
+krupp:
     - {state: wa, county: grant}
 kupreanof:
     - {state: ak, county: 'petersburg borough'}
@@ -66625,7 +66633,7 @@ lordstown:
     - {state: id, county: custer}
 lotsee:
     - {state: ok, county: tulsa}
-'louisville/jefferson county metro government (balance)':
+'louisville/jefferson county metro government':
     - {state: ky, county: jefferson}
 'love valley':
     - {state: nc, county: iredell}
@@ -66874,7 +66882,7 @@ middlesborough:
     - {state: ky, county: bell}
 miesville:
     - {state: mn, county: dakota}
-'milford city (balance)':
+'milford city':
     - {state: ct, county: 'new haven'}
 millard:
     - {state: mo, county: adair}
@@ -66938,7 +66946,9 @@ mosses:
     - {state: mo, county: harrison}
 'mount penn':
     - {state: pa, county: berks}
-'mount sabana (minachage)':
+'mount sabana':
+    - {state: mp, county: 'rota municipality'}
+minachage:
     - {state: mp, county: 'rota municipality'}
 'mount taipingot':
     - {state: mp, county: 'rota municipality'}
@@ -66966,7 +66976,7 @@ nanasu:
     - {state: al, county: dale}
 naplate:
     - {state: il, county: lasalle}
-'nashville davidson metropolitan government (balance)':
+'nashville davidson metropolitan government':
     - {state: tn, county: davidson}
 nason:
     - {state: il, county: jefferson}
@@ -67383,7 +67393,7 @@ ranlo:
     - {state: wv, county: jefferson}
 rathbun:
     - {state: ia, county: appanoose}
-'raymer (new raymer)':
+raymer:
     - {state: co, county: weld}
 'red cross':
     - {state: nc, county: stanly}
@@ -67457,8 +67467,6 @@ rockhill:
     - {state: ky, county: jefferson}
 'roman forest':
     - {state: tx, county: montgomery}
-'rome (stout)':
-    - {state: oh, county: adams}
 rondo:
     - {state: ar, county: lee}
 'roosevelt park':
@@ -67519,11 +67527,11 @@ sageville:
     - {state: wi, county: kenosha}
 'sammons point':
     - {state: il, county: kankakee}
-'san buenaventura (ventura)':
+'san buenaventura':
     - {state: ca, county: ventura}
-'san jose (oleai)':
+oleai:
     - {state: mp, county: 'saipan municipality'}
-'san jose (tinian municipality)':
+'tinian municipality':
     - {state: mp, county: 'tinian municipality'}
 'san leanna':
     - {state: tx, county: travis}
@@ -67926,7 +67934,9 @@ uncertain:
     - {state: ak, county: 'bethel census area'}
 'upper nyack':
     - {state: ny, county: rockland}
-'uracus (farallon de pajaros)':
+uracus:
+    - {state: mp, county: 'northern islands municipality'}
+'farallon de pajaros':
     - {state: mp, county: 'northern islands municipality'}
 urbank:
     - {state: mn, county: 'otter tail'}
@@ -68102,8 +68112,6 @@ winterstown:
     - {state: pa, county: york}
 'wixon valley':
     - {state: tx, county: brazos}
-'womelsdorf (coalton)':
-    - {state: wv, county: randolph}
 'wood heights':
     - {state: mo, county: ray}
 woodbranch:
